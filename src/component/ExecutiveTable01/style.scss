@@ -1,0 +1,47 @@
+@import '../../styles/variable.scss';
+
+.head-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .button {
+        margin-top: $size + 10;
+        display: flex;
+        justify-content: center;
+        display: none;
+
+        button {
+            border: 1px solid $blue;
+            padding: 8px 13px;
+            color: $blue;
+            border-radius: $radius;
+            cursor: pointer;
+            margin-right: $size;
+            background: none;
+            opacity: .4;
+
+            &:hover {
+                cursor: not-allowed;
+                background: none;
+            }
+        }
+    }
+}
+
+table {
+    button {
+        border: 1px solid $blue;
+        padding: 2px 13px;
+        color: $blue;
+        border-radius: $radius;
+        cursor: pointer;
+        margin-right: $size;
+
+        &:hover {
+            background: $blue;
+            color: $white;
+            border: 1px solid transparent;
+        }
+    }
+}

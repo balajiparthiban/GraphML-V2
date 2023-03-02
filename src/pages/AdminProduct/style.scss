@@ -1,0 +1,61 @@
+@import '../../styles/variable.scss';
+
+.admin-campaign {
+    .admin-campaign-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .admin-campaign-head-right {
+            display: flex;
+            align-items: center;
+
+            h6,
+            .select-dd {
+                font-size: $size + 4;
+                border: 1px solid $black;
+                border-radius: 3px;
+                color: $black;
+                padding: $size - 2 $size + 5;
+                margin-left: $size + 5;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            .select-dd {
+                background: $white;
+                color: $white;
+                border: none;
+                box-shadow: 0 0 5px#ccc;
+                padding: $size $size + 5;
+
+                select {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    .admin-campaign-chart {
+        background: #fff;
+        box-shadow: 0 0 5px #bbb;
+        border-radius: 3px;
+        padding: $size + 20;
+        margin-top: $size + 20;
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    button {
+        margin-top: $size + 20;
+    }
+
+    h3.table-head {
+        margin-top: $size + 10;
+    }
+}

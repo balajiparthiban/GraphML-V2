@@ -1,0 +1,92 @@
+@import '../../styles/variable.scss';
+
+aside {
+    background: $blue;
+    height: 100vh;
+    width: 68px;
+    position: fixed;
+    left: 0;
+    top: 11%;
+    // box-shadow: $shadow;
+    z-index: 2;
+
+    div {
+        button {
+            width: $size + 58;
+            height: $size + 50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .3s;
+            background: $blue;
+            cursor: pointer;
+
+            &:hover,
+            &.active {
+                background: #e6ecff;
+                transition: .3s;
+
+                svg {
+                    color: $blue;
+                }
+            }
+
+            svg {
+                color: $white;
+                font-size: $size + 9;
+            }
+        }
+    }
+}
+
+.sidebar-dd-wrapper {
+
+    .sidebar-dd {
+        position: fixed;
+        left: 68px;
+        height: 90vh;
+        background: #e6ecff;
+        color: #000;
+        width: 220px;
+        top: 71px;
+        z-index: 1;
+        box-shadow: 0 6px 6px #999;
+        transition: .7s;
+
+        a {
+            color: $black;
+            display: block;
+            font-size: 13px;
+            padding: 10px 20px;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid #c4d0f7;
+            }
+
+            &:hover {
+                background: none;
+                background: #c4d0f7;
+            }
+        }
+
+        button {
+            margin-left: auto;
+            cursor: pointer;
+            display: flex;
+
+            svg {
+                // font-size: $size + 5;
+                width: 20px;
+                height: 20px;
+                margin: 10px;
+                padding: 5px;
+                &:hover {
+                    color: $black;
+                    background: #c5d3e3;
+                    border-radius: 50%;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

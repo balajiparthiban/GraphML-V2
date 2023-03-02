@@ -1,0 +1,14 @@
+@import '../../styles/variable.scss';
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: $size 0 $size + 20;
+}
+
+.chart-wrapper {
+    h3 {
+        text-align: center;
+    }
+}

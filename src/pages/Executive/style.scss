@@ -1,0 +1,93 @@
+@import '../../styles/variable.scss';
+
+.executive-wrapper {
+    h4 {
+        padding-top: $size + 5;
+    }
+
+    .send {
+        display: flex;
+        justify-content: center;
+        margin-top: $size + 5;
+
+        button {
+            background: $blue;
+            padding: 5px 20px;
+            border-radius: $radius;
+            color: $white;
+
+            &:hover {
+                background: lighten($blue, 10%);
+            }
+        }
+    }
+
+    .executive-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: $size + 25;
+    }
+
+    .executive-dd {
+        display: flex;
+        position: relative;
+        font-size: small;
+
+        .dropdown {
+            background: $white;
+            padding: 0 $size;
+            border-radius: $radius;
+            width: 242px;
+            box-shadow: 0 0 5px #bbb;
+            margin-left: $size + 5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+
+            select {
+                width: 100%;
+                cursor: pointer;
+                height: $size + 28;
+            }
+        }
+
+        .multi-list {
+            position: absolute;
+            top: $size + 30;
+            background: $white;
+            padding: $size;
+            box-shadow: 0 0 9px #ccc;
+            width: 242px;
+            right: 0;
+            border-radius: $radius;
+            margin-top: $size - 8;
+
+            .selectAllParentDivClassName,
+            .listOfAllCheckBoxParentDivClassName {
+                white-space: nowrap;
+                display: flex;
+                padding: $size - 5 0;
+                align-items: inherit;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid #eee;
+                }
+
+                input {
+                    margin-right: $size - 5;
+                }
+
+                input,
+                label {
+                    cursor: pointer;
+                }
+            }
+
+            .selectAllParentDivClassName {
+                font-weight: 600;
+            }
+        }
+    }
+}

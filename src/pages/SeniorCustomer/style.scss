@@ -1,0 +1,52 @@
+@import '../../styles/variable.scss';
+
+
+.senior-customer {
+
+    h3 {
+        padding: 10px 0 0;
+        text-align: center;
+    }
+
+    >h3 {
+        text-align: left;
+    }
+
+    .top-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+
+        .data-box-02 {
+            flex-direction: column;
+            width: 23%;
+            justify-content: flex-start;
+            margin-top: 62px;
+
+            li {
+                width: 100%;
+                margin-bottom: 13px;
+            }
+        }
+
+        .table-section {
+            width: 73%;
+
+            h3 {
+                text-align: left;
+            }
+
+            .white-bg {
+                height: 305px;
+            }
+        }
+    }
+
+    .bg {
+        padding: 10px;
+        background: #fff;
+        box-shadow: 0 0 5px #bbb;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+}

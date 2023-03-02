@@ -1,0 +1,23 @@
+@import '../../styles/variable.scss';
+
+
+.admin-summary {
+    .top-section {
+
+        // display: flex;
+        // justify-content: space-between;
+        h3 {
+            text-align: center;
+            padding: 10px 0 0;
+        }
+
+        >div {
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 0 5px #bbb;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+
+    }
+}

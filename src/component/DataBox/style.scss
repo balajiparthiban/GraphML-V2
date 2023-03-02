@@ -1,0 +1,145 @@
+@import '../../styles/variable.scss';
+
+.data-box {
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    li {
+        padding: $size;
+        width: 21%;
+        background: $white;
+        box-shadow: 0 0 5px #bbb;
+        border-radius: $radius;
+        margin-bottom: $size + 10;
+
+        &:not(:nth-child(4n)) {
+            margin-right: $size + 25;
+        }
+
+        h3 {
+            font-size: $size + 5;
+            color: $black;
+            text-align: center;
+            padding-bottom: $size + 2;
+        }
+
+        >div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: $size + 40;
+                height: $size + 39;
+                margin-right: $size;
+                border: 1px solid $blue;
+            }
+
+            .flipX {
+                animation: 3s anim-flipX ease-in-out;
+                font-size: $size + 12;
+                color: $blue;
+                font-weight: 400;
+            }
+
+            .font-size {
+                font-size: 16px;
+            }
+
+            @keyframes anim-flipX {
+                0% {
+                    opacity: 0;
+                    transform: rotateY(90deg);
+                }
+
+                50% {
+                    opacity: 1;
+                    transform: rotateY(2000deg);
+                }
+
+                100% {
+                    /* animate nothing to pause animation at the end */
+                    opacity: 1;
+                    transform: rotateY(0deg);
+                }
+            }
+
+            .light-g {
+                color: #bcf086;
+            }
+
+            .light-b {
+                color: #99b1ff;
+            }
+
+            .light-p {
+                color: #d4a2ff;
+            }
+
+            .light-o {
+                color: #ffbe89;
+            }
+        }
+    }
+
+    /*
+
+    .green {
+        animation: 1s slideInFromBottom1;
+        // background: $green;
+    }
+
+    .blue {
+        animation: 2s slideInFromBottom1;
+        // background: $blue;
+    }
+
+    .purple {
+        animation: 3s slideInFromBottom1;
+        // background: $purple;
+    }
+
+    .orange {
+        animation: 4s slideInFromBottom1;
+        // background: $orange;
+    }
+*/
+
+}
+
+// /* crops animations that exceeds one line area */
+
+/* flipping class and key frames*/
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom1 {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

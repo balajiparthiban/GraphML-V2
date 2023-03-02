@@ -1,0 +1,71 @@
+@import '../../styles/variable.scss';
+
+header {
+    background: $white;
+    padding: $size;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: $shadow;
+    // animation: 1s ease-out 0s 1 slideInFromTop;
+    position: fixed;
+    z-index: 1;
+    width: 99%;
+
+    .header-left {
+        display: flex;
+        align-items: center;
+
+        >div {
+            width: 20%;
+            margin-right: 20px;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        span {
+            text-transform: capitalize;
+            color: $black;
+        }
+
+    }
+
+    .header-right {
+        color: $black;
+        margin-right: $size + 10;
+
+        svg {
+            color: $blue;
+            cursor: pointer;
+            font-size: 18px;
+
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+}
+
+// @keyframes slideInFromLeft {
+//     0% {
+//         transform: translateY(-100%);
+//     }
+
+//     100% {
+//         transform: translateY(0);
+//     }
+// }
+
+
+// @keyframes slideInFromTop {
+//     0% {
+//         transform: translateY(-100%);
+//     }
+
+//     100% {
+//         transform: translateY(0);
+//     }
+// }

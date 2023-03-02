@@ -1,0 +1,23 @@
+@import '../../styles/variable.scss';
+
+.recommendation {
+    border: 1px solid #ddd;
+    padding: $size + 5;
+    width: 50%;
+    margin: $size + 20 auto;
+    font-size: small;
+
+    h3 {
+        font-size: $size + 7;
+    }
+
+    ul {
+        padding: $size - 5 0 0;
+
+        li {
+            padding: 0 0 $size - 7;
+            font-size: $size + 3;
+            color: #777;
+        }
+    }
+}

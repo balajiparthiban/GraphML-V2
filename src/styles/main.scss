@@ -1,0 +1,162 @@
+@import "../styles/variable.scss";
+// @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+label {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+input,
+textarea,
+button,
+select {
+    border: none;
+    background: none;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    padding: 90px 15px 75px 95px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+body {
+    background: #efefef;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.white-bg {
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: $radius;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: $size + 10;
+    counter-reset: serial-number;
+    min-height: 100px;
+    overflow-y: auto;
+    max-height: 350px;
+    display: inline-block;
+
+    thead {
+        position: sticky;
+        top: 0;
+
+        th {
+            text-align: left;
+            background: $blue;
+            padding: $size - 3 $size + 2;
+            font-weight: normal;
+            color: $white;
+            font-size: $size + 3;
+            white-space: nowrap;
+            border-right: 1px solid #eee;
+            min-width: 15%;
+
+            &:first-child {
+                text-align: center;
+                width: 4%;
+            }
+        }
+    }
+
+    tbody {
+
+        tr {
+            border-top: 1px solid #eee;
+
+            td {
+                color: #777;
+                font-size: $size + 3;
+                white-space: nowrap;
+                padding: $size - 3 $size + 2;
+                border-right: 1px solid #eee;
+
+                &:first-child {
+                    text-align: center;
+
+                    &:before {
+                        counter-increment: serial-number;
+                        /* Increment the serial number counter */
+                        content: counter(serial-number);
+                        /* Display the counter */
+                    }
+
+                    &:after {
+                        content: '.';
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+.chart-wrapper {
+    background: $white;
+    box-shadow: 0 0 5px #bbb;
+    border-radius: $radius;
+    padding: $size + 20;
+    margin-top: $size + 10;
+}
+
+.button-style {
+    border: 1px solid $blue;
+    padding: 8px 20px;
+    border-radius: $radius;
+    color: $blue;
+    margin-left: $size;
+    cursor: pointer;
+    font-size: $size + 4;
+
+    &:hover {
+        background: $blue;
+        color: $white;
+        border: 1px solid transparent;
+    }
+}

@@ -1,0 +1,77 @@
+@import '../../styles/variable.scss';
+
+.segment {
+    display: grid;
+    padding: $size $size + 10 $size + 10;
+    background: $white;
+    box-shadow: 0 0 5px #bbb;
+    border-radius: $radius;
+    margin-top: $size + 10;
+
+    h3 {
+        font-size: $size + 6;
+        color: $black;
+    }
+
+    h4 {
+        color: $blue;
+        font-size: $size + 6;
+        padding-bottom: $size - 2;
+    }
+
+    ul {
+
+        li {
+
+            &:not(:last-child) {
+
+                div {
+                    padding-right: 0;
+
+                }
+            }
+
+            >div {
+                padding-right: $size + 20;
+                padding-top: $size + 10;
+                padding-bottom: $size + 10;
+                border-bottom: 1px solid #ddd;
+
+                .best-action {
+                    font-size: small;
+                    color: #777;
+                }
+
+                p {
+                    color: #777;
+                    font-size: $size + 3;
+
+                    &::before {
+                        content: ".";
+                        font-size: 20px;
+                    }
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.next-best-action {
+    li {
+        font-size: $size + 3;
+        color: #777;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+.segmentation {
+    border: none !important;
+}

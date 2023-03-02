@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91fb524b.css",
+    "main.js": "/static/js/main.7ad2c253.js",
+    "static/media/latent-view-analytics-logo.jpg": "/static/media/latent-view-analytics-logo.e38edca9a6fbce4103b1.jpg",
+    "index.html": "/index.html",
+    "main.91fb524b.css.map": "/static/css/main.91fb524b.css.map",
+    "main.7ad2c253.js.map": "/static/js/main.7ad2c253.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91fb524b.css",
+    "static/js/main.7ad2c253.js"
+  ]
+}
