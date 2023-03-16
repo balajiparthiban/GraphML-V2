@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom'
 import AdminData from '../../component/AdminData'
-import Table01 from '../../component/SeniorManageTable01'
+import TableAdminHome from '../../component/TableAdminHome'
 import './style.scss'
+
 
 const AdminPage = () => {
     return (
@@ -14,7 +15,7 @@ const AdminPage = () => {
             </div>
 
             <AdminData />
-            <Table01 />
+            <TableAdminHome />
         </div>
     )
 }

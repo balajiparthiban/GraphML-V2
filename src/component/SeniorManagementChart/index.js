@@ -22,31 +22,35 @@ export const options = {
         },
     },
     responsive: true,
+
     scales: {
         x: {
-            stacked: true,
+            // stacked: true,
             title: {
                 display: true,
                 text: 'LAST 6 MONTHS'
             },
-        },
-        y: {
-            stacked: true,
-            title: {
-                fontColor: "blue",
-                display: false,
-                text: 'SALES NUMBER'
-            },
-            ticks: {
-                beginAtZero: true,
-                // min: 0,/
-                max: 9000000,
-                stepSize: 500000
-            }
 
+            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
         },
+        // y: {
+        //     stacked: false,
+        //     title: {
+        //         fontColor: "blue",
+        //         display: true,
+        //         text: 'SALES NUMBER'
+        //     },
+        //     ticks: {
+        //         beginAtZero: true,
+        //         // min: 0,/
+        //         max: 9000000,
+        //         stepSize: 100000
+        //     }
+
+        // },
     },
 };
+
 const MyChart = ({ chartData }) => {
     return (
         <>

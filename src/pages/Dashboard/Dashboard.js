@@ -8,6 +8,7 @@ import AdminPage from '../Admin'
 import AdminCampaign from '../AdminCampaign'
 import AdminSummary from '../AdminSummary'
 import AdminProduct from '../AdminProduct'
+import WhatIfScenario from '../../component/WhatIfScenario'
 
 import firebase from '../../firebase'
 import { Route, useHistory, Redirect } from 'react-router-dom'
@@ -61,7 +62,7 @@ const Dashboard = () => {
             <Sidebar />
 
             <main>
-                <Route exact path="/senior-management">
+                <Route exact path="/">
                     <SeniorManagement />
                 </Route>
 
@@ -76,6 +77,11 @@ const Dashboard = () => {
                 <Route path="/senior-customer" >
                     <SeniorCustomer />
                 </Route>
+
+                <Route path="/what-if-scenario">
+                    <WhatIfScenario />
+                </Route>
+
 
 
                 <Route path="/admin">

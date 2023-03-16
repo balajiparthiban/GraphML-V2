@@ -11,7 +11,7 @@ aside {
     z-index: 2;
 
     div {
-        button {
+        a {
             width: $size + 58;
             height: $size + 50;
             display: flex;
@@ -20,6 +20,14 @@ aside {
             transition: .3s;
             background: $blue;
             cursor: pointer;
+
+            // &:disabled {
+            //     background: $blue;
+            // }
+
+            // &:enabled {
+            //     background: #e6ecff;
+            // }
 
             &:hover,
             &.active {
@@ -53,6 +61,14 @@ aside {
         box-shadow: 0 6px 6px #999;
         transition: .7s;
 
+        h5 {
+            color: $black;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            font-size: $size + 4;
+        }
+
         a {
             color: $black;
             display: block;
@@ -80,6 +96,7 @@ aside {
                 height: 20px;
                 margin: 10px;
                 padding: 5px;
+
                 &:hover {
                     color: $black;
                     background: #c5d3e3;

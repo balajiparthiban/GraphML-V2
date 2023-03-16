@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { AllProduct } from "../../json/campaign_copy"
-import Table01 from '../../component/SeniorManageTable01'
+import TableAdminProduct from '../../component/TableAdminProduct'
+import TableAdminProduct2 from '../../component/TableAdminProduct2'
 import SeniorChart from '../../component/SeniorManagementChart'
 import './style.scss'
 
@@ -40,47 +41,30 @@ const AdminProduct = () => {
             // },
 
             {
-                label: 'Email Campaign 1',
+                label: 'Product 1',
                 data: AllProduct.map((data) => (data.email_campaign1)),
                 backgroundColor: ["#6C4AB6"],
                 order: 2
             },
             {
-                label: 'Email Campaign 2',
+                label: 'Product 2',
                 data: AllProduct.map((data) => (data.email_campaign2)),
                 backgroundColor: ["#8EC3B0"],
                 order: 2
             },
             {
-                label: 'Phone Call',
+                label: 'Product 3',
                 data: AllProduct.map((data) => (data.phone_call)),
                 backgroundColor: ["#9ED5C5"],
                 order: 2
             },
             {
-                label: 'Email Campaign 1 & 2',
+                label: 'Product 4',
                 data: AllProduct.map((data) => (data.email_campaign1_and_2)),
                 backgroundColor: ["#BCEAD5"],
                 order: 2
             },
-            {
-                label: 'Email Campaign 1 & Phone Call',
-                data: AllProduct.map((data) => (data.email_campaign1_and_phone_call)),
-                backgroundColor: ["#B9E0FF"],
-                order: 2
-            },
-            {
-                label: 'Email Campaign 2 & Phone Call',
-                data: AllProduct.map((data) => (data.email_campaign2_and_phone_call)),
-                backgroundColor: ["#8D9EFF"],
-                order: 2
-            },
-            {
-                label: 'All Channels',
-                data: AllProduct.map((data) => (data.all_channels)),
-                backgroundColor: ["#8D72E1"],
-                order: 2
-            },
+           
 
         ],
 
@@ -112,11 +96,11 @@ const AdminProduct = () => {
 
             <button className='button-style'>Send Campaign</button>
 
-            <Table01 />
+            <TableAdminProduct />
 
             <h3 className='table-head'>Campaign Settings</h3>
 
-            <Table01 />
+            <TableAdminProduct2 />
         </div>
     )
 }

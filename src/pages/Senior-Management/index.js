@@ -57,10 +57,10 @@ const SeniorManagement = () => {
         <div>
             <div className='head'>
                 <h3>Senior Manager</h3>
-                <div className='btn-grp'>
+                {/* <div className='btn-grp'>
                     <button className='button-style'>What If Scenario</button>
                     <NavLink to="/admin-summary" className='button-style'>Admin Summary</NavLink>
-                </div>
+                </div> */}
             </div>
 
             <div>

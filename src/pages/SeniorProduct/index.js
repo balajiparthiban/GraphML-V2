@@ -10,7 +10,23 @@ const SeniorProduct = () => {
 
     const [userData] = useState({
         // labels: Campaign.map((data) => data.__EMPTY),
-        labels: AllProduct.map((data) => data.Month),
+        // labels: AllProduct.map((data) => data.Month),
+        labels: ["Produc 1", "Produc 2", "Produc 3", "Produc 4"],
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
         datasets: [
             {
                 label: 'Total Sales',
@@ -31,7 +47,7 @@ const SeniorProduct = () => {
                     'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
                 ],
-                borderWidth: 1,
+                borderWidth: 0,
                 // height: 100,
                 // fill: {
                 //   target: "origin", // 3. Set the fill options
@@ -47,48 +63,75 @@ const SeniorProduct = () => {
         // labels: Campaign.map((data) => data.__EMPTY),
         labels: AllProduct.map((data) => data.Month),
         datasets: [
+            // {
+            //     label: 'Email Campaign 1',
+            //     data: AllProduct.map((data) => (data.email_campaign1)),
+            //     backgroundColor: ["#6C4AB6"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Email Campaign 2',
+            //     data: AllProduct.map((data) => (data.email_campaign2)),
+            //     backgroundColor: ["#8EC3B0"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Phone Call',
+            //     data: AllProduct.map((data) => (data.phone_call)),
+            //     backgroundColor: ["#9ED5C5"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Email Campaign 1 & 2',
+            //     data: AllProduct.map((data) => (data.email_campaign1_and_2)),
+            //     backgroundColor: ["#BCEAD5"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Email Campaign 1 & Phone Call',
+            //     data: AllProduct.map((data) => (data.email_campaign1_and_phone_call)),
+            //     backgroundColor: ["#B9E0FF"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Email Campaign 2 & Phone Call',
+            //     data: AllProduct.map((data) => (data.email_campaign2_and_phone_call)),
+            //     backgroundColor: ["#8D9EFF"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'All Channels',
+            //     data: AllProduct.map((data) => (data.all_channels)),
+            //     backgroundColor: ["#8D72E1"],
+            //     order: 2
+            // },
+
+
             {
-                label: 'Email Campaign 1',
+                label: 'Product 1',
                 data: AllProduct.map((data) => (data.email_campaign1)),
                 backgroundColor: ["#6C4AB6"],
                 order: 2
             },
             {
-                label: 'Email Campaign 2',
+                label: 'Product 2',
                 data: AllProduct.map((data) => (data.email_campaign2)),
                 backgroundColor: ["#8EC3B0"],
                 order: 2
             },
             {
-                label: 'Phone Call',
+                label: 'Product 3',
                 data: AllProduct.map((data) => (data.phone_call)),
                 backgroundColor: ["#9ED5C5"],
                 order: 2
             },
             {
-                label: 'Email Campaign 1 & 2',
+                label: 'Product 4',
                 data: AllProduct.map((data) => (data.email_campaign1_and_2)),
                 backgroundColor: ["#BCEAD5"],
                 order: 2
             },
-            {
-                label: 'Email Campaign 1 & Phone Call',
-                data: AllProduct.map((data) => (data.email_campaign1_and_phone_call)),
-                backgroundColor: ["#B9E0FF"],
-                order: 2
-            },
-            {
-                label: 'Email Campaign 2 & Phone Call',
-                data: AllProduct.map((data) => (data.email_campaign2_and_phone_call)),
-                backgroundColor: ["#8D9EFF"],
-                order: 2
-            },
-            {
-                label: 'All Channels',
-                data: AllProduct.map((data) => (data.all_channels)),
-                backgroundColor: ["#8D72E1"],
-                order: 2
-            },
+
         ],
 
     });

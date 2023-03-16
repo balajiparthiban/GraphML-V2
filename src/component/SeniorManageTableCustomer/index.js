@@ -2,7 +2,7 @@
 // import axios from 'axios'
 import { senior_management_first_table } from '../../json/data'
 
-const Table01 = () => {
+const CustomerTable = () => {
     // const [photos, setPhotos] = useState([]);
     // useEffect(() => {
     //     axios.get('http://localhost:3000/senior_management_first_table')
@@ -14,23 +14,25 @@ const Table01 = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Product</th>
+                <th>Segment</th>
+                <th>Recommended Product</th>
                 <th>Recommended Campaign</th>
-                <th>Success Rate</th>
-                <th>Cannabalizing Campaign</th>
-                <th>Customer Segment</th>
-                <th>Rank</th>
+                <th>Marketing Fatigue</th>
+                <th>Conversion Rate</th>
+                <th>CLV</th>
+                <th>Churn Rate</th>
             </thead>
             <tbody>
                 {senior_management_first_table && senior_management_first_table.map((item, val) => (
                     <tr key={val}>
                         <td></td>
-                        <td>Product 1</td>
-                        <td>Email Campaign 1</td>
-                        <td>50%</td>
-                        <td>Email Campaign 3</td>
-                        <td>Segment 2</td>
-                        <td>1</td>
+                        <td>Segment 1</td>
+                        <td>Product 2</td>
+                        <td>Email Campaign 2</td>
+                        <td>3%</td>
+                        <td>5%</td>
+                        <td>$150</td>
+                        <td>5%</td>
                     </tr>
                 ))}
             </tbody>
@@ -38,4 +40,4 @@ const Table01 = () => {
     )
 }
 
-export default Table01
+export default CustomerTable

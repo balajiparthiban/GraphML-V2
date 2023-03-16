@@ -45,7 +45,7 @@ function App() {
             break;
         }
       });
-    history.push('/senior-management')
+    history.push('/')
   }
 
   const handleSignup = () => {

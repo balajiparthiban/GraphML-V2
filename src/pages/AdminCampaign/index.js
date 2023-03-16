@@ -40,43 +40,25 @@ const AdminCampaign = () => {
             // },
 
             {
-                label: 'Email Campaign 1',
-                data: AllProduct.map((data) => (data.email_campaign1)),
-                backgroundColor: ["#6C4AB6"],
-                order: 2
-            },
-            {
-                label: 'Email Campaign 2',
-                data: AllProduct.map((data) => (data.email_campaign2)),
-                backgroundColor: ["#8EC3B0"],
-                order: 2
-            },
-            {
-                label: 'Phone Call',
-                data: AllProduct.map((data) => (data.phone_call)),
-                backgroundColor: ["#9ED5C5"],
-                order: 2
-            },
-            {
-                label: 'Email Campaign 1 & 2',
+                label: 'Product 1',
                 data: AllProduct.map((data) => (data.email_campaign1_and_2)),
                 backgroundColor: ["#BCEAD5"],
                 order: 2
             },
             {
-                label: 'Email Campaign 1 & Phone Call',
+                label: 'Product 2',
                 data: AllProduct.map((data) => (data.email_campaign1_and_phone_call)),
                 backgroundColor: ["#B9E0FF"],
                 order: 2
             },
             {
-                label: 'Email Campaign 2 & Phone Call',
+                label: 'Product 3',
                 data: AllProduct.map((data) => (data.email_campaign2_and_phone_call)),
                 backgroundColor: ["#8D9EFF"],
                 order: 2
             },
             {
-                label: 'All Channels',
+                label: 'Product 4',
                 data: AllProduct.map((data) => (data.all_channels)),
                 backgroundColor: ["#8D72E1"],
                 order: 2
@@ -117,7 +99,7 @@ const AdminCampaign = () => {
 
             <Table01 />
 
-            <h3 className='table-head'>Campaign Settings</h3>
+            <h3 className='table-head'>Product Settings</h3>
 
             <Table01 />
         </div>
