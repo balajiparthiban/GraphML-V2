@@ -247,9 +247,11 @@ const Executive = () => {
 
             <div>
                 <DataBox />
+                <div className='chart-wrapper-bg'>
                 <div className='chart-wrapper'>
                     <SeniorChart chartData={campaignData} />
                     <Recommendation selectedChart={selectedChart} />
+                </div>
                 </div>
                 {/* <Table03 items={items} setItems={setItems} updateStatus={updateStatus} /> */}
                 <Table04 items={items} setItems={setItems} updateStatus={updateStatus} />

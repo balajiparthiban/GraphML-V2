@@ -2,9 +2,8 @@
 
 
 .senior-customer {
-
     h3 {
-        padding: 10px 0 0;
+        padding: 0 0 10px;
         text-align: center;
     }
 
@@ -13,15 +12,13 @@
     }
 
     .top-section {
-        display: flex;
-        justify-content: space-between;
+     
         margin-bottom: 25px;
 
         .data-box-02 {
             flex-direction: column;
             width: 23%;
             justify-content: flex-start;
-            margin-top: 62px;
 
             li {
                 width: 100%;
@@ -31,8 +28,6 @@
         }
 
         .table-section {
-            width: 73%;
-
             h3 {
                 text-align: left;
             }
@@ -43,11 +38,5 @@
         }
     }
 
-    .bg {
-        padding: 10px;
-        background: #fff;
-        box-shadow: 0 0 5px #bbb;
-        border-radius: 3px;
-        margin-bottom: 20px;
-    }
+   
 }

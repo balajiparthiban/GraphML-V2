@@ -96,6 +96,7 @@ const SeniorCustomer = () => {
 
     return (
         <div className='senior-customer'>
+
             <h3>Senior Customer</h3>
 
             <div className='top-section'>
@@ -105,15 +106,20 @@ const SeniorCustomer = () => {
                     <CustomerTable />
                 </div>
             </div>
+            <div className='chart-flex'>
+                <div className="chart-wrapper-bg">
+                    <div className="chart-wrapper">
+                        <h3>Segment wise monthly product wise sale</h3>
+                        <SeniorChart chartData={userData02} />
+                    </div>
+                </div>
 
-            <div className='bg'>
-                <h3>Segment wise monthly product wise sale</h3>
-                <SeniorChart chartData={userData02} />
-            </div>
-
-            <div className='bg'>
-                <h3>Campaign Sent Vs Segment</h3>
-                <SeniorChart chartData={userData} />
+                <div className="chart-wrapper-bg">
+                    <div className="chart-wrapper">
+                        <h3>Campaign Sent Vs Segment</h3>
+                        <SeniorChart chartData={userData} />
+                    </div>
+                </div>
             </div>
 
         </div>

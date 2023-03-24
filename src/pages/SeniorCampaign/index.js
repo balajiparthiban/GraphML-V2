@@ -97,19 +97,28 @@ const SeniorCampaign = () => {
 
 
     return (
-        <div className='admin-summary'>
+        <div className='senior-campaign'>
             <h3>Senior Campaign</h3>
 
             <div className='top-section'>
                 <DataBox01 />
-                <div>
-                    <h3>Sales Forecast</h3>
-                    <SeniorChart chartData={userData} />
+
+                <div className='chart-flex'>
+                    <div className="chart-wrapper-bg">
+                        <div className="chart-wrapper">
+                            <h3>Sales Forecast</h3>
+                            <SeniorChart chartData={userData} />
+                        </div>
+                    </div>
+
+                    <div className="chart-wrapper-bg">
+                        <div className="chart-wrapper">
+                            <h3>Sales Chart</h3>
+                            <SeniorChart chartData={userData02} />
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h3>Sales Chart</h3>
-                    <SeniorChart chartData={userData02} />
-                </div>
+                
             </div>
 
             <h3>Product Table</h3>

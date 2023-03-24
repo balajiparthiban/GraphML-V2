@@ -64,7 +64,7 @@ const AdminProduct = () => {
                 backgroundColor: ["#BCEAD5"],
                 order: 2
             },
-           
+
 
         ],
 
@@ -89,14 +89,25 @@ const AdminProduct = () => {
                 </div>
             </div>
 
-            <div className='admin-campaign-chart'>
-                <h3>Product vs Sales</h3>
-                <SeniorChart chartData={userData} />
+            <div className='chart-flex'>
+
+                <div className="chart-wrapper-bg">
+                    <div className="chart-wrapper">
+                        <h3>Product vs Sales</h3>
+                        <SeniorChart chartData={userData} />
+                    </div>
+                </div>
+
+
+
+                <div className="chart-wrapper-bg">
+                    <div className="chart-wrapper">
+                        <button>Send Campaign</button>
+                        <TableAdminProduct />
+                    </div>
+                </div>
+
             </div>
-
-            <button className='button-style'>Send Campaign</button>
-
-            <TableAdminProduct />
 
             <h3 className='table-head'>Campaign Settings</h3>
 

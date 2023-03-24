@@ -2,7 +2,6 @@
 
 .data-box-02 {
     display: flex;
-    margin-top: 15px;
     // flex-wrap: wrap;
     // flex-direction: column;
     justify-content: space-between;
@@ -21,7 +20,7 @@
         // }
 
         h3 {
-            font-size: $size + 5;
+            font-size: $size + 4;
             color: $black;
             text-align: center;
             padding-bottom: $size + 2;

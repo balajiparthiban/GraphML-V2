@@ -38,7 +38,7 @@ const DataBox03 = () => {
     });
 
     return (
-        <ul className='data-box-02'>
+        <ul className='data-box'>
             {/* Dummy */}
             <li className='purple'>
                 <h3>Total Number of Customer</h3>
@@ -50,7 +50,7 @@ const DataBox03 = () => {
                 </div>
             </li>
             <li className='orange'>
-                <h3>Total Number of Active Customer</h3>
+                <h3>Total No. of Active Customer</h3>
                 <div>
                     {/* <span><img src={img4} alt={img4} /></span> */}
                     <div className='line light-o'>

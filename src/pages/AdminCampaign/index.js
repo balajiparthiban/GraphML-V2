@@ -90,14 +90,22 @@ const AdminCampaign = () => {
                 </div>
             </div>
 
-            <div className='admin-campaign-chart'>
-                <h3>Campaign Performance vs Product</h3>
-                <SeniorChart chartData={userData} />
+
+            <div className='chart-flex'>
+                <div className="chart-wrapper-bg">
+                    <div className="chart-wrapper">
+                        <h3>Campaign Performance vs Product</h3>
+                        <SeniorChart chartData={userData} />
+                    </div>
+                </div>
+
+                <div className="chart-wrapper-bg">
+                    <div className="chart-wrapper">
+                        <button>Send Campaign</button>
+                        <Table01 />
+                    </div>
+                </div>
             </div>
-
-            <button className='button-style'>Send Campaign</button>
-
-            <Table01 />
 
             <h3 className='table-head'>Product Settings</h3>
 

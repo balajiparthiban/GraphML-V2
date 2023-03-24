@@ -28,18 +28,32 @@ export const options = {
             // stacked: true,
             title: {
                 display: true,
-                text: 'LAST 6 MONTHS'
+                // text: 'LAST 6 MONTHS'
             },
 
-            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+            labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep"],
         },
+
+        y: {
+            title: {
+                display: true,
+                text: 'Expected Sales'
+            },
+            ticks: {
+                beginAtZero: true,
+                min: 0,
+                max: 300000,
+                stepSize: 150000
+            }
+        },
+
         // y: {
         //     stacked: false,
-        //     title: {
-        //         fontColor: "blue",
-        //         display: true,
-        //         text: 'SALES NUMBER'
-        //     },
+        //     // title: {
+        //     //     fontColor: "blue",
+        //     //     display: true,
+        //     //     text: 'SALES NUMBER'
+        //     // },
         //     ticks: {
         //         beginAtZero: true,
         //         // min: 0,/
@@ -55,7 +69,7 @@ const MyChart = ({ chartData }) => {
     return (
         <>
             {/* <h3 className='head'>Sales Forecast Chart</h3> */}
-            <Bar options={options} data={chartData} />
+            <Bar options={options} data={chartData}  />
         </>
     )
 }

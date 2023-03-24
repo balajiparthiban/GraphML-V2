@@ -1,35 +1,42 @@
 @import '../../styles/variable.scss';
 
 .data-box {
-    display: flex;
-    margin-top: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     width: 100%;
 
     li {
-        padding: $size;
-        width: 21%;
-        background: $white;
-        box-shadow: 0 0 5px #bbb;
-        border-radius: $radius;
-        margin-bottom: $size + 10;
 
-        &:not(:nth-child(4n)) {
-            margin-right: $size + 25;
-        }
+        margin-bottom: $size + 10;
+        display: flex;
+        // &:not(:nth-child(4n)) {
+        //     margin-right: $size + 25;
+        // }
+
+        // &:not(:last-child) {
+        //     margin-right: $size + 25;
+        // }
 
         h3 {
-            font-size: $size + 5;
+            font-size: $size + 2;
             color: $black;
             text-align: center;
-            padding-bottom: $size + 2;
+            padding: $size;
+            white-space: nowrap;
+            width: 55%;
+            background: $white;
+            box-shadow: 0 0 5px #bbb;
+            border-radius: 3px 3px 0 0;
         }
 
         >div {
             display: flex;
             justify-content: center;
             align-items: center;
+            background: $blue;
+            padding: $size - 1;
+            border-radius: 0 3px 3px 0;
+            width: 80px;
 
             span {
                 border-radius: 50%;
@@ -40,36 +47,38 @@
                 height: $size + 39;
                 margin-right: $size;
                 border: 1px solid $blue;
+                display: none;
             }
 
             .flipX {
-                animation: 3s anim-flipX ease-in-out;
-                font-size: $size + 12;
-                color: $blue;
+                // animation: 3s anim-flipX ease-in-out;
+                font-size: $size + 3;
+                color: $white;
                 font-weight: 400;
             }
 
             .font-size {
-                font-size: 16px;
+                font-size: 13px;
+                white-space: nowrap;
             }
 
-            @keyframes anim-flipX {
-                0% {
-                    opacity: 0;
-                    transform: rotateY(90deg);
-                }
+            // @keyframes anim-flipX {
+            //     0% {
+            //         opacity: 0;
+            //         transform: rotateY(90deg);
+            //     }
 
-                50% {
-                    opacity: 1;
-                    transform: rotateY(2000deg);
-                }
+            //     50% {
+            //         opacity: 1;
+            //         transform: rotateY(2000deg);
+            //     }
 
-                100% {
-                    /* animate nothing to pause animation at the end */
-                    opacity: 1;
-                    transform: rotateY(0deg);
-                }
-            }
+            //     100% {
+            //         /* animate nothing to pause animation at the end */
+            //         opacity: 1;
+            //         transform: rotateY(0deg);
+            //     }
+            // }
 
             .light-g {
                 color: #bcf086;

@@ -1,6 +1,21 @@
 @import '../../styles/variable.scss';
 
 .admin-campaign {
+
+    table {
+        max-height: 252px;
+    }
+
+    .chart-wrapper {
+        button {
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
     .admin-campaign-head {
         display: flex;
         justify-content: space-between;
@@ -49,10 +64,6 @@
         h3 {
             text-align: center;
         }
-    }
-
-    button {
-        margin-top: $size + 20;
     }
 
     h3.table-head {

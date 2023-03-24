@@ -38,7 +38,7 @@ const DataBox02 = () => {
     });
 
     return (
-        <ul className='data-box-02'>
+        <ul className='data-box'>
             {/* Dummy */}
             <li className='purple'>
                 <h3>Total Available Product</h3>

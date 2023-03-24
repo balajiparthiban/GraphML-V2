@@ -51,7 +51,9 @@ const MyChart = ({ chartData02 }) => {
     return (
         <>
             <h3 className='head'>Sales Chart</h3>
-            <Bar options={options} data={chartData02} />
+            <div>
+                <Bar options={options} data={chartData02} />
+            </div>
         </>
     )
 }

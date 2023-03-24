@@ -138,22 +138,29 @@ const SeniorProduct = () => {
 
 
     return (
-        <div className='admin-summary'>
+        <div className='senior-product'>
             <h3>Senior Product</h3>
 
             <div className='top-section'>
                 <DataBox02 />
-                <div>
-                    <h3>Product Sales Contribution</h3>
-                    <SeniorChart chartData={userData} />
-                </div>
-                <div>
-                    <h3>Sales Chart</h3>
-                    <SeniorChart chartData={userData02} />
+                <div className='chart-flex'>
+                    <div className="chart-wrapper-bg">
+                        <div className="chart-wrapper">
+                            <h3>Product Sales Contribution</h3>
+                            <SeniorChart chartData={userData} />
+                        </div>
+                    </div>
+                    <div className="chart-wrapper-bg">
+                        <div className="chart-wrapper">
+                            <h3>Sales Chart</h3>
+                            <SeniorChart chartData={userData02} />
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <h3>Overview Table</h3>
+
             <Table01 />
         </div>
     )
