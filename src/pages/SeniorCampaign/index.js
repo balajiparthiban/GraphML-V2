@@ -106,14 +106,14 @@ const SeniorCampaign = () => {
                 <div className='chart-flex'>
                     <div className="chart-wrapper-bg">
                         <div className="chart-wrapper">
-                            <h3>Sales Forecast</h3>
+                            <h3>Analysing Campaign Volume: A 6-Month Chart Overview</h3>
                             <SeniorChart chartData={userData} />
                         </div>
                     </div>
 
                     <div className="chart-wrapper-bg">
                         <div className="chart-wrapper">
-                            <h3>Sales Chart</h3>
+                            <h3>Monthly Analysis of Product-Specific Campaigns</h3>
                             <SeniorChart chartData={userData02} />
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const SeniorCampaign = () => {
                 
             </div>
 
-            <h3>Product Table</h3>
+            <h3>Campaign Overview</h3>
             <CampaignTable />
         </div>
     )

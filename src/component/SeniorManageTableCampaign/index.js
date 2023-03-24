@@ -16,10 +16,10 @@ const CampaignTable = () => {
                 <th>S.No</th>
                 <th>Campaign</th>
                 <th>Recommended Product</th>
-                <th>Success Rate</th>
-                <th>Customer Segment</th>
+                <th>Recommended Customer Segment</th>
                 <th>Marketing Fatigue</th>
                 <th>Effect</th>
+                <th>Success Rate</th>
                 <th>Rank</th>
             </thead>
             <tbody>

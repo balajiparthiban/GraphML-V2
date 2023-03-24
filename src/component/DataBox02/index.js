@@ -41,7 +41,7 @@ const DataBox02 = () => {
         <ul className='data-box'>
             {/* Dummy */}
             <li className='purple'>
-                <h3>Total Available Product</h3>
+                <h3>Total Available Products</h3>
                 <div>
                     {/* <span><img src={img3} alt={img3} /></span> */}
                     <div className='line light-p'>

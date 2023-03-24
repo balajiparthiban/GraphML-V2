@@ -102,7 +102,12 @@ const AdminProduct = () => {
 
                 <div className="chart-wrapper-bg">
                     <div className="chart-wrapper">
+
+                        <div className="head">
+                        <span className='table-head'>Overview</span>
                         <button>Send Campaign</button>
+                        </div>
+
                         <TableAdminProduct />
                     </div>
                 </div>

@@ -21,6 +21,7 @@ const CustomerTable = () => {
                 <th>Conversion Rate</th>
                 <th>CLV</th>
                 <th>Churn Rate</th>
+                <th>Rank</th>
             </thead>
             <tbody>
                 {senior_management_first_table && senior_management_first_table.map((item, val) => (
@@ -33,6 +34,7 @@ const CustomerTable = () => {
                         <td>5%</td>
                         <td>$150</td>
                         <td>5%</td>
+                        <td>2</td>
                     </tr>
                 ))}
             </tbody>

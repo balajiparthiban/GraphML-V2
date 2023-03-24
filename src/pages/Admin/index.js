@@ -9,12 +9,14 @@ const AdminPage = () => {
         <div>
             <div className='head'>
                 <h3>Admin</h3>
-                <div className='btn-grp'>
+                {/* <div className='btn-grp'>
                     <NavLink to="/admin-campaign" className='button-style'>Campaign</NavLink>
-                </div>
+                </div> */}
             </div>
 
             <AdminData />
+
+            <h3>Proposed Scenarios</h3>
             <TableAdminHome />
         </div>
     )

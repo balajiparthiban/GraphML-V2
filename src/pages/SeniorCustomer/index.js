@@ -113,10 +113,9 @@ const SeniorCustomer = () => {
                         <SeniorChart chartData={userData02} />
                     </div>
                 </div>
-
                 <div className="chart-wrapper-bg">
                     <div className="chart-wrapper">
-                        <h3>Campaign Sent Vs Segment</h3>
+                        <h3>Segment-Wise Campaign Distribution</h3>
                         <SeniorChart chartData={userData} />
                     </div>
                 </div>

@@ -53,7 +53,6 @@ const Sidebar = () => {
                         <h5>Admin</h5>
                         <NavLink to="/admin" activeClassName='active' onClick={close}>Home</NavLink>
                         <NavLink to="/admin-product" activeClassName='active' onClick={close}>Product</NavLink>
-                        <NavLink to="/admin-summary" activeClassName='active' onClick={close}>Summary</NavLink>
                         <NavLink to="/admin-campaign" activeClassName='active' onClick={close}>Campaign</NavLink>
                     </div>
                     : ''
@@ -70,6 +69,7 @@ const Sidebar = () => {
                         <NavLink to="/senior-product" activeClassName='active' onClick={close}>Product</NavLink>
                         <NavLink to="/senior-customer" activeClassName='active' onClick={close}>Customer</NavLink>
                         <NavLink to="/senior-campaign" activeClassName='active' onClick={close}>Campaign</NavLink>
+                        <NavLink to="/admin-summary" activeClassName='active' onClick={close}>Summary</NavLink>
                     </div>
                     : ''
                 }

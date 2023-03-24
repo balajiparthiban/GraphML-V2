@@ -41,7 +41,7 @@ const AdminData = () => {
         <ul className='data-box'>
             {/* Dummy */}
             <li className='green'>
-                <h3>Currently Running Campaigns</h3>
+                <h3>Ongoing Marketing Initiatives</h3>
                 <div>
                     {/* <span><img src={img1} alt={img1} /></span> */}
                     <div className='line light-g'>

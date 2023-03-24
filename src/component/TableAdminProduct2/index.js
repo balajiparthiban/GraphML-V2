@@ -5,11 +5,10 @@ const TableAdminProduct2 = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Segment </th>
+                <th>Product </th>
                 <th>Recommended Campaign </th>
-                <th>Cannabalizing Campaign</th>
-                <th>Marketing Fatigue</th>
-                <th>Additional Campaign</th>
+                <th>Recommended Segment</th>
+                <th>Select Campaigns</th>
             </thead>
             <tbody>
                 {senior_management_first_table && senior_management_first_table.map((item, val) => (
@@ -19,7 +18,6 @@ const TableAdminProduct2 = () => {
                         <td>Campaign 2</td>
                         <td>Campaign 3</td>
                         <td>5</td>
-                        <td>Campaign 1</td>
                     </tr>
                 ))}
             </tbody>
