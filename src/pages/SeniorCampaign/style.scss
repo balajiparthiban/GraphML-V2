@@ -3,6 +3,10 @@
 
 .senior-campaign {
     >h3 {
-        padding-bottom: $size + 5;
+        padding-top: $size + 5;
+    }
+
+    .top-section {
+        margin: 25px 0 0;
     }
 }

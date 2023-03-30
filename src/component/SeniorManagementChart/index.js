@@ -37,7 +37,7 @@ export const options = {
         y: {
             title: {
                 display: true,
-                text: 'Expected Sales'
+                // text: 'Expected Sales'
             },
             ticks: {
                 beginAtZero: true,

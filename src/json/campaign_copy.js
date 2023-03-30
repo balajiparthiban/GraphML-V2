@@ -1,4 +1,5 @@
 ﻿//all product
+
 export const AllProduct = [
     {
         "id": 1,
@@ -77,8 +78,8 @@ export const AllProduct = [
         "email_campaign2_and_phone_call": 380004,
         "all_channels": 56383
     },
-
 ]
+
 
 
 //product 1

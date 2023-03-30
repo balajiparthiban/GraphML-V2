@@ -13,19 +13,15 @@ const Table03 = ({ items, setItems, updateStatus }) => {
 
             <table className='white-bg'>
                 <thead>
-                    <tr>
-                        <th>S.No</th>
-                        {/* <th><input type="checkbox" name="select all" /></th> */}
-                        <th>Products</th>
-                        <th>Location</th>
-                        <th>Age</th>
-                        <th>CLV</th>
-                        <th>Attrition Rate %</th>
-                        <th>Customer Count</th>
-                        <th>Primary Positive Causal</th>
-                        <th>Primary Negative Causal</th>
-                        <th>Select</th>
-                    </tr>
+                    <th>S.No</th>
+                    {/* <th><input type="checkbox" name="select all" /></th> */}
+                    <th>Products</th>
+                    <th>Recommended Campaign</th>
+                    <th>Success Rate</th>
+                    <th>Cannabalizing Campaign</th>
+                    <th>Customer Segment</th>
+                    <th>Rank</th>
+                    <th>Select</th>
                 </thead>
 
                 <tbody>
@@ -34,14 +30,12 @@ const Table03 = ({ items, setItems, updateStatus }) => {
                         item && item.status === 'Pending' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Products}</td>
-                                <td>{item.Location}</td>
-                                <td>{item.Age}</td>
-                                <td>{item.CLV}</td>
-                                <td>{item.Attrition_Rate}</td>
-                                <td>{item.Customer_Count}</td>
-                                <td>{item.Primary_Positive_Causal}</td>
-                                <td>{item.Primary_Negative_Causal}</td>
+                                <td>Product 1</td>
+                                <td>Email Campaign 2</td>
+                                <td>50%</td>
+                                <td>Email Campaign 3</td>
+                                <td>Segment 2</td>
+                                <td>1</td>
                                 <td> <button
                                     className="mark_complete"
                                     key={item.id}

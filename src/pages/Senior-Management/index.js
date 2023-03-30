@@ -12,6 +12,7 @@ const SeniorManagement = () => {
         datasets: [
             {
                 label: 'Total Sales',
+                display: false,
                 data: [361609, 187344, 216253, 357834, 280355, 186708],
                 type: 'line',
                 // backgroundColor: ["#ff0000"],

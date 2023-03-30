@@ -18,7 +18,7 @@ export const options = {
     plugins: {
         title: {
             display: true,
-            // text: 'Chart.js Bar Chart - Stacked',
+            text: 'Chart.js Bar Chart - Stacked',
         },
     },
     responsive: true,
@@ -47,6 +47,7 @@ export const options = {
         },
     },
 };
+
 const MyChart = ({ chartData02 }) => {
     return (
         <>

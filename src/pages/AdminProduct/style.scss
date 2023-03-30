@@ -5,3 +5,16 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: $size;
+}
+
+.white-bg{
+    background: $white;
+    margin: $size + 5 0;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+}

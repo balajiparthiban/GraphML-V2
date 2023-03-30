@@ -18,7 +18,7 @@ const Login = (props) => {
   return (
     <div className='login-page-wrapper'>
       <div className='login-content'>
-        <h2>Welcome to One Customer View</h2>
+        <h2>One Customer View</h2>
         {hasAccount ? <h3>Sign Up Now</h3> : <h3>Login Now</h3>}
         <div>
           <input
