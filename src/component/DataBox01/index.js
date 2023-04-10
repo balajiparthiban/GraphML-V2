@@ -20,7 +20,7 @@ const DataBox01 = () => {
                 <h3>Total Active Campaign</h3>
                 <div>
                     <div className='line light-p'>
-                        <h2 className='flipX'>7</h2>
+                        <h2 className='flipX'>5</h2>
                     </div>
                 </div>
             </li>

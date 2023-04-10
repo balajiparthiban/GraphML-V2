@@ -25,19 +25,19 @@ export const options = {
 
     scales: {
         x: {
-            // stacked: true,
+            stacked: true,
             title: {
                 display: true,
-                // text: 'LAST 6 MONTHS'
+                text: 'LAST 6 MONTHS'
             },
 
-            labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep"],
+            labels: ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"],
         },
 
         y: {
             title: {
                 display: true,
-                // text: 'Expected Sales'
+                text: 'Campaign Sent'
             },
             ticks: {
                 beginAtZero: true,

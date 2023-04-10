@@ -1,4 +1,4 @@
-import { senior_management_first_table } from '../../json/data'
+import { SMAdminSUmmary } from '../../json/v2/SMAdminSummary'
 
 const TableAdminSummary = () => {
     return (
@@ -11,13 +11,13 @@ const TableAdminSummary = () => {
                 <th>Month</th>
             </thead>
             <tbody>
-                {senior_management_first_table && senior_management_first_table.map((item, val) => (
+                {SMAdminSUmmary && SMAdminSUmmary.map((item, val) => (
                     <tr key={val}>
                         <td></td>
-                        <td>Admin 1</td>
-                        <td>Product 1</td>
-                        <td>Campaign 1 and Campaign 2</td>
-                        <td>March</td>
+                        <td>{item.Admin}</td>
+                        <td>{item.Product}</td>
+                        <td>{item.Testing_Campaign}</td>
+                        <td>{item.Month}</td>
                     </tr>
                 ))}
             </tbody>

@@ -1,32 +1,41 @@
-import CampaignTable from '../../component/SeniorManageTableCampaign'
+import SMCampaignOverviewTable from '../../component/SeniorManageTableCampaign'
 import DataBox01 from '../../component/DataBox01'
+import SMCampaignChartBase from '../../component/SMCampaignChartBase'
 import SeniorChart from '../../component/SeniorManagementChart'
-import { AllProduct } from "../../json/campaign_copy"
+import { SMCampaignBarChart } from "../../json/v2/SM-Campaign-Bar-Chart"
+import { SMCampaignLineChart } from "../../json/v2/SMCampaignLineChart"
+// import { SMCampaignPieChart } from "../../json/v2/SMCampaignPieChart"
+
 import { useState } from 'react'
 import './style.scss'
 
 const SeniorCampaign = () => {
 
-    const [userData] = useState({
-        // labels: Campaign.map((data) => data.__EMPTY),
-        labels: AllProduct.map((data) => data.Month),
+    const [campaignLineChart] = useState({
+        labels: SMCampaignLineChart.map((data) => data.Month),
+        options: {
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        },
         datasets: [
             {
-                label: 'Total Sales',
-                data: [361609, 187344, 216253, 357834, 280355, 186708],
+                label: 'Month',
                 type: 'line',
-                // backgroundColor: ["#ff0000"],
-                order: 1,
-                // backgroundColor: [
-                //     'rgba(255, 99, 132, 0.2)',
-                //     'rgba(54, 162, 235, 0.2)',
-                //     'rgba(255, 206, 86, 0.2)',
-                //     'rgba(75, 192, 192, 0.2)',
-                //     'rgba(153, 102, 255, 0.2)',
-                //     'rgba(255, 159, 64, 0.2)'
-                // ],
+                data: SMCampaignLineChart.map((data) => (data.Month)),
+                backgroundColor: ["#8D72E1"],
+                borderColor: ["#8D72E1"],
+                borderWidth: 8,
+            },
+            {
+                label: 'Count',
+                type: 'line',
+                data: SMCampaignLineChart.map((data) => (data.Count)),
+                backgroundColor: ["#8D72E1"],
                 borderColor: [
-                    'rgba(255,99,132,1)',
+                    '#8D72E1',
                     'rgba(54, 162, 235, 1)',
                     'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
@@ -34,63 +43,42 @@ const SeniorCampaign = () => {
                     'rgba(255, 159, 64, 1)'
                 ],
                 borderWidth: 8,
-                height: 100,
-                // fill: {
-                //   target: "origin", // 3. Set the fill options
-                //   above: ["#faebd7"]
-                // }
-            }
+            },
+
         ],
+
     });
 
 
 
-    const [userData02] = useState({
-        // labels: Campaign.map((data) => data.__EMPTY),
-        labels: AllProduct.map((data) => data.Month),
+    const [campaignBarChart] = useState({
+        labels: SMCampaignBarChart.map((data) => data.Month),
         datasets: [
-            // {
-            //     label: 'Email Campaign 1',
-            //     data: AllProduct.map((data) => (data.email_campaign1)),
-            //     backgroundColor: ["#6C4AB6"],
-            //     order: 2
-            // },
-            // {
-            //     label: 'Email Campaign 2',
-            //     data: AllProduct.map((data) => (data.email_campaign2)),
-            //     backgroundColor: ["#8EC3B0"],
-            //     order: 2
-            // },
-            // {
-            //     label: 'Phone Call',
-            //     data: AllProduct.map((data) => (data.phone_call)),
-            //     backgroundColor: ["#9ED5C5"],
-            //     order: 2
-            // },
             {
-                label: 'Product 1',
-                data: AllProduct.map((data) => (data.email_campaign1_and_2)),
+                label: 'Discount Mail',
+                data: SMCampaignBarChart.map((data) => (data.Discount_main)),
                 backgroundColor: ["#BCEAD5"],
-                order: 2
             },
             {
-                label: 'Product 2',
-                data: AllProduct.map((data) => (data.email_campaign1_and_phone_call)),
+                label: 'Promotional Mail',
+                data: SMCampaignBarChart.map((data) => (data.Promotional_mail)),
                 backgroundColor: ["#B9E0FF"],
-                order: 2
             },
             {
-                label: 'Product 3',
-                data: AllProduct.map((data) => (data.email_campaign2_and_phone_call)),
+                label: 'Phone Call',
+                data: SMCampaignBarChart.map((data) => (data.Phone_call)),
                 backgroundColor: ["#8D9EFF"],
-                order: 2
             },
             {
-                label: 'Product 4',
-                data: AllProduct.map((data) => (data.all_channels)),
+                label: 'Push Notification',
+                data: SMCampaignBarChart.map((data) => (data.Push_notification)),
                 backgroundColor: ["#8D72E1"],
-                order: 2
             },
+            {
+                label: 'Loyalty Mail',
+                data: SMCampaignBarChart.map((data) => (data.Loyalty_mail)),
+                backgroundColor: ["#8D72E1"],
+            }
         ],
 
     });
@@ -103,26 +91,39 @@ const SeniorCampaign = () => {
             <div className='top-section'>
                 <DataBox01 />
 
+
                 <div className='chart-flex'>
                     <div className="chart-wrapper-bg">
                         <div className="chart-wrapper">
+                            <h3>Monthly Campaigns Delivery Analysis </h3>
+                            {/* <SMCampaignPieChart chartData={campaignPieChart} /> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div className='chart-flex'>
+
+                    <div className="chart-wrapper-bg">
+                        <div className="chart-wrapper">
                             <h3>Analysing Campaign Volume: A 6-Month Chart Overview</h3>
-                            <SeniorChart chartData={userData} />
+                            <SMCampaignChartBase chartData={campaignLineChart} />
                         </div>
                     </div>
 
                     <div className="chart-wrapper-bg">
                         <div className="chart-wrapper">
-                            <h3>Monthly Analysis of Product-Specific Campaigns</h3>
-                            <SeniorChart chartData={userData02} />
+                            <h3>Monthly Campaigns Delivery Analysis </h3>
+                            <SMCampaignChartBase chartData={campaignBarChart} />
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
             <h3>Campaign Overview</h3>
-            <CampaignTable />
+            <SMCampaignOverviewTable />
+
+
         </div>
     )
 }

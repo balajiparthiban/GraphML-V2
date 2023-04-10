@@ -1,0 +1,26 @@
+export const SMCampaignLineChart = [
+    {
+        "Month": "Sep",
+        "Count": 11102
+    },
+    {
+        "Month": "Oct",
+        "Count": 11096
+    },
+    {
+        "Month": "Nov",
+        "Count": 11920
+    },
+    {
+        "Month": "Dec",
+        "Count": 10420
+    },
+    {
+        "Month": "Jan",
+        "Count": 9621
+    },
+    {
+        "Month": "Feb",
+        "Count": 10015
+    }
+]

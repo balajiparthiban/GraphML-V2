@@ -1,16 +1,35 @@
 import SeniorManageProductTable from '../../component/SeniorManageProductTable'
 import DataBox02 from '../../component/DataBox02'
 import SeniorChart from '../../component/SeniorManagementChart'
+import SMProductBarChartBase from '../../component/SMProductBarChartBase'
+import { SMProductBarChart } from '../../json/v2/SMProductBarChart'
 import { useState } from 'react'
 import './style.scss'
 
 
 const SeniorProduct = () => {
 
+
+    const [productBarChart] = useState({
+        labels: SMProductBarChart.map((data) => data.Month),
+        datasets: [
+            {
+                label: 'Loan',
+                data: SMProductBarChart.map((data) => (data.Loans)),
+                backgroundColor: ["#BCEAD5"],
+            },
+            {
+                label: 'Credit Card',
+                data: SMProductBarChart.map((data) => (data.Credit_Cards)),
+                backgroundColor: ["#A960F3"],
+            },
+        ],
+
+    });
+
     const [ProductSalesContributionChart] = useState({
         // labels: Campaign.map((data) => data.__EMPTY),
         // labels: AllProduct.map((data) => data.Month),
-        labels: ["Loan", "Credit Cards"],
         options: {
             scales: {
                 xAxes: [{
@@ -25,6 +44,7 @@ const SeniorProduct = () => {
                 }]
             }
         },
+        labels: ["Loan", "Credit Cards"],
 
         datasets: [
             {
@@ -70,6 +90,7 @@ const SeniorProduct = () => {
                     <div className="chart-wrapper-bg">
                         <div className="chart-wrapper">
                             <h3>Sales Chart</h3>
+                            <SMProductBarChartBase chartData={productBarChart} />
                         </div>
                     </div>
                 </div>
