@@ -1,6 +1,6 @@
 // import { useState, useEffect } from 'react'
 // import axios from 'axios'
-import { senior_management_first_table } from '../../json/data'
+import { Senior_manager_customer_page } from '../../json/v2/Data_UI'
 
 const CustomerTable = () => {
     // const [photos, setPhotos] = useState([]);
@@ -24,17 +24,17 @@ const CustomerTable = () => {
                 <th>Rank</th>
             </thead>
             <tbody>
-                {senior_management_first_table && senior_management_first_table.map((item, val) => (
+                {Senior_manager_customer_page && Senior_manager_customer_page.map((item, val) => (
                     <tr key={val}>
                         <td></td>
-                        <td>Segment 1</td>
-                        <td>Product 2</td>
-                        <td>Email Campaign 2</td>
-                        <td>3%</td>
-                        <td>5%</td>
-                        <td>$150</td>
-                        <td>5%</td>
-                        <td>2</td>
+                        <td>{item.Total_sales}</td>
+                        <td>{item.Column3}</td>
+                        <td>{item.Column4}</td>
+                        <td>{item.Column5}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>{item.Column6}</td>
                     </tr>
                 ))}
             </tbody>

@@ -9,12 +9,10 @@ import './style.scss'
 const SeniorCustomer = () => {
 
     const [userData] = useState({
-        // labels: Campaign.map((data) => data.__EMPTY),
         labels: AllProduct.map((data) => data.Month),
         datasets: [
             {
                 label: 'Total Sales',
-                // data: [361609, 187344, 216253, 357834, 280355, 186708],
                 data: [361609, 187344, 216253, 357834],
                 type: 'pie',
                 backgroundColor: ["#ff0000"],
@@ -113,6 +111,7 @@ const SeniorCustomer = () => {
                         <SeniorChart chartData={userData02} />
                     </div>
                 </div>
+
                 <div className="chart-wrapper-bg">
                     <div className="chart-wrapper">
                         <h3>Segment-Wise Campaign Distribution</h3>

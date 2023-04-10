@@ -45,7 +45,7 @@ const DataBox02 = () => {
                 <div>
                     {/* <span><img src={img3} alt={img3} /></span> */}
                     <div className='line light-p'>
-                        <h2 className='flipX'>4</h2>
+                        <h2 className='flipX'>2</h2>
                     </div>
                 </div>
             </li>
@@ -54,7 +54,7 @@ const DataBox02 = () => {
                 <div>
                     {/* <span><img src={img4} alt={img4} /></span> */}
                     <div className='line light-o'>
-                        <h2 className='flipX'>1.43M</h2>
+                        <h2 className='flipX'>6560</h2>
                     </div>
                 </div>
             </li>

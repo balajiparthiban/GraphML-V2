@@ -41,11 +41,11 @@ const AdminData = () => {
         <ul className='data-box'>
             {/* Dummy */}
             <li className='green'>
-                <h3>Ongoing Marketing Initiatives</h3>
+                <h3>Present Running Campaign</h3>
                 <div>
                     {/* <span><img src={img1} alt={img1} /></span> */}
                     <div className='line light-g'>
-                        <h2 className='flipX'>4</h2>
+                        <h2 className='flipX'>5</h2>
                     </div>
                 </div>
             </li>
@@ -72,7 +72,7 @@ const AdminData = () => {
                 <div>
                     {/* <span><img src={img4} alt={img4} /></span> */}
                     <div className='line light-o'>
-                        <h2 className='flipX'>49%</h2>
+                        <h2 className='flipX'>4.76%</h2>
                     </div>
                 </div>
             </li>

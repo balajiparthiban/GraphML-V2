@@ -1,46 +1,71 @@
-import { useState } from 'react'
 import DataBox from '../../component/DataBox'
 import SeniorChart from '../../component/SeniorManagementChart'
-import { AllProduct } from "../../json/campaign_copy"
+import { ForecastedDataFor6Months } from "../../json/v2/Forecast_Data_with_6M_Predictions"
+import { useState } from 'react'
 import './style.scss'
 
 const SeniorManagement = () => {
 
-    const [userData] = useState({
+    const [ForecastData] = useState({
         // labels: Campaign.map((data) => data.__EMPTY),
-        labels: AllProduct.map((data) => data.Month),
+        // labels: ForecastedDataFor6Months.map((data) => data.Month),
+
         datasets: [
+            // {
+            //     label: 'Email Campaign 1',
+            //     data: AllProduct.map((data) => (data.email_campaign1)),
+            //     backgroundColor: ["#6C4AB6"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Email Campaign 2',
+            //     data: AllProduct.map((data) => (data.email_campaign2)),
+            //     backgroundColor: ["#8EC3B0"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Phone Call',
+            //     data: AllProduct.map((data) => (data.phone_call)),
+            //     backgroundColor: ["#9ED5C5"],
+            //     order: 2
+            // },
             {
-                label: 'Total Sales',
-                display: false,
-                data: [361609, 187344, 216253, 357834, 280355, 186708],
+                label: 'Total',
+                data: ForecastedDataFor6Months.map((data) => (data.Total)),
+                backgroundColor: ["#BCEAD5"],
+                order: 2,
                 type: 'line',
-                // backgroundColor: ["#ff0000"],
-                order: 1,
-                // backgroundColor: [
-                //     'rgba(255, 99, 132, 0.2)',
-                //     'rgba(54, 162, 235, 0.2)',
-                //     'rgba(255, 206, 86, 0.2)',
-                //     'rgba(75, 192, 192, 0.2)',
-                //     'rgba(153, 102, 255, 0.2)',
-                //     'rgba(255, 159, 64, 0.2)'
-                // ],
                 borderColor: [
-                    '#D0DFFC',
-                    '#3085cf',
-                    '#ff0000',
-                    '#ffaa99',
-                    '#9978a6',
-                    '#2fb959',
+                    '#B9E0FF',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
                 ],
                 borderWidth: 8,
-                // fill: {
-                //   target: "origin", // 3. Set the fill options
-                //   above: ["#faebd7"]
-                // }
             },
 
-        ],
+
+            // {
+            //     label: 'Product 2',
+            //     data: ForecastedDataFor6Months.map((data) => (data.email_campaign1_and_phone_call)),
+            //     backgroundColor: ["#B9E0FF"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Product 3',
+            //     data: ForecastedDataFor6Months.map((data) => (data.email_campaign2_and_phone_call)),
+            //     backgroundColor: ["#8D9EFF"],
+            //     order: 2
+            // },
+            // {
+            //     label: 'Product 4',
+            //     data: ForecastedDataFor6Months.map((data) => (data.all_channels)),
+            //     backgroundColor: ["#8D72E1"],
+            //     order: 2
+            // },
+        ]
 
     });
 
@@ -57,7 +82,7 @@ const SeniorManagement = () => {
                     <div className='chart-wrapper-bg w-96'>
                         <div className='chart-wrapper w-50'>
                             <h3>Sales Forecast Chart</h3>
-                            <SeniorChart chartData={userData} />
+                            <SeniorChart chartData={ForecastData} />
                         </div>
                     </div>
                 </div>

@@ -102,16 +102,16 @@ const AdminProduct = () => {
         AllProduct: 'AllSales',
         Product1: 'Sales1',
         Product2: 'Sales2',
-        Product3: 'Sales3',
-        Product4: 'Sales4'
+        // Product3: 'Sales3',
+        // Product4: 'Sales4'
     };
 
     const FilterMapper = {
         AllProduct: 'AllProduct',
         Product1: 'Product1',
         Product2: 'Product2',
-        Product3: 'Product3',
-        Product4: 'Product4',
+        // Product3: 'Product3',
+        // Product4: 'Product4',
     };
 
     const getSalesData = (salesKey = 'AllSales') => {
@@ -237,8 +237,8 @@ const AdminProduct = () => {
                             <option value="AllProduct">All Product</option>
                             <option value="Product1">Product 1</option>
                             <option value="Product2">Product 2</option>
-                            <option value="Product3">Product 1 | Product 2</option>
-                            <option value="Product4">Product 2 | Product 1</option>
+                            {/* <option value="Product3">Product 1 | Product 2</option>
+                            <option value="Product4">Product 2 | Product 1</option> */}
                         </select>
                     </div>
                 </div>

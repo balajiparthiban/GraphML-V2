@@ -5,7 +5,7 @@ import img1 from '../../images/icon-01.png';
 import img2 from '../../images/icon-02.png';
 import img3 from '../../images/icon-03.png';
 import img4 from '../../images/icon-04.png';
-import { total_sales } from '../../json/data.js'
+import { Senior_manager_home_page_box_data } from '../../json/v2/Data_UI'
 
 // const total_sales = [
 //     {
@@ -45,8 +45,8 @@ const DataBox = () => {
                 <div>
                     <span><img src={img1} alt={img1} /></span>
                     <div className='line light-g'>
-                        {total_sales.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.No_of_Campaign}</h2>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{item.Total_number_of_customers}</h2>
                         })}
                     </div>
                 </div>
@@ -56,8 +56,8 @@ const DataBox = () => {
                 <div>
                     <span><img src={img2} alt={img2} /></span>
                     <div className='line light-b'>
-                        {total_sales.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.No_of_Products}</h2>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{item.Total_number_of_Products}</h2>
                         })}
                     </div>
                 </div>
@@ -67,8 +67,8 @@ const DataBox = () => {
                 <div>
                     <span><img src={img3} alt={img3} /></span>
                     <div className='line light-p'>
-                        {total_sales.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{formatter.format(item.No_of_Products)}</h2>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{formatter.format(item.Total_number_of_campaigns)}</h2>
                         })}
                     </div>
                 </div>
@@ -78,7 +78,9 @@ const DataBox = () => {
                 <div>
                     <span><img src={img4} alt={img4} /></span>
                     <div className='line light-o'>
-                        <h2 className='flipX'>1.43M</h2>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{formatter.format(item.Total_sales)}</h2>
+                        })}
                     </div>
                 </div>
             </li>
@@ -90,7 +92,9 @@ const DataBox = () => {
                 <div>
                     {/* <span><img src={img1} alt={img1} /></span> */}
                     <div className='line light-g'>
-                        <h2 className='flipX font-size'>Campaign 1</h2>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{item.Most_effective_campaign}</h2>
+                        })}
                     </div>
                 </div>
             </li>
@@ -98,29 +102,36 @@ const DataBox = () => {
                 <h3>Most Effective Micro Segment</h3>
                 <div>
                     {/* <span><img src={img2} alt={img2} /></span> */}
-                    <div className='line light-b'>
-                        <h2 className='flipX font-size'>Segment 1</h2>
+                    <div className='line light-g'>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{item.Most_effective_segment}</h2>
+                        })}
                     </div>
                 </div>
             </li>
             <li className='purple'>
-                <h3>Churn Rate</h3>
+                <h3>Effect Rate</h3>
                 <div>
                     {/* <span><img src={img3} alt={img3} /></span> */}
-                    <div className='line light-p'>
-                        <h2 className='flipX'>2.73%</h2>
+                    <div className='line light-g'>
+                        {Senior_manager_home_page_box_data.map((item, iDx) => {
+                            return <h2 className='flipX' key={iDx}>{item.Effect_rate}</h2>
+                        })}
                     </div>
                 </div>
             </li>
-            <li className='orange'>
+
+            {/* <li className='orange'>
                 <h3>Avg. Customer ITV</h3>
                 <div>
-                    {/* <span><img src={img4} alt={img4} /></span> */}
-                    <div className='line light-o'>
-                        <h2 className='flipX'>$150</h2>
-                    </div>
-                </div>
-            </li>
+                    <span><img src={img4} alt={img4} /></span>
+            <div className='line light-o'>
+                <h2 className='flipX'>$150</h2>
+            </div>
+        </div>
+            </li > */}
+
+
         </ul>
     );
 }

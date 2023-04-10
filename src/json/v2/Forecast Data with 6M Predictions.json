@@ -1,0 +1,221 @@
+
+export const Historical Data for last 3 year = [
+ {
+  "Date": "20\/01\/2020",
+  "Loans Purchased": 2277,
+  "Credit Cards Purchased": 2521
+ },
+ {
+  "Date": "20\/02\/2020",
+  "Loans Purchased": 2333,
+  "Credit Cards Purchased": 2770
+ },
+ {
+  "Date": "20\/03\/2020",
+  "Loans Purchased": 2374,
+  "Credit Cards Purchased": 2477
+ },
+ {
+  "Date": "20\/04\/2020",
+  "Loans Purchased": 2131,
+  "Credit Cards Purchased": 2309
+ },
+ {
+  "Date": "20\/05\/2020",
+  "Loans Purchased": 2018,
+  "Credit Cards Purchased": 2321
+ },
+ {
+  "Date": "20\/06\/2020",
+  "Loans Purchased": 2121,
+  "Credit Cards Purchased": 2229
+ },
+ {
+  "Date": "20\/07\/2020",
+  "Loans Purchased": 2171,
+  "Credit Cards Purchased": 2293
+ },
+ {
+  "Date": "20\/08\/2020",
+  "Loans Purchased": 2348,
+  "Credit Cards Purchased": 2238
+ },
+ {
+  "Date": "20\/09\/2020",
+  "Loans Purchased": 2088,
+  "Credit Cards Purchased": 2221
+ },
+ {
+  "Date": "20\/10\/2020",
+  "Loans Purchased": 2548,
+  "Credit Cards Purchased": 2916
+ },
+ {
+  "Date": "20\/11\/2020",
+  "Loans Purchased": 2381,
+  "Credit Cards Purchased": 2427
+ },
+ {
+  "Date": "20\/12\/2020",
+  "Loans Purchased": 2319,
+  "Credit Cards Purchased": 2111
+ },
+ {
+  "Date": "21\/01\/2021",
+  "Loans Purchased": 2359,
+  "Credit Cards Purchased": 2410
+ },
+ {
+  "Date": "21\/02\/2021",
+  "Loans Purchased": 2157,
+  "Credit Cards Purchased": 2318
+ },
+ {
+  "Date": "21\/03\/2021",
+  "Loans Purchased": 2560,
+  "Credit Cards Purchased": 2338
+ },
+ {
+  "Date": "21\/04\/2021",
+  "Loans Purchased": 2545,
+  "Credit Cards Purchased": 2221
+ },
+ {
+  "Date": "21\/05\/2021",
+  "Loans Purchased": 2600,
+  "Credit Cards Purchased": 2360
+ },
+ {
+  "Date": "21\/06\/2021",
+  "Loans Purchased": 2519,
+  "Credit Cards Purchased": 2455
+ },
+ {
+  "Date": "21\/07\/2021",
+  "Loans Purchased": 2756,
+  "Credit Cards Purchased": 2255
+ },
+ {
+  "Date": "21\/08\/2021",
+  "Loans Purchased": 2817,
+  "Credit Cards Purchased": 2334
+ },
+ {
+  "Date": "21\/09\/2021",
+  "Loans Purchased": 2662,
+  "Credit Cards Purchased": 2104
+ },
+ {
+  "Date": "21\/10\/2021",
+  "Loans Purchased": 2958,
+  "Credit Cards Purchased": 2462
+ },
+ {
+  "Date": "21\/11\/2021",
+  "Loans Purchased": 2528,
+  "Credit Cards Purchased": 2459
+ },
+ {
+  "Date": "21\/12\/2021",
+  "Loans Purchased": 2595,
+  "Credit Cards Purchased": 2370
+ },
+ {
+  "Date": "22\/01\/2022",
+  "Loans Purchased": 2717,
+  "Credit Cards Purchased": 2725
+ },
+ {
+  "Date": "22\/02\/2022",
+  "Loans Purchased": 2738,
+  "Credit Cards Purchased": 2342
+ },
+ {
+  "Date": "22\/03\/2022",
+  "Loans Purchased": 2566,
+  "Credit Cards Purchased": 2484
+ },
+ {
+  "Date": "22\/04\/2022",
+  "Loans Purchased": 2666,
+  "Credit Cards Purchased": 2477
+ },
+ {
+  "Date": "22\/05\/2022",
+  "Loans Purchased": 2674,
+  "Credit Cards Purchased": 2305
+ },
+ {
+  "Date": "22\/06\/2022",
+  "Loans Purchased": 2697,
+  "Credit Cards Purchased": 2178
+ },
+ {
+  "Date": "22\/07\/2022",
+  "Loans Purchased": 3040,
+  "Credit Cards Purchased": 2379
+ },
+ {
+  "Date": "22\/08\/2022",
+  "Loans Purchased": 3111,
+  "Credit Cards Purchased": 2327
+ },
+ {
+  "Date": "22\/09\/2022",
+  "Loans Purchased": 2730,
+  "Credit Cards Purchased": 2167
+ },
+ {
+  "Date": "22\/10\/2022",
+  "Loans Purchased": 2868,
+  "Credit Cards Purchased": 2602
+ },
+ {
+  "Date": "22\/11\/2022",
+  "Loans Purchased": 2752,
+  "Credit Cards Purchased": 2339
+ },
+ {
+  "Date": "22\/12\/2022",
+  "Loans Purchased": 2338,
+  "Credit Cards Purchased": 1497
+ }
+],
+"Forecasted Data for 6 months":[
+ {
+  "Date": "01\/04\/2023",
+  "Loans Purchased": 2418.97969922648,
+  "Credit Cards Purchased": 1758.87761279805,
+  "Total": 4177.857312
+ },
+ {
+  "Date": "01\/05\/2023",
+  "Loans Purchased": 2336.237118521,
+  "Credit Cards Purchased": 1990.47545902851,
+  "Total": 4326.712578
+ },
+ {
+  "Date": "01\/06\/2023",
+  "Loans Purchased": 2239.36018489106,
+  "Credit Cards Purchased": 1658.98330789267,
+  "Total": 3898.343493
+ },
+ {
+  "Date": "01\/07\/2023",
+  "Loans Purchased": 2127.75771377752,
+  "Credit Cards Purchased": 1578.73026066325,
+  "Total": 3706.487974
+ },
+ {
+  "Date": "01\/08\/2023",
+  "Loans Purchased": 2000.83852062128,
+  "Credit Cards Purchased": 1377.11683395079,
+  "Total": 3377.955355
+ },
+ {
+  "Date": "01\/09\/2023",
+  "Loans Purchased": 1858.01142086321,
+  "Credit Cards Purchased": 1224.62738697211,
+  "Total": 3082.638808
+ }
+]
