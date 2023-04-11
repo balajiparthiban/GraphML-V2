@@ -3,9 +3,14 @@ import { useState } from 'react'
 import Table03 from '../../component/ExecutiveTable01'
 import Table04 from '../../component/ExecutiveTable02'
 import AdminProductChart from '../../component/AdminProductChart'
+
 import { AdminProductBarChartTab01 } from "../../json/v2/AdminProductBarChartTab01"
+import { AdminProductBarChartTab02 } from "../../json/v2/AdminProductBarChartTab02"
 
 import { AdminProductTableTab01 } from '../../json/v2/AdminProductTableTab01'
+
+
+
 
 import adminproductable from '../../json/v2/AdminProductTableTab01.json'
 
@@ -90,8 +95,59 @@ const AdminProduct = () => {
     });
 
 
+// Tab02-Line-Chart
+    const [AdminProductLineChartTabo2] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
+        labels: ["Loans"],
+
+        datasets: [
+            {
+                label: 'Total Sales',
+                data: [2379, 2327, 2167, 2602, 2339, 1497],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#8D72E1',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#bbaaf1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+                // height: 100,
+                // fill: {
+                //   target: "origin", // 3. Set the fill options
+                //   above: ["#faebd7"]
+                // }
+            }
+        ],
+    });
+
+
     // Tab01-Bar-Chart
-    const [adminProductBarChart] = useState({
+    const [adminProductBarChartTab01] = useState({
         labels: AdminProductBarChartTab01.map((data) => data.Month),
         datasets: [
             {
@@ -123,6 +179,40 @@ const AdminProduct = () => {
     });
 
 
+
+// Tab02-Bar-Chart
+    const [adminProductBarChartTab02] = useState({
+        labels: AdminProductBarChartTab02.map((data) => data.Month),
+        datasets: [
+            {
+                label: 'Discount Mail',
+                data: AdminProductBarChartTab02.map((data) => (data.Discount_main)),
+                backgroundColor: ["#BCEAD5"],
+            },
+            {
+                label: 'Promotional Mail',
+                data: AdminProductBarChartTab02.map((data) => (data.Promotional_mail)),
+                backgroundColor: ["#B9E0FF"],
+            },
+            {
+                label: 'Phone Call',
+                data: AdminProductBarChartTab02.map((data) => (data.Phone_call)),
+                backgroundColor: ["#8D9EFF"],
+            },
+            {
+                label: 'Push Notification',
+                data: AdminProductBarChartTab02.map((data) => (data.Push_notification)),
+                backgroundColor: ["#8D72E1"],
+            },
+            {
+                label: 'Loyalty Mail',
+                data: AdminProductBarChartTab02.map((data) => (data.Loyalty_mail)),
+                backgroundColor: ["#8D72E1"],
+            }
+        ],
+    });
+
+
     return (
 
         <Tabs>
@@ -147,7 +237,7 @@ const AdminProduct = () => {
 
                         <div className="chart-flex">
                             <div className='white-bg width-49'>
-                                <AdminProductChart chartData={adminProductBarChart} />
+                                <AdminProductChart chartData={adminProductBarChartTab01} />
                             </div>
 
                             <div className='white-bg width-49'>
@@ -183,11 +273,11 @@ const AdminProduct = () => {
 
                         <div className="chart-flex">
                             <div className='white-bg width-49'>
-                                <AdminProductChart chartData={adminProductBarChart} />
+                                <AdminProductChart chartData={adminProductBarChartTab02} />
                             </div>
 
                             <div className='white-bg width-49'>
-                                <AdminProductChart chartData={AdminProductLineChartTabo1} />
+                                <AdminProductChart chartData={AdminProductLineChartTabo2} />
                             </div>
                         </div>
 

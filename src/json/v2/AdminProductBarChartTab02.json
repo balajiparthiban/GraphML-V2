@@ -1,0 +1,50 @@
+[
+ {
+  "Date": "Sep",
+  "Discount_main": 6156,
+  "Promotional_mail": 10651,
+  "Phone_call": 4228,
+  "Push_notification": 22690,
+  "Loyalty_mail": 3861
+ },
+ {
+  "Date": "Oct",
+  "Discount_main": 6620,
+  "Promotional_mail": 10083,
+  "Phone_call": 5497,
+  "Push_notification": 27491,
+  "Loyalty_mail": 2525
+ },
+ {
+  "Date": "Nov",
+  "Discount_main": 6559,
+  "Promotional_mail": 12399,
+  "Phone_call": 4881,
+  "Push_notification": 23646,
+  "Loyalty_mail": 2780
+ },
+ {
+  "Date": "Dec",
+  "Discount_main": 5921,
+  "Promotional_mail": 10073,
+  "Phone_call": 4280,
+  "Push_notification": 20977,
+  "Loyalty_mail": 3070
+ },
+ {
+  "Date": "Jan",
+  "Discount_main": 6447,
+  "Promotional_mail": 12588,
+  "Phone_call": 4374,
+  "Push_notification": 23629,
+  "Loyalty_mail": 2667
+ },
+ {
+  "Date": "Feb",
+  "Discount_main": 6969,
+  "Promotional_mail": 10442,
+  "Phone_call": 4359,
+  "Push_notification": 20292,
+  "Loyalty_mail": 4331
+ }
+]
