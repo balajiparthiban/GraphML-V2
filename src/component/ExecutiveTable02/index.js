@@ -16,14 +16,14 @@ const Table04 = ({ items, setItems, updateStatus }) => {
                 <thead>
                     <tr>
                         <th>S.No</th>
-                        {/* <th><input type="checkbox" name="select all" /></th> */}
-                        <th>Products</th>
+                        <th>Product</th>
                         <th>Recommended Campaign</th>
-                        <th>Success Rate</th>
-                        <th>Cannabalizing Campaign</th>
                         <th>Customer Segment</th>
+                        <th>Total Customers</th>
+                        <th>Positive Impacted Feature</th>
+                        <th>Negative Impacted Feature</th>
+                        <th>Effect</th>
                         <th>Rank</th>
-                        <th>Selected Campaigns</th>
                         <th>Select</th>
                     </tr>
                 </thead>
@@ -34,12 +34,14 @@ const Table04 = ({ items, setItems, updateStatus }) => {
                         item && item.status === 'Completed' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>Product 1</td>
-                                <td>Email Campaign 2</td>
-                                <td>50%</td>
-                                <td>Email Campaign 3</td>
-                                <td>Segment 2</td>
-                                <td>1</td>
+                                <td>{item.Product}</td>
+                                <td>{item.Recommended_campaign}</td>
+                                <td>{item.Customer_segment}</td>
+                                <td>{item.Total_Customers}</td>
+                                <td>{item.Positive_impacted_feature}</td>
+                                <td>{item.Negative_impacted_feature}</td>
+                                <td>{item.Effect}</td>
+                                <td>{item.Rank}</td>
                                 <td>
                                     <select>
                                         <option>Email Campaign 1</option>
@@ -53,8 +55,7 @@ const Table04 = ({ items, setItems, updateStatus }) => {
                                 </td>
 
 
-                                <td> <button className="mark_pending" key={item.id} onClick={() => { updateStatus(item.id, 'Pending') }}>Remove</button>
-                                </td>
+                                <td><button className="mark_pending" key={item.id} onClick={() => { updateStatus(item.id, 'Pending') }}>Remove</button></td>
                             </tr>
                         )
                     )}

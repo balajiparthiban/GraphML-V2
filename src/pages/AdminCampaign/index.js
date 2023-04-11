@@ -5,84 +5,14 @@ import Table04 from '../../component/ExecutiveTable02'
 import SeniorChart from '../../component/SeniorManagementChart'
 import * as FilterData from "../../json/campaign_copy"
 import * as SalesData from "../../json/campaign_copy"
+
+
+import { AdminProductTableTab01 } from '../../json/v2/AdminProductTableTab01'
 import './style.scss'
 
 const AdminCampaign = () => {
 
-    const [items, setItems] = useState([
-        {
-            id: 1,
-            Products: "Product 1",
-            Location: "State X",
-            Age: "below 20",
-            CLV: "Low",
-            Attrition_Rate: "0.2",
-            Customer_Count: 66224,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Pending'
-        },
-        {
-            id: 2,
-            Products: "Product 1",
-            Location: "State Y",
-            Age: "below 20",
-            CLV: "Medium",
-            Attrition_Rate: "2.0",
-            Customer_Count: 277,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Pending'
-        },
-        {
-            id: 3,
-            Products: "Product 1",
-            Location: "State Z",
-            Age: "below 20",
-            CLV: "High",
-            Attrition_Rate: "2.0",
-            Customer_Count: 2,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Pending'
-        },
-        {
-            id: 4,
-            Products: "Product 1",
-            Location: "State X",
-            Age: "20 to 30",
-            CLV: "Low",
-            Attrition_Rate: "2.0",
-            Customer_Count: 11996,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Completed'
-        },
-        {
-            id: 5,
-            Products: "Product 1",
-            Location: "State Y",
-            Age: "20 to 30",
-            CLV: "Medium",
-            Attrition_Rate: "2.0",
-            Customer_Count: 60,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Completed'
-        },
-        {
-            id: 6,
-            Products: "Product 1",
-            Location: "State Z",
-            Age: "20 to 30",
-            CLV: "High",
-            Attrition_Rate: "2.0",
-            Customer_Count: 4,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Completed'
-        }
-    ])
+    const [items, setItems] = useState(AdminProductTableTab01)
 
     const updateStatus = (id, newStatus) => {
         let allItems = items;

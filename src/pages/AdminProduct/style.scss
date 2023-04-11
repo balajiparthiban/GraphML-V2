@@ -12,9 +12,18 @@
     margin-top: $size;
 }
 
-.white-bg{
+.white-bg {
     background: $white;
     margin: $size + 5 0;
     box-shadow: 0 0 5px #ccc;
     border-radius: 5px;
+
+}
+
+.width-49 {
+    width: 49%;
+}
+
+.chart-flex {
+    display: flex;
 }

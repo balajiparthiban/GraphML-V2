@@ -427,31 +427,29 @@ export const AllSales = [
 
 //all-sales-product-1
 export const Sales1 = [
-
-    
     {
        
-        "total": 80035
+        "total": 3040
     },
     {
        
-        "total": 64184
+        "total": 3111
     },
     {
       
-        "total": 25705
+        "total": 2730
     },
     {
         
-        "total": 100619
+        "total": 2868
     },
     {
         
-        "total": 102533
+        "total": 2752
     },
     {
        
-        "total": 46467
+        "total": 2338
     }
 ]
 
@@ -459,87 +457,30 @@ export const Sales1 = [
 //all-sales-product-2
 export const Sales2 = [
     {
-        "total": 116297
+        "total": 2379
     },
     {
         
-        "total": 19842
+        "total": 2327
     },
     {
        
-        "total": 11037
+        "total": 2167
     },
     {
        
-        "total": 98995
+        "total": 2602
     },
     {
        
-        "total": 7361
+        "total": 2339
     },
     {
         
-        "total": 40140
+        "total": 1497
     }
 ]
 
-
-//all-sales-product-1&2
-export const Sales3 = [
-    {
-       
-        "total": 64504
-    },
-    {
-        
-        "total": 60330
-    },
-    {
-        
-        "total": 77338
-    },
-    {
-        
-        "total": 56100
-    },
-    {
-      
-        "total": 71871
-    },
-    {
-        
-        "total": 38772
-    }
-]
-
-
-//all-sales-product-2&1
-export const Sales4 = [
-    {
-       
-        "total": 100773
-    },
-    {
-       
-        "total": 42988
-    },
-    {
-        
-        "total": 102173
-    },
-    {
-        
-        "total": 102120
-    },
-    {
-       
-        "total": 98590
-    },
-    {
-        
-        "total": 61329
-    }
-]
 
 
 //executive segment table

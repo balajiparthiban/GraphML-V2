@@ -3,92 +3,28 @@ import { useState } from 'react'
 import Table03 from '../../component/ExecutiveTable01'
 import Table04 from '../../component/ExecutiveTable02'
 import AdminProductChart from '../../component/AdminProductChart'
-import * as FilterData from "../../json/campaign_copy"
-// import * as Product1 from "../../json/campaign_copy"
+import { AdminProductBarChartTab01 } from "../../json/v2/AdminProductBarChartTab01"
 
-import * as SalesData from "../../json/campaign_copy"
+import { AdminProductTableTab01 } from '../../json/v2/AdminProductTableTab01'
+
+import adminproductable from '../../json/v2/AdminProductTableTab01.json'
+
+// import * as AdminProductTableTab01 from '../../json/v2/AdminProductTableTab01'
+
+
+
+// import * as FilterData from "../../json/campaign_copy"
+// import * as Product1 from "../../json/campaign_copy"
+// import * as SalesData from "../../json/campaign_copy"
 import './style.scss'
 
 const AdminProduct = () => {
 
-    const [items, setItems] = useState([
-        {
-            id: 1,
-            Products: "Product 1",
-            Location: "State X",
-            Age: "below 20",
-            CLV: "Low",
-            Attrition_Rate: "0.2",
-            Customer_Count: 66224,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Pending'
-        },
-        {
-            id: 2,
-            Products: "Product 1",
-            Location: "State Y",
-            Age: "below 20",
-            CLV: "Medium",
-            Attrition_Rate: "2.0",
-            Customer_Count: 277,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Pending'
-        },
-        {
-            id: 3,
-            Products: "Product 1",
-            Location: "State Z",
-            Age: "below 20",
-            CLV: "High",
-            Attrition_Rate: "2.0",
-            Customer_Count: 2,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Pending'
-        },
-        {
-            id: 4,
-            Products: "Product 1",
-            Location: "State X",
-            Age: "20 to 30",
-            CLV: "Low",
-            Attrition_Rate: "2.0",
-            Customer_Count: 11996,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Completed'
-        },
-        {
-            id: 5,
-            Products: "Product 1",
-            Location: "State Y",
-            Age: "20 to 30",
-            CLV: "Medium",
-            Attrition_Rate: "2.0",
-            Customer_Count: 60,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Completed'
-        },
-        {
-            id: 6,
-            Products: "Product 1",
-            Location: "State Z",
-            Age: "20 to 30",
-            CLV: "High",
-            Attrition_Rate: "2.0",
-            Customer_Count: 4,
-            Primary_Positive_Causal: "T4 Email Campaign 1 & 2",
-            Primary_Negative_Causal: "T7 All Channels",
-            status: 'Completed'
-        }
-    ])
+    const [items, setItems] = useState(AdminProductTableTab01)
 
     const updateStatus = (id, newStatus) => {
         let allItems = items;
-        allItems = allItems.map(item => {
+        allItems = items.map(item => {
             if (item.id === id) {
                 console.log('in here')
                 item.status = newStatus;
@@ -98,131 +34,89 @@ const AdminProduct = () => {
         setItems(allItems)
     }
 
-    const Mapper = {
-        AllProduct: 'AllSales',
-        Product1: 'Sales1',
-        Product2: 'Sales2',
-        // Product3: 'Sales3',
-        // Product4: 'Sales4'
-    };
 
-    const FilterMapper = {
-        AllProduct: 'AllProduct',
-        Product1: 'Product1',
-        Product2: 'Product2',
-        // Product3: 'Product3',
-        // Product4: 'Product4',
-    };
+    // Tab01-Line-Chart
+    const [AdminProductLineChartTabo1] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
 
-    const getSalesData = (salesKey = 'AllSales') => {
-        return SalesData[Mapper[salesKey]];
-    };
+        labels: ["Loans"],
 
-    const getFilteredData = (filterKey) => {
-        return FilterData[FilterMapper[filterKey]];
-    };
-
-    const setInitialState = (keyFactor = 'AllProduct') => {
-        return {
-            labels: getFilteredData(keyFactor).map((data) => data.Month),
-            datasets: [
-
-                {
-                    label: 'Total Sales',
-                    data: getSalesData(keyFactor).map((data) => (data.total)),
-                    type: 'line',
-                    backgroundColor: ["#ff0000"],
-                    order: 1,
-                    borderColor: [
-                        'rgba(255,99,132,1)',
-                        'rgba(32, 292, 305, 7)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
-                    ],
-                    borderWidth: 8,
-                },
-
-                // {
-                //     label: 'Product 1',
-                //     // data: [361609, 187344, 216253, 357834, 280355, 186708],
-                //     data: getSalesData(keyFactor).map((data) => (data.product1)),
-                //     type: 'line',
-                //     backgroundColor: ["#ff0000"],
-                //     order: 1,
-                //     borderColor: [
-                //         'rgba(255,99,132,1)',
-                //         'rgba(32, 292, 305, 7)',
-                //         'rgba(54, 162, 235, 1)',
-                //         'rgba(255, 206, 86, 1)',
-                //         'rgba(75, 192, 192, 1)',
-                //         'rgba(153, 102, 255, 1)',
-                //         'rgba(255, 159, 64, 1)'
-                //     ],
-                //     borderWidth: 8,
-                // },
-
-                {
-                    label: 'Email Campaign 1',
-                    data: getFilteredData(keyFactor).map((data) => (data.email_campaign1)),
-                    backgroundColor: ["#6C4AB6"],
-                    order: 2
-                },
-                {
-                    label: 'Email Campaign 2',
-                    data: getFilteredData(keyFactor).map((data) => (data.email_campaign2)),
-                    backgroundColor: ["#8EC3B0"],
-                    order: 2
-                },
-                {
-                    label: 'Phone Call',
-                    data: getFilteredData(keyFactor).map((data) => (data.phone_call)),
-                    backgroundColor: ["#9ED5C5"],
-                    order: 2
-                },
-                {
-                    label: 'Email Campaign 1 & 2',
-                    data: getFilteredData(keyFactor).map((data) => (data.email_campaign1_and_2)),
-                    backgroundColor: ["#BCEAD5"],
-                    order: 2
-                },
-                {
-                    label: 'Email Campaign 1 & Phone Call',
-                    data: getFilteredData(keyFactor).map((data) => (data.email_campaign1_and_phone_call)),
-                    backgroundColor: ["#B9E0FF"],
-                    order: 2
-                },
-                {
-                    label: 'Email Campaign 2 & Phone Call',
-                    data: getFilteredData(keyFactor).map((data) => (data.email_campaign2_and_phone_call)),
-                    backgroundColor: ["#8D9EFF"],
-                    order: 2
-                },
-                {
-                    label: 'All Channels',
-                    data: getFilteredData(keyFactor).map((data) => (data.all_channels)),
-                    backgroundColor: ["#8D72E1"],
-                    order: 2
-                },
-
-            ],
-        }
-    };
+        datasets: [
+            {
+                label: 'Total Sales',
+                data: [3040, 3111, 2730, 2868, 2752, 2338],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#8D72E1',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#bbaaf1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+                // height: 100,
+                // fill: {
+                //   target: "origin", // 3. Set the fill options
+                //   above: ["#faebd7"]
+                // }
+            }
+        ],
+    });
 
 
-    const [campaignData, setCampaignData] = useState(setInitialState());
-
-
-    //condition
-    const [selectedChart, setSelectedChart] = useState('All Products');
-    const handleClick = (value) => {
-        // const data = processFilterData(value);
-        setSelectedChart(value);
-        setCampaignData(setInitialState(value));
-        // setInitialState()
-    }
+    // Tab01-Bar-Chart
+    const [adminProductBarChart] = useState({
+        labels: AdminProductBarChartTab01.map((data) => data.Month),
+        datasets: [
+            {
+                label: 'Discount Mail',
+                data: AdminProductBarChartTab01.map((data) => (data.Discount_main)),
+                backgroundColor: ["#BCEAD5"],
+            },
+            {
+                label: 'Promotional Mail',
+                data: AdminProductBarChartTab01.map((data) => (data.Promotional_mail)),
+                backgroundColor: ["#B9E0FF"],
+            },
+            {
+                label: 'Phone Call',
+                data: AdminProductBarChartTab01.map((data) => (data.Phone_call)),
+                backgroundColor: ["#8D9EFF"],
+            },
+            {
+                label: 'Push Notification',
+                data: AdminProductBarChartTab01.map((data) => (data.Push_notification)),
+                backgroundColor: ["#8D72E1"],
+            },
+            {
+                label: 'Loyalty Mail',
+                data: AdminProductBarChartTab01.map((data) => (data.Loyalty_mail)),
+                backgroundColor: ["#8D72E1"],
+            }
+        ],
+    });
 
 
     return (
@@ -232,26 +126,26 @@ const AdminProduct = () => {
 
                 <div className='admin-campaign-head-right'>
                     <h6>Total Sales of particular: <span>320L</span></h6>
-                    <div className="dropdown">
-                        <select value={selectedChart} onChange={(event) => handleClick(event.target.value)}>
-                            <option value="AllProduct">All Product</option>
-                            <option value="Product1">Product 1</option>
-                            <option value="Product2">Product 2</option>
-                            {/* <option value="Product3">Product 1 | Product 2</option>
-                            <option value="Product4">Product 2 | Product 1</option> */}
-                        </select>
-                    </div>
                 </div>
 
             </div>
 
 
             <div>
-                <div className='white-bg'>
-                    <AdminProductChart chartData={campaignData} />
+
+                <div className="chart-flex">
+                <div className='white-bg width-49'>
+                    <AdminProductChart chartData={adminProductBarChart} />
                 </div>
+
+                <div className='white-bg width-49'>
+                    <AdminProductChart chartData={AdminProductLineChartTabo1} />
+                </div>
+                </div>
+
                 <Table03 items={items} setItems={setItems} updateStatus={updateStatus} />
                 <Table04 items={items} setItems={setItems} updateStatus={updateStatus} />
+
                 <div className="button-wrapper">
                     <button className="button-style">Send Campaign</button>
                 </div>
