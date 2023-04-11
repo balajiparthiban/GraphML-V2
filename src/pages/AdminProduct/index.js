@@ -9,6 +9,10 @@ import { AdminProductTableTab01 } from '../../json/v2/AdminProductTableTab01'
 
 import adminproductable from '../../json/v2/AdminProductTableTab01.json'
 
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import 'react-tabs/style/react-tabs.css'
+
+
 // import * as AdminProductTableTab01 from '../../json/v2/AdminProductTableTab01'
 
 
@@ -120,38 +124,87 @@ const AdminProduct = () => {
 
 
     return (
-        <div className='admin-campaign'>
-            <div className='admin-campaign-head'>
-                <h3>Admin Product</h3>
 
-                <div className='admin-campaign-head-right'>
-                    <h6>Total Sales of particular: <span>320L</span></h6>
+        <Tabs>
+            <TabList>
+                <Tab>Loan</Tab>
+                <Tab>Credit Card</Tab>
+            </TabList>
+
+            <TabPanel>
+                <div className='admin-campaign'>
+                    <div className='admin-campaign-head'>
+                        <h3>Admin Product</h3>
+
+                        <div className='admin-campaign-head-right'>
+                            <h6>Total Sales of particular: <span>320L</span></h6>
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <div className="chart-flex">
+                            <div className='white-bg width-49'>
+                                <AdminProductChart chartData={adminProductBarChart} />
+                            </div>
+
+                            <div className='white-bg width-49'>
+                                <AdminProductChart chartData={AdminProductLineChartTabo1} />
+                            </div>
+                        </div>
+
+                        <Table03 items={items} setItems={setItems} updateStatus={updateStatus} />
+                        <Table04 items={items} setItems={setItems} updateStatus={updateStatus} />
+
+                        <div className="button-wrapper">
+                            <button className="button-style">Send Campaign</button>
+                        </div>
+                    </div>
+
                 </div>
+            </TabPanel>
 
-            </div>
+
+            <TabPanel>
+                <div className='admin-campaign'>
+                    <div className='admin-campaign-head'>
+                        <h3>Admin Product 02</h3>
+
+                        <div className='admin-campaign-head-right'>
+                            <h6>Total Sales of particular: <span>320L</span></h6>
+                        </div>
+
+                    </div>
 
 
-            <div>
+                    <div>
 
-                <div className="chart-flex">
-                <div className='white-bg width-49'>
-                    <AdminProductChart chartData={adminProductBarChart} />
+                        <div className="chart-flex">
+                            <div className='white-bg width-49'>
+                                <AdminProductChart chartData={adminProductBarChart} />
+                            </div>
+
+                            <div className='white-bg width-49'>
+                                <AdminProductChart chartData={AdminProductLineChartTabo1} />
+                            </div>
+                        </div>
+
+                        <Table03 items={items} setItems={setItems} updateStatus={updateStatus} />
+                        <Table04 items={items} setItems={setItems} updateStatus={updateStatus} />
+
+                        <div className="button-wrapper">
+                            <button className="button-style">Send Campaign</button>
+                        </div>
+                    </div>
+
                 </div>
+            </TabPanel>
 
-                <div className='white-bg width-49'>
-                    <AdminProductChart chartData={AdminProductLineChartTabo1} />
-                </div>
-                </div>
+        </Tabs>
 
-                <Table03 items={items} setItems={setItems} updateStatus={updateStatus} />
-                <Table04 items={items} setItems={setItems} updateStatus={updateStatus} />
 
-                <div className="button-wrapper">
-                    <button className="button-style">Send Campaign</button>
-                </div>
-            </div>
-
-        </div>
     )
 }
 
