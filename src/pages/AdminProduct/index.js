@@ -9,9 +9,6 @@ import { AdminProductBarChartTab02 } from "../../json/v2/AdminProductBarChartTab
 
 import { AdminProductTableTab01 } from '../../json/v2/AdminProductTableTab01'
 
-
-
-
 import adminproductable from '../../json/v2/AdminProductTableTab01.json'
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
@@ -19,8 +16,6 @@ import 'react-tabs/style/react-tabs.css'
 
 
 // import * as AdminProductTableTab01 from '../../json/v2/AdminProductTableTab01'
-
-
 
 // import * as FilterData from "../../json/campaign_copy"
 // import * as Product1 from "../../json/campaign_copy"

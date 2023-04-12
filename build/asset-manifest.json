@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.47a3ebdd.css",
-    "main.js": "/static/js/main.2957d0ae.js",
+    "main.css": "/static/css/main.377fd260.css",
+    "main.js": "/static/js/main.a3076559.js",
     "static/media/latent-view-analytics-logo.jpg": "/static/media/latent-view-analytics-logo.e38edca9a6fbce4103b1.jpg",
     "index.html": "/index.html",
-    "main.47a3ebdd.css.map": "/static/css/main.47a3ebdd.css.map",
-    "main.2957d0ae.js.map": "/static/js/main.2957d0ae.js.map"
+    "main.377fd260.css.map": "/static/css/main.377fd260.css.map",
+    "main.a3076559.js.map": "/static/js/main.a3076559.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a3ebdd.css",
-    "static/js/main.2957d0ae.js"
+    "static/css/main.377fd260.css",
+    "static/js/main.a3076559.js"
   ]
 }

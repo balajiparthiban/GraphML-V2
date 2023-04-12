@@ -1,0 +1,32 @@
+export const AdminCampaignBarChartTab02 = [
+    {
+        "Month": "Sep",
+        "Promotional_mail_loan": 1832.4,
+        "Promotional_mail_credit_card": 1221.6000000000001
+    },
+    {
+        "Month": "Oct",
+        "Promotional_mail_loan": 2105.3999999999996,
+        "Promotional_mail_credit_card": 1722.6
+    },
+    {
+        "Month": "Nov",
+        "Promotional_mail_loan": 2135.76,
+        "Promotional_mail_credit_card": 1100.24
+    },
+    {
+        "Month": "Dec",
+        "Promotional_mail_loan": 689.3999999999999,
+        "Promotional_mail_credit_card": 1225.6000000000001
+    },
+    {
+        "Month": "Jan",
+        "Promotional_mail_loan": 421.19999999999993,
+        "Promotional_mail_credit_card": 514.8000000000001
+    },
+    {
+        "Month": "Feb",
+        "Promotional_mail_loan": 453.25,
+        "Promotional_mail_credit_card": 1359.75
+    }
+]

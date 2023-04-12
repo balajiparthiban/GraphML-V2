@@ -1,0 +1,32 @@
+[
+ {
+  "Month": "Sep",
+  "Discount_main_loan": 558.8000000000001,
+  "Discount_main_credit_card": 838.1999999999999
+ },
+ {
+  "Month": "Oct",
+  "Discount_main_loan": 429.3,
+  "Discount_main_credit_card": 1001.7
+ },
+ {
+  "Month": "Nov",
+  "Discount_main_loan": 1233.45,
+  "Discount_main_credit_card": 1507.55
+ },
+ {
+  "Month": "Dec",
+  "Discount_main_loan": 1523.2,
+  "Discount_main_credit_card": 1196.8
+ },
+ {
+  "Month": "Jan",
+  "Discount_main_loan": 739.84,
+  "Discount_main_credit_card": 1572.16
+ },
+ {
+  "Month": "Feb",
+  "Discount_main_loan": 595.3199999999999,
+  "Discount_main_credit_card": 856.6800000000001
+ }
+]
