@@ -1,32 +1,32 @@
 export const AdminCampaignBarChartTab03 = [
     {
         "Month": "Sep",
-        "Promotional_mail_loan": 1832.4,
-        "Promotional_mail_credit_card": 1221.6000000000001
+        "Phone_call_loan": 466.79999999999995,
+        "Phone_call_credit_card": 311.20000000000005
     },
     {
         "Month": "Oct",
-        "Promotional_mail_loan": 2105.3999999999996,
-        "Promotional_mail_credit_card": 1722.6
+        "Phone_call_loan": 604.56,
+        "Phone_call_credit_card": 311.44
     },
     {
         "Month": "Nov",
-        "Promotional_mail_loan": 2135.76,
-        "Promotional_mail_credit_card": 1100.24
+        "Phone_call_loan": 372.23999999999995,
+        "Phone_call_credit_card": 473.76000000000005
     },
     {
         "Month": "Dec",
-        "Promotional_mail_loan": 689.3999999999999,
-        "Promotional_mail_credit_card": 1225.6000000000001
+        "Phone_call_loan": 126.27999999999997,
+        "Phone_call_credit_card": 160.72000000000003
     },
     {
         "Month": "Jan",
-        "Promotional_mail_loan": 421.19999999999993,
-        "Promotional_mail_credit_card": 514.8000000000001
+        "Phone_call_loan": 651.75,
+        "Phone_call_credit_card": 217.25
     },
     {
         "Month": "Feb",
-        "Promotional_mail_loan": 453.25,
-        "Promotional_mail_credit_card": 1359.75
+        "Phone_call_loan": 208.33999999999992,
+        "Phone_call_credit_card": 738.6600000000001
     }
 ]

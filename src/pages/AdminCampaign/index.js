@@ -76,13 +76,13 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Discount Main Loan',
-                data: AdminCampaignBarChartTab03.map((data) => (data.Promotional_mail_loan)),
+                label: 'Phone Call Loan',
+                data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_loan)),
                 backgroundColor: ["#B9E0FF"],
             },
             {
-                label: 'Discount Main Credit Card',
-                data: AdminCampaignBarChartTab03.map((data) => (data.Promotional_mail_credit_card)),
+                label: 'Phone Call Credit Card',
+                data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_credit_card)),
                 backgroundColor: ["#8D9EFF"],
             },
 
