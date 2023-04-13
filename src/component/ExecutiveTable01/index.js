@@ -1,8 +1,6 @@
 import './style.scss'
 
 const Table03 = ({ items, setItems, updateStatus }) => {
-
-
     return (
         <div>
             <div className='head-top'>
@@ -13,17 +11,20 @@ const Table03 = ({ items, setItems, updateStatus }) => {
             </div>
 
             <table className='white-bg'>
+
                 <thead>
-                    <th>S.No</th>
-                    <th>Product</th>
-                    <th>Recommended Campaign</th>
-                    <th>Customer Segment</th>
-                    <th>Total Customers</th>
-                    <th>Positive Impacted Feature</th>
-                    <th>Negative Impacted Feature</th>
-                    <th>Effect</th>
-                    <th>Rank</th>
-                    <th>Select</th>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Products</th>
+                        <th>Location</th>
+                        <th>Age</th>
+                        <th>CLV</th>
+                        <th>Attrition Rate %</th>
+                        <th>Customer Count</th>
+                        <th>Primary Positive Causal</th>
+                        <th>Primary Negative Causal</th>
+                        <th>Select</th>
+                    </tr>
                 </thead>
 
                 <tbody>
@@ -32,14 +33,14 @@ const Table03 = ({ items, setItems, updateStatus }) => {
                         item && item.status === 'Pending' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
-                                <td>{item.Recommended_campaign}</td>
-                                <td>{item.Customer_segment}</td>
-                                <td>{item.Total_Customers}</td>
-                                <td>{item.Positive_impacted_feature}</td>
-                                <td>{item.Negative_impacted_feature}</td>
-                                <td>{item.Effect}</td>
-                                <td>{item.Rank}</td>
+                                <td>{item.Products}</td>
+                                <td>{item.Location}</td>
+                                <td>{item.Age}</td>
+                                <td>{item.CLV}</td>
+                                <td>{item.Attrition_Rate}</td>
+                                <td>{item.Customer_Count}</td>
+                                <td>{item.Primary_Positive_Causal}</td>
+                                <td>{item.Primary_Negative_Causal}</td>
                                 <td><button className="mark_complete" key={item.id} onClick={() => { updateStatus(item.id, 'Completed'); }}>Move</button></td>
                             </tr>
                         )
@@ -48,11 +49,7 @@ const Table03 = ({ items, setItems, updateStatus }) => {
                 </tbody>
             </table>
 
-
-
         </div>
-
-
     )
 }
 
