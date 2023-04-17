@@ -1,0 +1,21 @@
+@import '../../../styles/variable.scss';
+
+.button {
+    margin-top: $size + 10;
+    display: flex;
+    justify-content: center;
+
+    button {
+        background: $blue;
+        padding: 8px 13px;
+        color: $white;
+        border-radius: $radius;
+        cursor: pointer;
+        margin-right: $size;
+
+
+        &:hover {
+            background: lighten($blue, 10%);
+        }
+    }
+}
