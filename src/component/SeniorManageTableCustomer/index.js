@@ -6,8 +6,8 @@ const SMCustomerOverviewTable = () => {
             <thead>
                 <th>S.No</th>
                 <th>Customer Segment</th>
-                <th> Product</th>
-                <th> Recommended Campaign</th>
+                <th>Next Best Product </th>
+                <th>Next Best Action </th>
                 <th>Effect</th>
                 <th>Rank</th>
             </thead>

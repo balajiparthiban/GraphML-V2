@@ -15,12 +15,12 @@ const Table03 = ({ items, setItems, updateStatus }) => {
                 <thead>
                     <tr>
                         <th>S.No</th>
-                        <th>Product</th>
+                        <th>Next Best Product</th>
                         <th>Recommended_campaign</th>
-                        <th>Customer_segment</th>
-                        <th>Total_Customers</th>
-                        <th>Positive_impacted_feature</th>
-                        <th>Negative_impacted_feature</th>
+                        <th>Customer Segment</th>
+                        <th>Total Customers</th>
+                        <th>Positive Causality</th>
+                        <th>Negative Causality</th>
                         <th>Effect</th>
                         <th>Rank</th>
                         <th>Select</th>
@@ -33,7 +33,7 @@ const Table03 = ({ items, setItems, updateStatus }) => {
                         item && item.status === 'Pending' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
+                                <td>{item.Next_Best_Product}</td>
                                 <td>{item.Recommended_campaign}</td>
                                 <td>{item.Customer_segment}</td>
                                 <td>{item.Total_Customers}</td>

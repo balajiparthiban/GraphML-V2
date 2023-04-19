@@ -27,6 +27,9 @@
             background: $white;
             box-shadow: 0 0 5px #bbb;
             border-radius: 3px 3px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         >div {
@@ -34,7 +37,7 @@
             justify-content: center;
             align-items: center;
             background: $blue;
-            padding: $size - 1;
+            padding: 16px $size - 1 !important;
             border-radius: 0 3px 3px 0;
             width: 80px;
 
@@ -52,9 +55,10 @@
 
             .flipX {
                 // animation: 3s anim-flipX ease-in-out;
-                font-size: $size + 3;
+                font-size: $size + 1;
                 color: $white;
                 font-weight: 400;
+                text-align: center;
             }
 
             .font-size {
@@ -150,5 +154,17 @@
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+
+.grid-02 {
+    grid-template-columns: 33.3% 33.3% 33.3%;
+
+    li {
+        div {
+            width: 135px;
+            padding: 6px !important;
+        }
     }
 }

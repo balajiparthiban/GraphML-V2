@@ -27,8 +27,8 @@ export const options = {
         x: {
             stacked: true,
             title: {
-                display: false,
-                text: 'LAST 6 MONTHS'
+                display: true,
+                text: 'MONTHS'
             },
 
             labels: ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"],
@@ -37,14 +37,14 @@ export const options = {
         y: {
             stacked: true,
             title: {
-                display: false,
-                text: 'Campaign Sent'
+                display: true,
+                text: 'Product Sales'
             },
             ticks: {
                 beginAtZero: true,
                 min: 0,
                 max: 300000,
-                stepSize: 150000
+                stepSize: 1000
             }
         },
 

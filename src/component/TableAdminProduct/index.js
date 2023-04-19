@@ -5,8 +5,8 @@ const TableAdminProduct = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Product </th>
-                <th>Recommended Campaign </th>
+                <th>Next Best Product </th>
+                <th>Next Best Action </th>
                 <th>Recommended Segment </th>
                 <th>Customer Count</th>
                 <th>Conversation Rate</th>

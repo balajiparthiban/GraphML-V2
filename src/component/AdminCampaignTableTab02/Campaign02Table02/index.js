@@ -15,12 +15,12 @@ const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsSt
                 <thead>
                     <tr>
                         <th>S.No</th>
-                        <th>Product</th>
-                        <th>Recommended_campaign</th>
-                        <th>Customer_segment</th>
-                        <th>Total_Customers</th>
-                        <th>Positive_impacted_feature</th>
-                        <th>Negative_impacted_feature</th>
+                        <th>Next Best Product </th>
+                        <th>Next Best Action </th>
+                        <th>Customer Segment</th>
+                        <th>Total Customers</th>
+                        <th>Positive Causality</th>
+                        <th>Negative Causality</th>
                         <th>Effect</th>
                         <th>Rank</th>
                         <th>Choose Campaign</th>

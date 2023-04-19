@@ -41,29 +41,28 @@ const DataBox03 = () => {
         <ul className='data-box'>
             {/* Dummy */}
             <li className='purple'>
-                <h3>Total Number of Customer</h3>
+                <h3>Total no. of Customers</h3>
                 <div>
                     {/* <span><img src={img3} alt={img3} /></span> */}
                     <div className='line light-p'>
-                        <h2 className='flipX'>100K</h2>
+                        <h2 className='flipX'>6097</h2>
                     </div>
                 </div>
             </li>
-            <li className='orange'>
+            {/* <li className='orange'>
                 <h3>Total No. of Active Customer</h3>
                 <div>
-                    {/* <span><img src={img4} alt={img4} /></span> */}
                     <div className='line light-o'>
                         <h2 className='flipX'>57K</h2>
                     </div>
                 </div>
-            </li>
+            </li> */}
             <li className='purple'>
-                <h3>Total Number of Product</h3>
+                <h3>Total Sales</h3>
                 <div>
                     {/* <span><img src={img3} alt={img3} /></span> */}
                     <div className='line light-p'>
-                        <h2 className='flipX'>4</h2>
+                        <h2 className='flipX'>6560</h2>
                     </div>
                 </div>
             </li>

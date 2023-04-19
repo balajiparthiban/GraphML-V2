@@ -6,8 +6,8 @@ const TableAdminHome = () => {
             <thead>
                 <th>S.No</th>
                 <th>Name</th>
-                <th>Product </th>
-                <th>Campaign </th>
+                <th>Next Best Product </th>
+                <th>Next Best Action </th>
                 <th>Segment</th>
                 <th>Effect</th>
                 <th>Month</th>

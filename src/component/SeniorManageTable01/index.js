@@ -14,8 +14,12 @@ const Table01 = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Product</th>
-                <th>Recommended Campaign</th>
+
+                
+                <th>Next Best Product </th>
+                <th>Next Best Action </th>
+
+                
                 <th>Success Rate</th>
                 <th>Cannabalizing Campaign</th>
                 <th>Customer Segment</th>

@@ -8,11 +8,14 @@ import Credit01 from '../../component/AdminProductCreditTable/Credit01'
 import Credit02 from '../../component/AdminProductCreditTable/Credit02'
 
 
-import AdminProductChart from '../../component/AdminProductChart'
+import AdminProductBarChartBase from '../../component/AdminProductBarChartBase'
+import AdminProductLineChartBase from '../../component/AdminProductLineChartBase'
+import AdminProductLineChartBaseCreditCard from '../../component/AdminProductLineChartBaseCreditCard'
+
 import { AdminProductBarChartTab01 } from "../../json/v2/AdminProductBarChartTab01"
 import { AdminProductBarChartTab02 } from "../../json/v2/AdminProductBarChartTab02"
 // import { AdminProductTableTab01 } from '../../json/v2/AdminProductTableTab01'
-import * as AdminProductTableTab01 from '../../json/v2/AdminProductTableTab01'
+// import * as AdminProductTableTab01 from '../../json/v2/AdminProductTableTab01'
 // import adminproductable from '../../json/v2/AdminProductTableTab01.json'
 // import * as AdminProductTableTab01 from '../../json/v2/AdminProductTableTab01'
 // import * as FilterData from "../../json/campaign_copy"
@@ -25,18 +28,18 @@ import './style.scss'
 const AdminProduct = () => {
 
 
-    // LoginTableData
+    // LoanTableData
 
     const [items, setItems] = useState([
         {
             id: 1,
-            Product: "Loan_1",
+            Product: "Loan",
             Recommended_campaign: "Loyalty",
-            Customer_segment: "20",
+            Customer_segment: "Segment_1_Loyalty_sub1_atomic_5",
             Total_Customers: 25,
             Positive_impacted_feature: "min_Month_payment",
             Negative_impacted_feature: "Early_buy_out",
-            Effect: 2,
+            Effect: 0.0272093823559074,
             Rank: 1,
             status: 'Pending'
         },
@@ -389,1146 +392,1146 @@ const AdminProduct = () => {
             Rank: 30,
             status: 'Pending'
         },
-        {
-            id: 31,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub2_atomic_3",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "min_Month_payment",
-            Effect: 0.00752080248431806,
-            Rank: 31,
-            status: 'Pending'
-        },
-        {
-            id: 32,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub2_atomic_4",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "min_Month_payment",
-            Effect: 0.00748121674468297,
-            Rank: 32,
-            status: 'Pending'
-        },
-        {
-            id: 33,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub2_atomic_1",
-            Total_Customers: 20,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00744847939908577,
-            Rank: 33,
-            status: 'Pending'
-        },
-        {
-            id: 34,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub2_atomic_2",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "min_Month_payment",
-            Effect: 0.0074134755815942,
-            Rank: 34,
-            status: 'Pending'
-        },
-        {
-            id: 35,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub2_atomic_5",
-            Total_Customers: 18,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0071596898716402,
-            Rank: 35,
-            status: 'Pending'
-        },
-        {
-            id: 36,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub2_atomic_2",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00636199290784842,
-            Rank: 36,
-            status: 'Pending'
-        },
-        {
-            id: 37,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub2_atomic_1",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00623318793423739,
-            Rank: 37,
-            status: 'Pending'
-        },
-        {
-            id: 38,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub2_atomic_3",
-            Total_Customers: 22,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0061424941124294,
-            Rank: 38,
-            status: 'Pending'
-        },
-        {
-            id: 39,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub2_atomic_4",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00610082251358793,
-            Rank: 39,
-            status: 'Pending'
-        },
-        {
-            id: 40,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub2_atomic_5",
-            Total_Customers: 22,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00604551999815959,
-            Rank: 40,
-            status: 'Pending'
-        },
-        {
-            id: 41,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub3_atomic_1",
-            Total_Customers: 20,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00551014368148164,
-            Rank: 41,
-            status: 'Pending'
-        },
-        {
-            id: 42,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub3_atomic_4",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00547385004571971,
-            Rank: 42,
-            status: 'Pending'
-        },
-        {
-            id: 43,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub3_atomic_3",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00532887065373396,
-            Rank: 43,
-            status: 'Pending'
-        },
-        {
-            id: 44,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub3_atomic_5",
-            Total_Customers: 18,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00530894598491077,
-            Rank: 44,
-            status: 'Pending'
-        },
-        {
-            id: 45,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub3_atomic_2",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00530752495351636,
-            Rank: 45,
-            status: 'Pending'
-        },
-        {
-            id: 46,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub3_atomic_1",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00469304152636236,
-            Rank: 46,
-            status: 'Pending'
-        },
-        {
-            id: 47,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub3_atomic_3",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0046630449734909,
-            Rank: 47,
-            status: 'Pending'
-        },
-        {
-            id: 48,
-            Product: "Loan",
-            Recommended_campaign: "Loyalty",
-            Customer_segment: "Segment_1_Loyalty_sub5_atomic_2",
-            Total_Customers: 25,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0046144838929711,
-            Rank: 48,
-            status: 'Pending'
-        },
-        {
-            id: 49,
-            Product: "Loan",
-            Recommended_campaign: "Loyalty",
-            Customer_segment: "Segment_1_Loyalty_sub5_atomic_3",
-            Total_Customers: 25,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00461271973456826,
-            Rank: 49,
-            status: 'Pending'
-        },
-        {
-            id: 50,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub3_atomic_2",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00453835336886533,
-            Rank: 50,
-            status: 'Pending'
-        },
-        {
-            id: 51,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub3_atomic_5",
-            Total_Customers: 22,
-            Positive_impacted_feature: "payment_value",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00453004920615997,
-            Rank: 51,
-            status: 'Pending'
-        },
-        {
-            id: 52,
-            Product: "Loan",
-            Recommended_campaign: "Loyalty",
-            Customer_segment: "Segment_1_Loyalty_sub5_atomic_1",
-            Total_Customers: 26,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0044323264314596,
-            Rank: 52,
-            status: 'Pending'
-        },
-        {
-            id: 53,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub3_atomic_4",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00439440239154582,
-            Rank: 53,
-            status: 'Pending'
-        },
-        {
-            id: 54,
-            Product: "Loan",
-            Recommended_campaign: "Loyalty",
-            Customer_segment: "Segment_1_Loyalty_sub5_atomic_5",
-            Total_Customers: 24,
-            Positive_impacted_feature: "Current_statement_month",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00438580183988544,
-            Rank: 54,
-            status: 'Pending'
-        },
-        {
-            id: 55,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub1_atomic_2",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00435682254862516,
-            Rank: 55,
-            status: 'Pending'
-        },
-        {
-            id: 56,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub1_atomic_3",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00429305863688937,
-            Rank: 56,
-            status: 'Pending'
-        },
-        {
-            id: 57,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub1_atomic_5",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Current_statement_month",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00427351426689632,
-            Rank: 57,
-            status: 'Pending'
-        },
-        {
-            id: 58,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub1_atomic_1",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00410229526908928,
-            Rank: 58,
-            status: 'Pending'
-        },
-        {
-            id: 59,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub4_atomic_1",
-            Total_Customers: 20,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00395321761676699,
-            Rank: 59,
-            status: 'Pending'
-        },
-        {
-            id: 60,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub4_atomic_2",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00390307728976517,
-            Rank: 60,
-            status: 'Pending'
-        },
-        {
-            id: 61,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub4_atomic_3",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00380063384513807,
-            Rank: 61,
-            status: 'Pending'
-        },
-        {
-            id: 62,
-            Product: "Loan",
-            Recommended_campaign: "Loyalty",
-            Customer_segment: "Segment_1_Loyalty_sub5_atomic_4",
-            Total_Customers: 25,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00379831999511299,
-            Rank: 62,
-            status: 'Pending'
-        },
-        {
-            id: 63,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub1_atomic_4",
-            Total_Customers: 5,
-            Positive_impacted_feature: "payment_value",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00374297638485864,
-            Rank: 63,
-            status: 'Pending'
-        },
-        {
-            id: 64,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub4_atomic_5",
-            Total_Customers: 18,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00369729728594205,
-            Rank: 64,
-            status: 'Pending'
-        },
-        {
-            id: 65,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub4_atomic_4",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00357951887563885,
-            Rank: 65,
-            status: 'Pending'
-        },
-        {
-            id: 66,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub4_atomic_5",
-            Total_Customers: 22,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00326266681304883,
-            Rank: 66,
-            status: 'Pending'
-        },
-        {
-            id: 67,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub4_atomic_4",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00323188895202353,
-            Rank: 67,
-            status: 'Pending'
-        },
-        {
-            id: 68,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub4_atomic_1",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00321897092428327,
-            Rank: 68,
-            status: 'Pending'
-        },
-        {
-            id: 69,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub4_atomic_3",
-            Total_Customers: 22,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00305778975959964,
-            Rank: 69,
-            status: 'Pending'
-        },
-        {
-            id: 70,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub4_atomic_2",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00305659807848313,
-            Rank: 70,
-            status: 'Pending'
-        },
-        {
-            id: 71,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub2_atomic_4",
-            Total_Customers: 5,
-            Positive_impacted_feature: "payment_value",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00243983788728066,
-            Rank: 71,
-            status: 'Pending'
-        },
-        {
-            id: 72,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub2_atomic_1",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0023673134036461,
-            Rank: 72,
-            status: 'Pending'
-        },
-        {
-            id: 73,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub2_atomic_5",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00234390018287175,
-            Rank: 73,
-            status: 'Pending'
-        },
-        {
-            id: 74,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub1_atomic_2",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00220459123384589,
-            Rank: 74,
-            status: 'Pending'
-        },
-        {
-            id: 75,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub2_atomic_2",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00218982531390558,
-            Rank: 75,
-            status: 'Pending'
-        },
-        {
-            id: 76,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub2_atomic_3",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00213698842409292,
-            Rank: 76,
-            status: 'Pending'
-        },
-        {
-            id: 77,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub1_atomic_4",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0020578588040471,
-            Rank: 77,
-            status: 'Pending'
-        },
-        {
-            id: 78,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub5_atomic_4",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00196236510561629,
-            Rank: 78,
-            status: 'Pending'
-        },
-        {
-            id: 79,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub5_atomic_2",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00193554116905157,
-            Rank: 79,
-            status: 'Pending'
-        },
-        {
-            id: 80,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub5_atomic_1",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0019176001951642,
-            Rank: 80,
-            status: 'Pending'
-        },
-        {
-            id: 81,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub5_atomic_5",
-            Total_Customers: 18,
-            Positive_impacted_feature: "Tenure",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00185044409229053,
-            Rank: 81,
-            status: 'Pending'
-        },
-        {
-            id: 82,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub5_atomic_4",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00183379353475296,
-            Rank: 82,
-            status: 'Pending'
-        },
-        {
-            id: 83,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub1_atomic_1",
-            Total_Customers: 3,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00177298953010093,
-            Rank: 83,
-            status: 'Pending'
-        },
-        {
-            id: 84,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub1_atomic_5",
-            Total_Customers: 1,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0017289174143772,
-            Rank: 84,
-            status: 'Pending'
-        },
-        {
-            id: 85,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub3_atomic_5",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00163363757122627,
-            Rank: 85,
-            status: 'Pending'
-        },
-        {
-            id: 86,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub3_atomic_2",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00162331149701894,
-            Rank: 86,
-            status: 'Pending'
-        },
-        {
-            id: 87,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub1_atomic_3",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00161745627333514,
-            Rank: 87,
-            status: 'Pending'
-        },
-        {
-            id: 88,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub5_atomic_5",
-            Total_Customers: 22,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00160061209587203,
-            Rank: 88,
-            status: 'Pending'
-        },
-        {
-            id: 89,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub3_atomic_3",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0015868716908622,
-            Rank: 89,
-            status: 'Pending'
-        },
-        {
-            id: 90,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub3_atomic_1",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0015565499461748,
-            Rank: 90,
-            status: 'Pending'
-        },
-        {
-            id: 91,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub5_atomic_2",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00152361202479123,
-            Rank: 91,
-            status: 'Pending'
-        },
-        {
-            id: 92,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub3_atomic_4",
-            Total_Customers: 5,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0015088333453196,
-            Rank: 92,
-            status: 'Pending'
-        },
-        {
-            id: 93,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub2_atomic_5",
-            Total_Customers: 1,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0014794878830031,
-            Rank: 93,
-            status: 'Pending'
-        },
-        {
-            id: 94,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub5_atomic_1",
-            Total_Customers: 23,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00147520369670541,
-            Rank: 94,
-            status: 'Pending'
-        },
-        {
-            id: 95,
-            Product: "Loan",
-            Recommended_campaign: "Promotional Email",
-            Customer_segment: "Segment_1_Promo_sub5_atomic_3",
-            Total_Customers: 19,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00146331951753241,
-            Rank: 95,
-            status: 'Pending'
-        },
-        {
-            id: 96,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub2_atomic_2",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0014294702190172,
-            Rank: 96,
-            status: 'Pending'
-        },
-        {
-            id: 97,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub2_atomic_4",
-            Total_Customers: 2,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00129124030439105,
-            Rank: 97,
-            status: 'Pending'
-        },
-        {
-            id: 98,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub2_atomic_1",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00127700155843285,
-            Rank: 98,
-            status: 'Pending'
-        },
-        {
-            id: 99,
-            Product: "Loan",
-            Recommended_campaign: "Discount Email",
-            Customer_segment: "Segment_1_Discount_sub5_atomic_3",
-            Total_Customers: 22,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00123155024533479,
-            Rank: 99,
-            status: 'Pending'
-        },
-        {
-            id: 100,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub2_atomic_3",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00118909354729915,
-            Rank: 100,
-            status: 'Pending'
-        },
-        {
-            id: 101,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub4_atomic_2",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00101984402190153,
-            Rank: 101,
-            status: 'Pending'
-        },
-        {
-            id: 102,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub4_atomic_1",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00101507398680098,
-            Rank: 102,
-            status: 'Pending'
-        },
-        {
-            id: 103,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub3_atomic_2",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0009390399290632,
-            Rank: 103,
-            status: 'Pending'
-        },
-        {
-            id: 104,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub4_atomic_4",
-            Total_Customers: 5,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00090967270639596,
-            Rank: 104,
-            status: 'Pending'
-        },
-        {
-            id: 105,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub4_atomic_3",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.000811312846526075,
-            Rank: 105,
-            status: 'Pending'
-        },
-        {
-            id: 106,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub4_atomic_5",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Current_statement_month",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00074811275484295,
-            Rank: 106,
-            status: 'Pending'
-        },
-        {
-            id: 107,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub3_atomic_4",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0007334271935699,
-            Rank: 107,
-            status: 'Pending'
-        },
-        {
-            id: 108,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub3_atomic_5",
-            Total_Customers: 1,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0007250769826736,
-            Rank: 108,
-            status: 'Pending'
-        },
-        {
-            id: 109,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub3_atomic_1",
-            Total_Customers: 3,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.000656778395210266,
-            Rank: 109,
-            status: 'Pending'
-        },
-        {
-            id: 110,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub3_atomic_3",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0006044830984793,
-            Rank: 110,
-            status: 'Pending'
-        },
-        {
-            id: 111,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub4_atomic_2",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0002974393549958,
-            Rank: 111,
-            status: 'Pending'
-        },
-        {
-            id: 112,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub4_atomic_5",
-            Total_Customers: 1,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.0002738614895939,
-            Rank: 112,
-            status: 'Pending'
-        },
-        {
-            id: 113,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub5_atomic_1",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.00026206703739614,
-            Rank: 113,
-            status: 'Pending'
-        },
-        {
-            id: 114,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub4_atomic_3",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.0002609344791672,
-            Rank: 114,
-            status: 'Pending'
-        },
-        {
-            id: 115,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub4_atomic_1",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Payment_frequency",
-            Effect: 0.00023797401266285,
-            Rank: 115,
-            status: 'Pending'
-        },
-        {
-            id: 116,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub5_atomic_2",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.000237395349148,
-            Rank: 116,
-            status: 'Pending'
-        },
-        {
-            id: 117,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub4_atomic_4",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: 0.00015115382972575,
-            Rank: 117,
-            status: 'Pending'
-        },
-        {
-            id: 118,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub5_atomic_1",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: 0.000100368484493654,
-            Rank: 118,
-            status: 'Pending'
-        },
-        {
-            id: 119,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub5_atomic_5",
-            Total_Customers: 4,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: -3.796648389415E-05,
-            Rank: 119,
-            status: 'Pending'
-        },
-        {
-            id: 120,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub5_atomic_3",
-            Total_Customers: 5,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: -4.32828316114E-05,
-            Rank: 120,
-            status: 'Pending'
-        },
-        {
-            id: 121,
-            Product: "Loan",
-            Recommended_campaign: "Phone call",
-            Customer_segment: "Segment_1_Phone_sub5_atomic_4",
-            Total_Customers: 4,
-            Positive_impacted_feature: "payment_value",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: -4.514300052675E-05,
-            Rank: 121,
-            status: 'Pending'
-        },
-        {
-            id: 122,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub5_atomic_5",
-            Total_Customers: 1,
-            Positive_impacted_feature: "min_Month_payment",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: -5.35212731923801E-05,
-            Rank: 122,
-            status: 'Pending'
-        },
-        {
-            id: 123,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub5_atomic_2",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: -8.13619380066999E-05,
-            Rank: 123,
-            status: 'Pending'
-        },
-        {
-            id: 124,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub5_atomic_4",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Early_buy_out",
-            Negative_impacted_feature: "Interest_rate",
-            Effect: -0.0002277389825132,
-            Rank: 124,
-            status: 'Pending'
-        },
-        {
-            id: 125,
-            Product: "Loan",
-            Recommended_campaign: "Push Notification",
-            Customer_segment: "Segment_1_PN_sub5_atomic_3",
-            Total_Customers: 2,
-            Positive_impacted_feature: "Interest_rate",
-            Negative_impacted_feature: "Early_buy_out",
-            Effect: -0.0007953750715354,
-            Rank: 125,
-            status: 'Pending'
-        }
+        // {
+        //     id: 31,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub2_atomic_3",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "min_Month_payment",
+        //     Effect: 0.00752080248431806,
+        //     Rank: 31,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 32,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub2_atomic_4",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "min_Month_payment",
+        //     Effect: 0.00748121674468297,
+        //     Rank: 32,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 33,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub2_atomic_1",
+        //     Total_Customers: 20,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00744847939908577,
+        //     Rank: 33,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 34,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub2_atomic_2",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "min_Month_payment",
+        //     Effect: 0.0074134755815942,
+        //     Rank: 34,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 35,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub2_atomic_5",
+        //     Total_Customers: 18,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0071596898716402,
+        //     Rank: 35,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 36,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub2_atomic_2",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00636199290784842,
+        //     Rank: 36,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 37,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub2_atomic_1",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00623318793423739,
+        //     Rank: 37,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 38,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub2_atomic_3",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0061424941124294,
+        //     Rank: 38,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 39,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub2_atomic_4",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00610082251358793,
+        //     Rank: 39,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 40,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub2_atomic_5",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00604551999815959,
+        //     Rank: 40,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 41,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub3_atomic_1",
+        //     Total_Customers: 20,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00551014368148164,
+        //     Rank: 41,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 42,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub3_atomic_4",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00547385004571971,
+        //     Rank: 42,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 43,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub3_atomic_3",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00532887065373396,
+        //     Rank: 43,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 44,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub3_atomic_5",
+        //     Total_Customers: 18,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00530894598491077,
+        //     Rank: 44,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 45,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub3_atomic_2",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00530752495351636,
+        //     Rank: 45,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 46,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub3_atomic_1",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00469304152636236,
+        //     Rank: 46,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 47,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub3_atomic_3",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0046630449734909,
+        //     Rank: 47,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 48,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Loyalty",
+        //     Customer_segment: "Segment_1_Loyalty_sub5_atomic_2",
+        //     Total_Customers: 25,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0046144838929711,
+        //     Rank: 48,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 49,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Loyalty",
+        //     Customer_segment: "Segment_1_Loyalty_sub5_atomic_3",
+        //     Total_Customers: 25,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00461271973456826,
+        //     Rank: 49,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 50,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub3_atomic_2",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00453835336886533,
+        //     Rank: 50,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 51,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub3_atomic_5",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "payment_value",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00453004920615997,
+        //     Rank: 51,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 52,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Loyalty",
+        //     Customer_segment: "Segment_1_Loyalty_sub5_atomic_1",
+        //     Total_Customers: 26,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0044323264314596,
+        //     Rank: 52,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 53,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub3_atomic_4",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00439440239154582,
+        //     Rank: 53,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 54,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Loyalty",
+        //     Customer_segment: "Segment_1_Loyalty_sub5_atomic_5",
+        //     Total_Customers: 24,
+        //     Positive_impacted_feature: "Current_statement_month",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00438580183988544,
+        //     Rank: 54,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 55,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub1_atomic_2",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00435682254862516,
+        //     Rank: 55,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 56,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub1_atomic_3",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00429305863688937,
+        //     Rank: 56,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 57,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub1_atomic_5",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Current_statement_month",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00427351426689632,
+        //     Rank: 57,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 58,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub1_atomic_1",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00410229526908928,
+        //     Rank: 58,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 59,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub4_atomic_1",
+        //     Total_Customers: 20,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00395321761676699,
+        //     Rank: 59,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 60,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub4_atomic_2",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00390307728976517,
+        //     Rank: 60,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 61,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub4_atomic_3",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00380063384513807,
+        //     Rank: 61,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 62,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Loyalty",
+        //     Customer_segment: "Segment_1_Loyalty_sub5_atomic_4",
+        //     Total_Customers: 25,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00379831999511299,
+        //     Rank: 62,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 63,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub1_atomic_4",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "payment_value",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00374297638485864,
+        //     Rank: 63,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 64,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub4_atomic_5",
+        //     Total_Customers: 18,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00369729728594205,
+        //     Rank: 64,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 65,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub4_atomic_4",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00357951887563885,
+        //     Rank: 65,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 66,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub4_atomic_5",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00326266681304883,
+        //     Rank: 66,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 67,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub4_atomic_4",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00323188895202353,
+        //     Rank: 67,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 68,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub4_atomic_1",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00321897092428327,
+        //     Rank: 68,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 69,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub4_atomic_3",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00305778975959964,
+        //     Rank: 69,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 70,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub4_atomic_2",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00305659807848313,
+        //     Rank: 70,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 71,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub2_atomic_4",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "payment_value",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00243983788728066,
+        //     Rank: 71,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 72,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub2_atomic_1",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0023673134036461,
+        //     Rank: 72,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 73,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub2_atomic_5",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00234390018287175,
+        //     Rank: 73,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 74,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub1_atomic_2",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00220459123384589,
+        //     Rank: 74,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 75,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub2_atomic_2",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00218982531390558,
+        //     Rank: 75,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 76,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub2_atomic_3",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00213698842409292,
+        //     Rank: 76,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 77,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub1_atomic_4",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0020578588040471,
+        //     Rank: 77,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 78,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub5_atomic_4",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00196236510561629,
+        //     Rank: 78,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 79,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub5_atomic_2",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00193554116905157,
+        //     Rank: 79,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 80,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub5_atomic_1",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0019176001951642,
+        //     Rank: 80,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 81,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub5_atomic_5",
+        //     Total_Customers: 18,
+        //     Positive_impacted_feature: "Tenure",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00185044409229053,
+        //     Rank: 81,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 82,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub5_atomic_4",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00183379353475296,
+        //     Rank: 82,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 83,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub1_atomic_1",
+        //     Total_Customers: 3,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00177298953010093,
+        //     Rank: 83,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 84,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub1_atomic_5",
+        //     Total_Customers: 1,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0017289174143772,
+        //     Rank: 84,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 85,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub3_atomic_5",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00163363757122627,
+        //     Rank: 85,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 86,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub3_atomic_2",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00162331149701894,
+        //     Rank: 86,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 87,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub1_atomic_3",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00161745627333514,
+        //     Rank: 87,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 88,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub5_atomic_5",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00160061209587203,
+        //     Rank: 88,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 89,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub3_atomic_3",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0015868716908622,
+        //     Rank: 89,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 90,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub3_atomic_1",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0015565499461748,
+        //     Rank: 90,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 91,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub5_atomic_2",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00152361202479123,
+        //     Rank: 91,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 92,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub3_atomic_4",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0015088333453196,
+        //     Rank: 92,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 93,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub2_atomic_5",
+        //     Total_Customers: 1,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0014794878830031,
+        //     Rank: 93,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 94,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub5_atomic_1",
+        //     Total_Customers: 23,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00147520369670541,
+        //     Rank: 94,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 95,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Promotional Email",
+        //     Customer_segment: "Segment_1_Promo_sub5_atomic_3",
+        //     Total_Customers: 19,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00146331951753241,
+        //     Rank: 95,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 96,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub2_atomic_2",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0014294702190172,
+        //     Rank: 96,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 97,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub2_atomic_4",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00129124030439105,
+        //     Rank: 97,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 98,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub2_atomic_1",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00127700155843285,
+        //     Rank: 98,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 99,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Discount Email",
+        //     Customer_segment: "Segment_1_Discount_sub5_atomic_3",
+        //     Total_Customers: 22,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00123155024533479,
+        //     Rank: 99,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 100,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub2_atomic_3",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00118909354729915,
+        //     Rank: 100,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 101,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub4_atomic_2",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00101984402190153,
+        //     Rank: 101,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 102,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub4_atomic_1",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00101507398680098,
+        //     Rank: 102,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 103,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub3_atomic_2",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0009390399290632,
+        //     Rank: 103,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 104,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub4_atomic_4",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00090967270639596,
+        //     Rank: 104,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 105,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub4_atomic_3",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.000811312846526075,
+        //     Rank: 105,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 106,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub4_atomic_5",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Current_statement_month",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00074811275484295,
+        //     Rank: 106,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 107,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub3_atomic_4",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0007334271935699,
+        //     Rank: 107,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 108,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub3_atomic_5",
+        //     Total_Customers: 1,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0007250769826736,
+        //     Rank: 108,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 109,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub3_atomic_1",
+        //     Total_Customers: 3,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.000656778395210266,
+        //     Rank: 109,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 110,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub3_atomic_3",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0006044830984793,
+        //     Rank: 110,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 111,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub4_atomic_2",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0002974393549958,
+        //     Rank: 111,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 112,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub4_atomic_5",
+        //     Total_Customers: 1,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.0002738614895939,
+        //     Rank: 112,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 113,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub5_atomic_1",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.00026206703739614,
+        //     Rank: 113,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 114,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub4_atomic_3",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.0002609344791672,
+        //     Rank: 114,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 115,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub4_atomic_1",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Payment_frequency",
+        //     Effect: 0.00023797401266285,
+        //     Rank: 115,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 116,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub5_atomic_2",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.000237395349148,
+        //     Rank: 116,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 117,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub4_atomic_4",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: 0.00015115382972575,
+        //     Rank: 117,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 118,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub5_atomic_1",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: 0.000100368484493654,
+        //     Rank: 118,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 119,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub5_atomic_5",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: -3.796648389415E-05,
+        //     Rank: 119,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 120,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub5_atomic_3",
+        //     Total_Customers: 5,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: -4.32828316114E-05,
+        //     Rank: 120,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 121,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Phone call",
+        //     Customer_segment: "Segment_1_Phone_sub5_atomic_4",
+        //     Total_Customers: 4,
+        //     Positive_impacted_feature: "payment_value",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: -4.514300052675E-05,
+        //     Rank: 121,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 122,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub5_atomic_5",
+        //     Total_Customers: 1,
+        //     Positive_impacted_feature: "min_Month_payment",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: -5.35212731923801E-05,
+        //     Rank: 122,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 123,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub5_atomic_2",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: -8.13619380066999E-05,
+        //     Rank: 123,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 124,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub5_atomic_4",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Early_buy_out",
+        //     Negative_impacted_feature: "Interest_rate",
+        //     Effect: -0.0002277389825132,
+        //     Rank: 124,
+        //     status: 'Pending'
+        // },
+        // {
+        //     id: 125,
+        //     Product: "Loan",
+        //     Recommended_campaign: "Push Notification",
+        //     Customer_segment: "Segment_1_PN_sub5_atomic_3",
+        //     Total_Customers: 2,
+        //     Positive_impacted_feature: "Interest_rate",
+        //     Negative_impacted_feature: "Early_buy_out",
+        //     Effect: -0.0007953750715354,
+        //     Rank: 125,
+        //     status: 'Pending'
+        // }
     ]);
 
 
@@ -1544,6 +1547,8 @@ const AdminProduct = () => {
         setItems(allItems)
     }
 
+
+    // CreditTableData
 
     const [creditItems, setCreditItems] = useState([
         {
@@ -3061,7 +3066,7 @@ const AdminProduct = () => {
             }
             return item
         })
-        setItems(allItems)
+        setCreditItems(allItems)
     }
 
 
@@ -3069,6 +3074,7 @@ const AdminProduct = () => {
     // Tab01-Line-Chart
     const [AdminProductLineChartTabo1] = useState({
         options: {
+
             scales: {
                 xAxes: [{
                     gridLines: {
@@ -3235,87 +3241,99 @@ const AdminProduct = () => {
 
 
     return (
+        <>
+            <h3 className="head">Admin - Product performance analysis</h3>
+            <Tabs>
+                <TabList>
+                    <Tab>Loan</Tab>
+                    <Tab>Credit Card</Tab>
+                </TabList>
 
-        <Tabs>
-            <TabList>
-                <Tab>Loan</Tab>
-                <Tab>Credit Card</Tab>
-            </TabList>
+                <TabPanel>
+                    <div className='admin-campaign'>
+                        <div className='admin-campaign-head'>
+                            <h3>Loan</h3>
 
-            <TabPanel>
-                <div className='admin-campaign'>
-                    <div className='admin-campaign-head'>
-                        <h3>Loan</h3>
-
-                        <div className='admin-campaign-head-right'>
-                            <h6>Total Sales of particular: <span>320L</span></h6>
-                        </div>
-
-                    </div>
-
-
-                    <div>
-                        <div className="chart-flex">
-                            <div className='white-bg width-49'>
-                                <AdminProductChart chartData={adminProductBarChartTab01} />
+                            <div className='admin-campaign-head-right'>
+                                <h6>Total Loans Availed: <span>320L</span></h6>
                             </div>
 
-                            <div className='white-bg width-49'>
-                                <AdminProductChart chartData={AdminProductLineChartTabo1} />
-                            </div>
                         </div>
 
-                        <Loan01 items={items} setItems={setItems} updateStatus={updateStatus} />
-                        <Loan02 items={items} setItems={setItems} updateStatus={updateStatus} />
 
+                        <div>
+                            <div className="chart-flex">
+                                <div className="width-49">
+                                    <div className='white-bg head'>
+                                        <h3>Month wise count of loans availed</h3>
+                                        <AdminProductLineChartBase chartData={AdminProductLineChartTabo1} />
+                                    </div>
+                                </div>
 
-                        <div className="button-wrapper">
-                            <button className="button-style">Send Campaign</button>
-                        </div>
-                    </div>
-
-                </div>
-            </TabPanel>
-
-
-            <TabPanel>
-                <div className='admin-campaign'>
-                    <div className='admin-campaign-head'>
-                        <h3>Credit Card</h3>
-
-                        <div className='admin-campaign-head-right'>
-                            <h6>Total Credit Card Purchased: <span>3214</span></h6>
-                        </div>
-
-                    </div>
-
-
-                    <div>
-
-                        <div className="chart-flex">
-                            <div className='white-bg width-49'>
-                                <AdminProductChart chartData={adminProductBarChartTab02} />
+                                <div className="width-49">
+                                    <div className='white-bg head'>
+                                        <h3>Month wise campaign trends</h3>
+                                        <AdminProductBarChartBase chartData={adminProductBarChartTab01} />
+                                    </div>
+                                </div>
                             </div>
 
-                            <div className='white-bg width-49'>
-                                <AdminProductChart chartData={AdminProductLineChartTabo2} />
+                            <Loan01 items={items} setItems={setItems} updateStatus={updateStatus} />
+                            <Loan02 items={items} setItems={setItems} updateStatus={updateStatus} />
+
+
+                            <div className="button-wrapper">
+                                <button className="button-style">Send Campaign</button>
                             </div>
                         </div>
 
-                        <Credit01 creditItems={creditItems} setCreditItems={setCreditItems} updateCreditTable={updateCreditTable} />
-                        <Credit02 creditItems={creditItems} setCreditItems={setCreditItems} updateCreditTable={updateCreditTable} />
-
-                        <div className="button-wrapper">
-                            <button className="button-style">Send Campaign</button>
-                        </div>
                     </div>
-
-                </div>
-            </TabPanel>
-
-        </Tabs>
+                </TabPanel>
 
 
+                <TabPanel>
+                    <div className='admin-campaign'>
+                        <div className='admin-campaign-head'>
+                            <h3>Credit Card</h3>
+
+                            <div className='admin-campaign-head-right'>
+                                <h6>Total Credit Card Purchased: <span>3214</span></h6>
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <div className="chart-flex">
+                                <div className='width-49'>
+                                    <div className='white-bg head'>
+                                        <h3>Month wise count of credit card purchased</h3>
+                                        <AdminProductLineChartBaseCreditCard chartData={AdminProductLineChartTabo2} />
+                                    </div>
+                                </div>
+                                <div className='width-49'>
+                                    <div className='white-bg head'>
+                                        <h3>Month wise campaign trends</h3>
+                                        <AdminProductBarChartBase chartData={adminProductBarChartTab02} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <Credit01 creditItems={creditItems} setCreditItems={setCreditItems} updateCreditTable={updateCreditTable} />
+                            <Credit02 creditItems={creditItems} setCreditItems={setCreditItems} updateCreditTable={updateCreditTable} />
+
+                            <div className="button-wrapper">
+                                <button className="button-style">Send Campaign</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </TabPanel>
+
+            </Tabs>
+
+        </>
     )
 }
 

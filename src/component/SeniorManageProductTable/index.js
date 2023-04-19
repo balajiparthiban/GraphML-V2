@@ -5,8 +5,8 @@ const SeniorManageProductTable = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Product</th>
-                <th>Recommended Campaign</th>
+                <th>Next Best Product </th>
+                <th>Next Best Action </th>
                 <th>Customer Segment</th>
                 <th>Effect</th>
                 <th>Rank</th>

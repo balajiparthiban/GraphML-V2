@@ -5,8 +5,10 @@ const SMCampaignOverviewTable = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Campaign</th>
-                <th>Recommended Product</th>
+               
+                <th>Next Best Action </th>
+                <th>Next Best Product </th>
+                
                 <th>Effect</th>
                 <th>Customer Segment</th>
                 <th>Rank</th>

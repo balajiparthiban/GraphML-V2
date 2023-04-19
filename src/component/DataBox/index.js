@@ -38,101 +38,93 @@ const DataBox = () => {
     });
 
     return (
-        <ul className='data-box'>
+        <>
+            <ul className='data-box'>
 
-            <li className='green'>
-                <h3>Total Num. of Customesr</h3>
-                <div>
-                    <span><img src={img1} alt={img1} /></span>
-                    <div className='line light-g'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.Total_number_of_customers}</h2>
-                        })}
+                <li className='green'>
+                    <h3>Total No. of Customers</h3>
+                    <div>
+                        <span><img src={img1} alt={img1} /></span>
+                        <div className='line light-g'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{item.Total_number_of_customers}</h2>
+                            })}
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li className='blue'>
-                <h3>Total Num. of Product</h3>
-                <div>
-                    <span><img src={img2} alt={img2} /></span>
-                    <div className='line light-b'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.Total_number_of_Products}</h2>
-                        })}
+                </li>
+                <li className='blue'>
+                    <h3>Total No. of Products</h3>
+                    <div>
+                        <span><img src={img2} alt={img2} /></span>
+                        <div className='line light-b'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{item.Total_number_of_Products}</h2>
+                            })}
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li className='purple'>
-                <h3>Total Num. of Campaigns</h3>
-                <div>
-                    <span><img src={img3} alt={img3} /></span>
-                    <div className='line light-p'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{formatter.format(item.Total_number_of_campaigns)}</h2>
-                        })}
+                </li>
+                <li className='purple'>
+                    <h3>Total No. of Campaigns</h3>
+                    <div>
+                        <span><img src={img3} alt={img3} /></span>
+                        <div className='line light-p'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{formatter.format(item.Total_number_of_campaigns)}</h2>
+                            })}
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li className='orange'>
-                <h3>Total Sales</h3>
-                <div>
-                    <span><img src={img4} alt={img4} /></span>
-                    <div className='line light-o'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{formatter.format(item.Total_sales)}</h2>
-                        })}
+                </li>
+                <li className='orange'>
+                    <h3>Total Sales</h3>
+                    <div>
+                        <span><img src={img4} alt={img4} /></span>
+                        <div className='line light-o'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{formatter.format(item.Total_sales)}</h2>
+                            })}
+                        </div>
                     </div>
-                </div>
-            </li>
-
-
-            {/* Dummy */}
-            <li className='green'>
-                <h3>Most Effective Campaigns</h3>
-                <div>
-                    {/* <span><img src={img1} alt={img1} /></span> */}
-                    <div className='line light-g'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.Most_effective_campaign}</h2>
-                        })}
-                    </div>
-                </div>
-            </li>
-            <li className='blue'>
-                <h3>Most Effective Micro Segment</h3>
-                <div>
-                    {/* <span><img src={img2} alt={img2} /></span> */}
-                    <div className='line light-g'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.Most_effective_segment}</h2>
-                        })}
-                    </div>
-                </div>
-            </li>
-            <li className='purple'>
-                <h3>Effect Rate</h3>
-                <div>
-                    {/* <span><img src={img3} alt={img3} /></span> */}
-                    <div className='line light-g'>
-                        {Senior_manager_home_page_box_data.map((item, iDx) => {
-                            return <h2 className='flipX' key={iDx}>{item.Effect_rate}</h2>
-                        })}
-                    </div>
-                </div>
-            </li>
-
-            {/* <li className='orange'>
-                <h3>Avg. Customer ITV</h3>
-                <div>
-                    <span><img src={img4} alt={img4} /></span>
-            <div className='line light-o'>
-                <h2 className='flipX'>$150</h2>
-            </div>
-        </div>
-            </li > */}
+                </li>
+            </ul>
 
 
-        </ul>
+            <ul className="data-box grid-02">
+                <li className='green'>
+                    <h3>Most Effective Campaigns</h3>
+                    <div>
+                        {/* <span><img src={img1} alt={img1} /></span> */}
+                        <div className='line light-g'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{item.Most_effective_campaign}</h2>
+                            })}
+                        </div>
+                    </div>
+                </li>
+                <li className='blue'>
+                    <h3>Most Effective Micro Segment</h3>
+                    <div>
+                        {/* <span><img src={img2} alt={img2} /></span> */}
+                        <div className='line light-g'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{item.Most_effective_segment}</h2>
+                            })}
+                        </div>
+                    </div>
+                </li>
+                <li className='purple'>
+                    <h3>Effect Rate</h3>
+                    <div>
+                        {/* <span><img src={img3} alt={img3} /></span> */}
+                        <div className='line light-g'>
+                            {Senior_manager_home_page_box_data.map((item, iDx) => {
+                                return <h2 className='flipX' key={iDx}>{item.Effect_rate} %</h2>
+                            })}
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </>
     );
 }
 

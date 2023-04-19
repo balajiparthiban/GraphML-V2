@@ -1,0 +1,45 @@
+
+export const SMDistributionBarChart = [
+    {
+        "Campaign": "Discount",
+        "Seg_Discount": 10551,
+        "Seg_loyalty": 2970,
+        "Seg_Promotional_mail": 8332,
+        "Seg_Phone_call": 22259,
+        "Seg_Push_notification": 51050
+    },
+    {
+        "Campaign": "loyalty",
+        "Seg_Discount": 15889,
+        "Seg_loyalty": 4269,
+        "Seg_Promotional_mail": 13009,
+        "Seg_Phone_call": 37868,
+        "Seg_Push_notification": 71905
+    },
+    {
+        "Campaign": "Promotional_mail",
+        "Seg_Discount": 10291,
+        "Seg_loyalty": 2498,
+        "Seg_Promotional_mail": 6365,
+        "Seg_Phone_call": 24389,
+        "Seg_Push_notification": 38773
+    },
+    {
+        "Campaign": "Phone_call",
+        "Seg_Discount": 2241,
+        "Seg_loyalty": 799,
+        "Seg_Promotional_mail": 1745,
+        "Seg_Phone_call": 7802,
+        "Seg_Push_notification": 13782
+    },
+    {
+        "Campaign": "Push_notification",
+        "Seg_Discount": 1830,
+        "Seg_loyalty": 424,
+        "Seg_Promotional_mail": 764,
+        "Seg_Phone_call": 4586,
+        "Seg_Push_notification": 4606
+    }
+]
+
+
