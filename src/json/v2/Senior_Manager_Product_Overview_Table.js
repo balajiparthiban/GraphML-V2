@@ -11,7 +11,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_1",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub3_atomic_1",
         "Column4": 0.0393992311637383,
         "Column5": 2
     },
@@ -25,7 +25,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_2",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub3_atomic_2",
         "Column4": 0.0343204456941222,
         "Column5": 4
     },
@@ -39,7 +39,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_3",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub3_atomic_3",
         "Column4": 0.034100270515169,
         "Column5": 6
     },
@@ -53,7 +53,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_4",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub3_atomic_4",
         "Column4": 0.032185145895156,
         "Column5": 8
     },
@@ -67,7 +67,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_5",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub3_atomic_5",
         "Column4": 0.031864245280666,
         "Column5": 10
     },
@@ -81,7 +81,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_1",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub4_atomic_1",
         "Column4": 0.0214450466339176,
         "Column5": 12
     },
@@ -95,7 +95,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_2",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub4_atomic_2",
         "Column4": 0.0207425803140654,
         "Column5": 14
     },
@@ -109,7 +109,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_3",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub4_atomic_3",
         "Column4": 0.0207233916855124,
         "Column5": 16
     },
@@ -123,7 +123,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_4",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub4_atomic_4",
         "Column4": 0.0205425008423863,
         "Column5": 18
     },
@@ -137,7 +137,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_5",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub4_atomic_5",
         "Column4": 0.0202762753768374,
         "Column5": 20
     },
@@ -151,7 +151,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_1",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub5_atomic_1",
         "Column4": 0.014872941932014,
         "Column5": 22
     },
@@ -165,7 +165,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_2",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub5_atomic_2",
         "Column4": 0.0147574464118162,
         "Column5": 24
     },
@@ -179,7 +179,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Promotional Email",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_3",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub5_atomic_3",
         "Column4": 0.0146807216040809,
         "Column5": 26
     },
@@ -193,7 +193,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Loyalty",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_4",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub5_atomic_4",
         "Column4": 0.0145679649413975,
         "Column5": 28
     },
@@ -207,7 +207,7 @@ export const OverviewTable = [
     {
         "Product": "Credit Card",
         "Recommended_campaign": "Promotional Email",
-        "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_5",
+        "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub5_atomic_5",
         "Column4": 0.0145571863518987,
         "Column5": 30
     },
@@ -221,7 +221,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub2_atomic_1",
     //     "Column4": 0.0142886691005615,
     //     "Column5": 32
     // },
@@ -235,7 +235,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub2_atomic_2",
     //     "Column4": 0.0142770238569058,
     //     "Column5": 34
     // },
@@ -249,7 +249,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub2_atomic_3",
     //     "Column4": 0.0142664182190323,
     //     "Column5": 36
     // },
@@ -263,7 +263,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub2_atomic_4",
     //     "Column4": 0.0136928950778866,
     //     "Column5": 38
     // },
@@ -277,7 +277,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub2_atomic_5",
     //     "Column4": 0.0131301067628151,
     //     "Column5": 40
     // },
@@ -291,7 +291,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub1_atomic_1",
     //     "Column4": 0.0121976150862778,
     //     "Column5": 42
     // },
@@ -305,7 +305,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub1_atomic_2",
     //     "Column4": 0.0119511819713499,
     //     "Column5": 44
     // },
@@ -319,7 +319,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub1_atomic_3",
     //     "Column4": 0.0116309960452891,
     //     "Column5": 46
     // },
@@ -333,7 +333,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub1_atomic_4",
     //     "Column4": 0.0114591963798432,
     //     "Column5": 48
     // },
@@ -347,7 +347,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Loyalty_sub1_atomic_5",
     //     "Column4": 0.0113804576627438,
     //     "Column5": 50
     // },
@@ -361,7 +361,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub3_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub3_atomic_1",
     //     "Column4": 0.010086463510758,
     //     "Column5": 52
     // },
@@ -375,7 +375,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub3_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub3_atomic_2",
     //     "Column4": 0.0099607719987572,
     //     "Column5": 54
     // },
@@ -389,7 +389,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub3_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub3_atomic_3",
     //     "Column4": 0.0099040087921049,
     //     "Column5": 56
     // },
@@ -403,7 +403,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub3_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub3_atomic_4",
     //     "Column4": 0.0097922853614153,
     //     "Column5": 58
     // },
@@ -417,7 +417,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub3_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub3_atomic_5",
     //     "Column4": 0.009714724482114,
     //     "Column5": 60
     // },
@@ -431,7 +431,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub2_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub2_atomic_1",
     //     "Column4": 0.0093738372174559,
     //     "Column5": 62
     // },
@@ -445,7 +445,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub2_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub2_atomic_2",
     //     "Column4": 0.0092884216107099,
     //     "Column5": 64
     // },
@@ -459,7 +459,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub2_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub2_atomic_3",
     //     "Column4": 0.0088019495191757,
     //     "Column5": 66
     // },
@@ -473,7 +473,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub2_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub2_atomic_4",
     //     "Column4": 0.0087546066556874,
     //     "Column5": 68
     // },
@@ -487,7 +487,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub2_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub2_atomic_5",
     //     "Column4": 0.008555815763817,
     //     "Column5": 70
     // },
@@ -501,7 +501,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub4_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub4_atomic_1",
     //     "Column4": 0.0084106881430099,
     //     "Column5": 72
     // },
@@ -515,7 +515,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub4_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub4_atomic_2",
     //     "Column4": 0.0082823359000175,
     //     "Column5": 74
     // },
@@ -529,7 +529,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub4_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub4_atomic_3",
     //     "Column4": 0.0081744668527132,
     //     "Column5": 76
     // },
@@ -543,7 +543,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub4_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub4_atomic_4",
     //     "Column4": 0.0081213926050184,
     //     "Column5": 78
     // },
@@ -557,7 +557,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub4_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub4_atomic_5",
     //     "Column4": 0.0079202055105888,
     //     "Column5": 80
     // },
@@ -571,7 +571,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub5_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub5_atomic_1",
     //     "Column4": 0.0065920754014555,
     //     "Column5": 82
     // },
@@ -585,7 +585,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub5_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub5_atomic_2",
     //     "Column4": 0.0065265680938794,
     //     "Column5": 84
     // },
@@ -599,7 +599,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub5_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub5_atomic_3",
     //     "Column4": 0.0063304072427659,
     //     "Column5": 86
     // },
@@ -613,7 +613,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub5_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub5_atomic_4",
     //     "Column4": 0.0063067593167196,
     //     "Column5": 88
     // },
@@ -627,7 +627,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub5_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub5_atomic_5",
     //     "Column4": 0.0062864215866818,
     //     "Column5": 90
     // },
@@ -641,7 +641,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub1_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub1_atomic_1",
     //     "Column4": 0.0062133358843903,
     //     "Column5": 92
     // },
@@ -655,7 +655,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub1_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub1_atomic_2",
     //     "Column4": 0.0061960997384891,
     //     "Column5": 94
     // },
@@ -669,7 +669,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub1_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub1_atomic_3",
     //     "Column4": 0.0060826116798315,
     //     "Column5": 96
     // },
@@ -683,7 +683,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub1_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub1_atomic_4",
     //     "Column4": 0.0060392969069834,
     //     "Column5": 98
     // },
@@ -697,7 +697,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Phone_sub1_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Phone_sub1_atomic_5",
     //     "Column4": 0.0060286207065512,
     //     "Column5": 100
     // },
@@ -711,7 +711,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub1_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub1_atomic_1",
     //     "Column4": 0.0051463932660718,
     //     "Column5": 102
     // },
@@ -725,7 +725,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub1_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub1_atomic_2",
     //     "Column4": 0.0049561369858779,
     //     "Column5": 104
     // },
@@ -739,7 +739,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub1_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub1_atomic_3",
     //     "Column4": 0.0046185296368395,
     //     "Column5": 106
     // },
@@ -753,7 +753,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub1_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub1_atomic_4",
     //     "Column4": 0.0045629668281902,
     //     "Column5": 108
     // },
@@ -767,7 +767,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub1_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub1_atomic_5",
     //     "Column4": 0.0045051371931875,
     //     "Column5": 110
     // },
@@ -781,7 +781,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub5_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub5_atomic_1",
     //     "Column4": 0.0044567495003948,
     //     "Column5": 112
     // },
@@ -795,7 +795,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub5_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub5_atomic_2",
     //     "Column4": 0.0044027045329138,
     //     "Column5": 114
     // },
@@ -809,7 +809,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub5_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub5_atomic_3",
     //     "Column4": 0.0043967387102443,
     //     "Column5": 116
     // },
@@ -823,7 +823,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Loyalty",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub5_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub5_atomic_4",
     //     "Column4": 0.0043529165821906,
     //     "Column5": 118
     // },
@@ -837,7 +837,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub5_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub5_atomic_5",
     //     "Column4": 0.004336811167206,
     //     "Column5": 120
     // },
@@ -851,7 +851,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub3_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub3_atomic_1",
     //     "Column4": 0.0043147695389214,
     //     "Column5": 122
     // },
@@ -865,7 +865,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub3_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub3_atomic_2",
     //     "Column4": 0.0042848533196513,
     //     "Column5": 124
     // },
@@ -879,7 +879,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub3_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub3_atomic_3",
     //     "Column4": 0.0042687432496499,
     //     "Column5": 126
     // },
@@ -893,7 +893,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub3_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub3_atomic_4",
     //     "Column4": 0.0042545227420972,
     //     "Column5": 128
     // },
@@ -907,7 +907,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub3_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub3_atomic_5",
     //     "Column4": 0.0042413514728177,
     //     "Column5": 130
     // },
@@ -921,7 +921,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub4_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub4_atomic_1",
     //     "Column4": 0.0041082695162016,
     //     "Column5": 132
     // },
@@ -935,7 +935,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub4_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub4_atomic_2",
     //     "Column4": 0.003978501930755,
     //     "Column5": 134
     // },
@@ -949,7 +949,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub4_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub4_atomic_3",
     //     "Column4": 0.0039546725832444,
     //     "Column5": 136
     // },
@@ -963,7 +963,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub4_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub4_atomic_4",
     //     "Column4": 0.00391499541418,
     //     "Column5": 138
     // },
@@ -977,7 +977,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub4_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub4_atomic_5",
     //     "Column4": 0.0036361701390377,
     //     "Column5": 140
     // },
@@ -991,7 +991,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub2_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub2_atomic_1",
     //     "Column4": 0.0029964542284429,
     //     "Column5": 142
     // },
@@ -1005,7 +1005,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub2_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub2_atomic_2",
     //     "Column4": 0.0028335021409164,
     //     "Column5": 144
     // },
@@ -1019,7 +1019,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub2_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub2_atomic_3",
     //     "Column4": 0.0028276030052765,
     //     "Column5": 146
     // },
@@ -1033,7 +1033,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub2_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub2_atomic_4",
     //     "Column4": 0.0027885987683338,
     //     "Column5": 148
     // },
@@ -1047,7 +1047,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Promo_sub2_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Promo_sub2_atomic_5",
     //     "Column4": 0.0027607333380747,
     //     "Column5": 150
     // },
@@ -1061,7 +1061,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub1_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub1_atomic_1",
     //     "Column4": 0.0023941463384217,
     //     "Column5": 152
     // },
@@ -1075,7 +1075,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub1_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub1_atomic_2",
     //     "Column4": 0.0022922834469781,
     //     "Column5": 154
     // },
@@ -1089,7 +1089,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub1_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub1_atomic_3",
     //     "Column4": 0.0021923158534538,
     //     "Column5": 156
     // },
@@ -1103,7 +1103,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub1_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub1_atomic_4",
     //     "Column4": 0.0021657418052818,
     //     "Column5": 158
     // },
@@ -1117,7 +1117,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub1_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub1_atomic_5",
     //     "Column4": 0.0021452688986415,
     //     "Column5": 160
     // },
@@ -1131,7 +1131,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub3_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub3_atomic_1",
     //     "Column4": 0.0021051732789246,
     //     "Column5": 162
     // },
@@ -1145,7 +1145,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub3_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub3_atomic_2",
     //     "Column4": 0.0020888699570535,
     //     "Column5": 164
     // },
@@ -1159,14 +1159,14 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Promotional Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub3_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub3_atomic_3",
     //     "Column4": 0.0020462164384981,
     //     "Column5": 166
     // },
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub3_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub3_atomic_4",
     //     "Column4": 0.0020321290757141,
     //     "Column5": 167
     // },
@@ -1187,7 +1187,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub3_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub3_atomic_5",
     //     "Column4": 0.0020104743619745,
     //     "Column5": 170
     // },
@@ -1201,7 +1201,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub4_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub4_atomic_1",
     //     "Column4": 0.0019510281091397,
     //     "Column5": 172
     // },
@@ -1215,7 +1215,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub4_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub4_atomic_2",
     //     "Column4": 0.0019081629281566,
     //     "Column5": 174
     // },
@@ -1229,7 +1229,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub4_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub4_atomic_3",
     //     "Column4": 0.0018981220061789,
     //     "Column5": 176
     // },
@@ -1243,7 +1243,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub4_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub4_atomic_4",
     //     "Column4": 0.0017996021672288,
     //     "Column5": 178
     // },
@@ -1257,7 +1257,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub4_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub4_atomic_5",
     //     "Column4": 0.0017555803569213,
     //     "Column5": 180
     // },
@@ -1271,7 +1271,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Discount Email",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub5_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub5_atomic_1",
     //     "Column4": 0.0017270039223033,
     //     "Column5": 182
     // },
@@ -1285,7 +1285,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub5_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub5_atomic_2",
     //     "Column4": 0.0016400409343383,
     //     "Column5": 184
     // },
@@ -1299,7 +1299,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub5_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub5_atomic_3",
     //     "Column4": 0.0016125442120227,
     //     "Column5": 186
     // },
@@ -1313,7 +1313,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub5_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub5_atomic_4",
     //     "Column4": 0.0015734971360851,
     //     "Column5": 188
     // },
@@ -1327,7 +1327,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub5_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub5_atomic_5",
     //     "Column4": 0.0015079561189418,
     //     "Column5": 190
     // },
@@ -1341,7 +1341,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub2_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub2_atomic_1",
     //     "Column4": 0.0013960610973604,
     //     "Column5": 192
     // },
@@ -1355,7 +1355,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub2_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub2_atomic_2",
     //     "Column4": 0.0013291507995174,
     //     "Column5": 194
     // },
@@ -1369,7 +1369,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub2_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub2_atomic_3",
     //     "Column4": 0.0012804103293848,
     //     "Column5": 196
     // },
@@ -1383,7 +1383,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub2_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub2_atomic_4",
     //     "Column4": 0.0012756687954697,
     //     "Column5": 198
     // },
@@ -1397,7 +1397,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_PN_sub2_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_PN_sub2_atomic_5",
     //     "Column4": 0.0012635352406268,
     //     "Column5": 200
     // },
@@ -1411,7 +1411,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub3_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub3_atomic_1",
     //     "Column4": 0.0012584036458843,
     //     "Column5": 202
     // },
@@ -1425,7 +1425,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub3_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub3_atomic_2",
     //     "Column4": 0.0011633935874503,
     //     "Column5": 204
     // },
@@ -1439,7 +1439,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub3_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub3_atomic_3",
     //     "Column4": 0.0010893515353354,
     //     "Column5": 206
     // },
@@ -1453,7 +1453,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub3_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub3_atomic_4",
     //     "Column4": 0.0010650322848294,
     //     "Column5": 208
     // },
@@ -1467,14 +1467,14 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub3_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub3_atomic_5",
     //     "Column4": 0.0009757375192926,
     //     "Column5": 210
     // },
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub5_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub5_atomic_1",
     //     "Column4": 0.0007764156677636,
     //     "Column5": 211
     // },
@@ -1495,7 +1495,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub5_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub5_atomic_2",
     //     "Column4": 0.0007360745826779,
     //     "Column5": 214
     // },
@@ -1509,7 +1509,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub5_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub5_atomic_3",
     //     "Column4": 0.0006974629560239,
     //     "Column5": 216
     // },
@@ -1523,14 +1523,14 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub5_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub5_atomic_4",
     //     "Column4": 0.0006856818569629,
     //     "Column5": 218
     // },
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub5_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub5_atomic_5",
     //     "Column4": 0.0005938413013285,
     //     "Column5": 219
     // },
@@ -1551,7 +1551,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub2_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub2_atomic_1",
     //     "Column4": 0.0005797137536124,
     //     "Column5": 222
     // },
@@ -1565,7 +1565,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub2_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub2_atomic_2",
     //     "Column4": 0.0003808257100281,
     //     "Column5": 224
     // },
@@ -1579,7 +1579,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub2_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub2_atomic_3",
     //     "Column4": 0.0003792633121773,
     //     "Column5": 226
     // },
@@ -1593,7 +1593,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub2_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub2_atomic_4",
     //     "Column4": 0.0003741108535811,
     //     "Column5": 228
     // },
@@ -1607,7 +1607,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub2_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub2_atomic_5",
     //     "Column4": 0.0003236512126833,
     //     "Column5": 230
     // },
@@ -1621,7 +1621,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub4_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub4_atomic_1",
     //     "Column4": 0.0003229419559505,
     //     "Column5": 232
     // },
@@ -1635,7 +1635,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub4_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub4_atomic_2",
     //     "Column4": 0.0002895938903765,
     //     "Column5": 234
     // },
@@ -1649,7 +1649,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub4_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub4_atomic_3",
     //     "Column4": 0.0002237880496039,
     //     "Column5": 236
     // },
@@ -1663,14 +1663,14 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub4_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub4_atomic_4",
     //     "Column4": 0.0001874153016267,
     //     "Column5": 238
     // },
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub4_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub4_atomic_5",
     //     "Column4": 9.30114286665839E-05,
     //     "Column5": 239
     // },
@@ -1684,7 +1684,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Phone call",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub1_atomic_1",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub1_atomic_1",
     //     "Column4": 3.12449134035723E-05,
     //     "Column5": 241
     // },
@@ -1698,7 +1698,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub1_atomic_2",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub1_atomic_2",
     //     "Column4": -0.0002607071950363,
     //     "Column5": 243
     // },
@@ -1712,7 +1712,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub1_atomic_3",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub1_atomic_3",
     //     "Column4": -0.0003674247606455,
     //     "Column5": 245
     // },
@@ -1726,7 +1726,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub1_atomic_4",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub1_atomic_4",
     //     "Column4": -0.000421203199082,
     //     "Column5": 247
     // },
@@ -1740,7 +1740,7 @@ export const OverviewTable = [
     // {
     //     "Product": "Credit Card",
     //     "Recommended_campaign": "Push Notification",
-    //     "Customer_Segment": "Credit_Loan_Segment_1_Discount_sub1_atomic_5",
+    //     "Customer_Segment": "Credit _Card_Segment_1_Discount_sub1_atomic_5",
     //     "Column4": -0.0004216724299242,
     //     "Column5": 249
     // },

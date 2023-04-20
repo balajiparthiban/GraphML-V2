@@ -9,7 +9,7 @@ const SeniorManageProductTable = () => {
                 <th>Next Best Action </th>
                 <th>Customer Segment</th>
                 <th>Effect</th>
-                <th>Rank</th>
+                <th>Priority</th>
             </thead>
             <tbody>
                 {OverviewTable && OverviewTable.map((item, val) => (
@@ -18,7 +18,9 @@ const SeniorManageProductTable = () => {
                         <td>{item.Product}</td>
                         <td>{item.Recommended_campaign}</td>
                         <td>{item.Customer_Segment}</td>
-                        <td>{item.Column4}</td>
+                        {/* <td>{item.Column4} % </td> */}
+                        <td>{parseFloat(item.Column4*100).toFixed(2)} % </td>
+                        {/* <td>{parseFloat(item.Column4*100).toFixed(2)} </td> */}
                         <td>{item.Column5}</td>
                     </tr>
                 ))}

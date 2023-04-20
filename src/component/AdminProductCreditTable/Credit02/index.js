@@ -22,7 +22,7 @@ const Credit02 = ({ creditItems, setCreditItems, updateCreditTable }) => {
                         <th>Positive Causality</th>
                         <th>Negative Causality</th>
                         <th>Effect</th>
-                        <th>Rank</th>
+                        <th>Priority</th>
                         <th>Choose Campaign</th>
                         <th>Select</th>
                     </tr>
@@ -40,7 +40,7 @@ const Credit02 = ({ creditItems, setCreditItems, updateCreditTable }) => {
                                 <td>{item.Total_Customers}</td>
                                 <td>{item.Positive_Impacted_Feature}</td>
                                 <td>{item.Negative_Impacted_Feature}</td>
-                                <td>{item.Effect}</td>
+                                <td>{parseFloat(item.Effect*100).toFixed(2)}% </td>
                                 <td>{item.Rank}</td>
 
                                 <td>

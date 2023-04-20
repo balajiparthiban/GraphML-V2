@@ -21,37 +21,32 @@ const SeniorCustomer = () => {
             {
                 label: 'Discount',
                 data: SMDistributionBarChart.map((data) => (data.Seg_Discount)),
-                backgroundColor: ["brown"],
+                backgroundColor: ["#8D72E1"],
                 order: 1,
-                type: 'bar'
             },
             {
                 label: 'Loyalty',
                 data: SMDistributionBarChart.map((data) => (data.Seg_loyalty)),
-                backgroundColor: ["black"],
+                backgroundColor: ["#BCEAD5"],
                 order: 1,
-                type: 'bar'
             },
             {
                 label: 'Promotional Mail',
                 data: SMDistributionBarChart.map((data) => (data.Seg_Promotional_mail)),
-                backgroundColor: ["green"],
+                backgroundColor: ["#B9E0FF"],
                 order: 1,
-                type: 'bar'
             },
             {
                 label: 'Phone Call',
                 data: SMDistributionBarChart.map((data) => (data.Seg_Phone_call)),
-                backgroundColor: ["blue"],
+                backgroundColor: ["#8D9EFF"],
                 order: 1,
-                type: 'bar'
             },
             {
                 label: 'Push Notification',
                 data: SMDistributionBarChart.map((data) => (data.Seg_Push_notification)),
-                backgroundColor: ["red"],
+                backgroundColor: ["#8D72E1"],
                 order: 1,
-                type: 'bar'
             },
 
         ],

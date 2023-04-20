@@ -3105,7 +3105,7 @@ const AdminProduct = () => {
                     '#BCEAD5'
                 ],
                 borderColor: [
-                    '#bbaaf1',
+                    '#B9E0FF',
                     '#c40076',
                     '#07d36b',
                     '#bec120',
@@ -3150,13 +3150,13 @@ const AdminProduct = () => {
                 backgroundColor: ["#ff0000"],
                 order: 1,
                 backgroundColor: [
-                    '#8D72E1',
+                    '#B9E0FF',
                     '#8EC3B0',
                     '#9ED5C5',
                     '#BCEAD5'
                 ],
                 borderColor: [
-                    '#bbaaf1',
+                    '#B9E0FF',
                     '#c40076',
                     '#07d36b',
                     '#bec120',

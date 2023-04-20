@@ -10,7 +10,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0393992311637383,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_1",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub3_atomic_1",
         "Column6": 2
     },
     {
@@ -24,7 +24,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0343204456941222,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_2",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub3_atomic_2",
         "Column6": 4
     },
     {
@@ -40,7 +40,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.034100270515169,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_3",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub3_atomic_3",
         "Column6": 6
     },
     {
@@ -56,7 +56,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.032185145895156,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_4",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub3_atomic_4",
         "Column6": 8
     },
     {
@@ -72,7 +72,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.031864245280666,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_5",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub3_atomic_5",
         "Column6": 10
     },
     {
@@ -88,7 +88,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0214450466339176,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_1",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub4_atomic_1",
         "Column6": 12
     },
     {
@@ -104,7 +104,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0207425803140654,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_2",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub4_atomic_2",
         "Column6": 14
     },
     {
@@ -120,7 +120,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0207233916855124,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_3",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub4_atomic_3",
         "Column6": 16
     },
     {
@@ -136,7 +136,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0205425008423863,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_4",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub4_atomic_4",
         "Column6": 18
     },
     {
@@ -152,7 +152,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0202762753768374,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_5",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub4_atomic_5",
         "Column6": 20
     },
     {
@@ -168,7 +168,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.014872941932014,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_1",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub5_atomic_1",
         "Column6": 22
     },
     {
@@ -184,7 +184,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0147574464118162,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_2",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub5_atomic_2",
         "Column6": 24
     },
     {
@@ -200,7 +200,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Promotional Email",
         "Column3": "Credit Card",
         "Column4": 0.0146807216040809,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_3",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub5_atomic_3",
         "Column6": 26
     },
     {
@@ -216,7 +216,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Loyalty",
         "Column3": "Credit Card",
         "Column4": 0.0145679649413975,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_4",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub5_atomic_4",
         "Column6": 28
     },
     {
@@ -232,7 +232,7 @@ export const SM_Campaign_Overview_Table = [
         "Column2": "Promotional Email",
         "Column3": "Credit Card",
         "Column4": 0.0145571863518987,
-        "Column5": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_5",
+        "Column5": "Credit _Card_Segment_1_Loyalty_sub5_atomic_5",
         "Column6": 30
     },
     
@@ -248,7 +248,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0142886691005615,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub2_atomic_1",
     //     "Column6": 32
     // },
     // {
@@ -264,7 +264,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0142770238569058,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub2_atomic_2",
     //     "Column6": 34
     // },
     // {
@@ -280,7 +280,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0142664182190323,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub2_atomic_3",
     //     "Column6": 36
     // },
     // {
@@ -296,7 +296,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0136928950778866,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub2_atomic_4",
     //     "Column6": 38
     // },
     // {
@@ -312,7 +312,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0131301067628151,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub2_atomic_5",
     //     "Column6": 40
     // },
     // {
@@ -328,7 +328,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0121976150862778,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub1_atomic_1",
     //     "Column6": 42
     // },
     // {
@@ -344,7 +344,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0119511819713499,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub1_atomic_2",
     //     "Column6": 44
     // },
     // {
@@ -360,7 +360,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0116309960452891,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub1_atomic_3",
     //     "Column6": 46
     // },
     // {
@@ -376,7 +376,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0114591963798432,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub1_atomic_4",
     //     "Column6": 48
     // },
     // {
@@ -392,7 +392,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0113804576627438,
-    //     "Column5": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Loyalty_sub1_atomic_5",
     //     "Column6": 50
     // },
     // {
@@ -408,7 +408,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.010086463510758,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub3_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub3_atomic_1",
     //     "Column6": 52
     // },
     // {
@@ -424,7 +424,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0099607719987572,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub3_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub3_atomic_2",
     //     "Column6": 54
     // },
     // {
@@ -440,7 +440,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0099040087921049,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub3_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub3_atomic_3",
     //     "Column6": 56
     // },
     // {
@@ -456,7 +456,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0097922853614153,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub3_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub3_atomic_4",
     //     "Column6": 58
     // },
     // {
@@ -472,7 +472,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.009714724482114,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub3_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub3_atomic_5",
     //     "Column6": 60
     // },
     // {
@@ -488,7 +488,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0093738372174559,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub2_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub2_atomic_1",
     //     "Column6": 62
     // },
     // {
@@ -504,7 +504,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0092884216107099,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub2_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub2_atomic_2",
     //     "Column6": 64
     // },
     // {
@@ -520,7 +520,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0088019495191757,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub2_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub2_atomic_3",
     //     "Column6": 66
     // },
     // {
@@ -536,7 +536,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0087546066556874,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub2_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub2_atomic_4",
     //     "Column6": 68
     // },
     // {
@@ -552,7 +552,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.008555815763817,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub2_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub2_atomic_5",
     //     "Column6": 70
     // },
     // {
@@ -568,7 +568,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0084106881430099,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub4_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub4_atomic_1",
     //     "Column6": 72
     // },
     // {
@@ -584,7 +584,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0082823359000175,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub4_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub4_atomic_2",
     //     "Column6": 74
     // },
     // {
@@ -600,7 +600,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0081744668527132,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub4_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub4_atomic_3",
     //     "Column6": 76
     // },
     // {
@@ -616,7 +616,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0081213926050184,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub4_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub4_atomic_4",
     //     "Column6": 78
     // },
     // {
@@ -632,7 +632,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0079202055105888,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub4_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub4_atomic_5",
     //     "Column6": 80
     // },
     // {
@@ -648,7 +648,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0065920754014555,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub5_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub5_atomic_1",
     //     "Column6": 82
     // },
     // {
@@ -664,7 +664,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0065265680938794,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub5_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub5_atomic_2",
     //     "Column6": 84
     // },
     // {
@@ -680,7 +680,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0063304072427659,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub5_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub5_atomic_3",
     //     "Column6": 86
     // },
     // {
@@ -696,7 +696,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0063067593167196,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub5_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub5_atomic_4",
     //     "Column6": 88
     // },
     // {
@@ -712,7 +712,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0062864215866818,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub5_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub5_atomic_5",
     //     "Column6": 90
     // },
     // {
@@ -728,7 +728,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0062133358843903,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub1_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub1_atomic_1",
     //     "Column6": 92
     // },
     // {
@@ -744,7 +744,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0061960997384891,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub1_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub1_atomic_2",
     //     "Column6": 94
     // },
     // {
@@ -759,7 +759,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0060826116798315,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub1_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub1_atomic_3",
     //     "Column6": 96
     // },
     // {
@@ -775,7 +775,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0060392969069834,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub1_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub1_atomic_4",
     //     "Column6": 98
     // },
     // {
@@ -791,7 +791,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0060286207065512,
-    //     "Column5": "Credit_Loan_Segment_1_Phone_sub1_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Phone_sub1_atomic_5",
     //     "Column6": 100
     // },
     // {
@@ -807,7 +807,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0051463932660718,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub1_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub1_atomic_1",
     //     "Column6": 102
     // },
     // {
@@ -823,7 +823,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0049561369858779,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub1_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub1_atomic_2",
     //     "Column6": 104
     // },
     // {
@@ -839,7 +839,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0046185296368395,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub1_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub1_atomic_3",
     //     "Column6": 106
     // },
     // {
@@ -855,7 +855,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0045629668281902,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub1_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub1_atomic_4",
     //     "Column6": 108
     // },
     // {
@@ -871,7 +871,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0045051371931875,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub1_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub1_atomic_5",
     //     "Column6": 110
     // },
     // {
@@ -887,7 +887,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0044567495003948,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub5_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub5_atomic_1",
     //     "Column6": 112
     // },
     // {
@@ -903,7 +903,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0044027045329138,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub5_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub5_atomic_2",
     //     "Column6": 114
     // },
     // {
@@ -919,7 +919,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0043967387102443,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub5_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub5_atomic_3",
     //     "Column6": 116
     // },
     // {
@@ -935,7 +935,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Loyalty",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0043529165821906,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub5_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub5_atomic_4",
     //     "Column6": 118
     // },
     // {
@@ -951,7 +951,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.004336811167206,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub5_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub5_atomic_5",
     //     "Column6": 120
     // },
     // {
@@ -967,7 +967,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0043147695389214,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub3_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub3_atomic_1",
     //     "Column6": 122
     // },
     // {
@@ -983,7 +983,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0042848533196513,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub3_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub3_atomic_2",
     //     "Column6": 124
     // },
     // {
@@ -999,7 +999,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0042687432496499,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub3_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub3_atomic_3",
     //     "Column6": 126
     // },
     // {
@@ -1015,7 +1015,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0042545227420972,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub3_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub3_atomic_4",
     //     "Column6": 128
     // },
     // {
@@ -1031,7 +1031,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0042413514728177,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub3_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub3_atomic_5",
     //     "Column6": 130
     // },
     // {
@@ -1047,7 +1047,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0041082695162016,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub4_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub4_atomic_1",
     //     "Column6": 132
     // },
     // {
@@ -1063,7 +1063,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.003978501930755,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub4_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub4_atomic_2",
     //     "Column6": 134
     // },
     // {
@@ -1079,7 +1079,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0039546725832444,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub4_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub4_atomic_3",
     //     "Column6": 136
     // },
     // {
@@ -1095,7 +1095,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.00391499541418,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub4_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub4_atomic_4",
     //     "Column6": 138
     // },
     // {
@@ -1111,7 +1111,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0036361701390377,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub4_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub4_atomic_5",
     //     "Column6": 140
     // },
     // {
@@ -1127,7 +1127,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0029964542284429,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub2_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub2_atomic_1",
     //     "Column6": 142
     // },
     // {
@@ -1143,7 +1143,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0028335021409164,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub2_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub2_atomic_2",
     //     "Column6": 144
     // },
     // {
@@ -1159,7 +1159,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0028276030052765,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub2_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub2_atomic_3",
     //     "Column6": 146
     // },
     // {
@@ -1175,7 +1175,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0027885987683338,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub2_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub2_atomic_4",
     //     "Column6": 148
     // },
     // {
@@ -1191,7 +1191,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0027607333380747,
-    //     "Column5": "Credit_Loan_Segment_1_Promo_sub2_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Promo_sub2_atomic_5",
     //     "Column6": 150
     // },
     // {
@@ -1207,7 +1207,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0023941463384217,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub1_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub1_atomic_1",
     //     "Column6": 152
     // },
     // {
@@ -1223,7 +1223,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0022922834469781,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub1_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub1_atomic_2",
     //     "Column6": 154
     // },
     // {
@@ -1239,7 +1239,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0021923158534538,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub1_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub1_atomic_3",
     //     "Column6": 156
     // },
     // {
@@ -1255,7 +1255,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0021657418052818,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub1_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub1_atomic_4",
     //     "Column6": 158
     // },
     // {
@@ -1271,7 +1271,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0021452688986415,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub1_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub1_atomic_5",
     //     "Column6": 160
     // },
     // {
@@ -1287,7 +1287,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0021051732789246,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub3_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub3_atomic_1",
     //     "Column6": 162
     // },
     // {
@@ -1303,7 +1303,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0020888699570535,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub3_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub3_atomic_2",
     //     "Column6": 164
     // },
     // {
@@ -1319,7 +1319,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Promotional Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0020462164384981,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub3_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub3_atomic_3",
     //     "Column6": 166
     // },
     // {
@@ -1327,7 +1327,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0020321290757141,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub3_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub3_atomic_4",
     //     "Column6": 167
     // },
     // {
@@ -1351,7 +1351,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0020104743619745,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub3_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub3_atomic_5",
     //     "Column6": 170
     // },
     // {
@@ -1367,7 +1367,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0019510281091397,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub4_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub4_atomic_1",
     //     "Column6": 172
     // },
     // {
@@ -1383,7 +1383,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0019081629281566,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub4_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub4_atomic_2",
     //     "Column6": 174
     // },
     // {
@@ -1399,7 +1399,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0018981220061789,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub4_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub4_atomic_3",
     //     "Column6": 176
     // },
     // {
@@ -1415,7 +1415,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0017996021672288,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub4_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub4_atomic_4",
     //     "Column6": 178
     // },
     // {
@@ -1431,7 +1431,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0017555803569213,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub4_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub4_atomic_5",
     //     "Column6": 180
     // },
     // {
@@ -1447,7 +1447,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Discount Email",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0017270039223033,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub5_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub5_atomic_1",
     //     "Column6": 182
     // },
     // {
@@ -1463,7 +1463,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0016400409343383,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub5_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub5_atomic_2",
     //     "Column6": 184
     // },
     // {
@@ -1479,7 +1479,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0016125442120227,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub5_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub5_atomic_3",
     //     "Column6": 186
     // },
     // {
@@ -1495,7 +1495,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0015734971360851,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub5_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub5_atomic_4",
     //     "Column6": 188
     // },
     // {
@@ -1511,7 +1511,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0015079561189418,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub5_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub5_atomic_5",
     //     "Column6": 190
     // },
     // {
@@ -1527,7 +1527,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0013960610973604,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub2_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub2_atomic_1",
     //     "Column6": 192
     // },
     // {
@@ -1543,7 +1543,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0013291507995174,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub2_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub2_atomic_2",
     //     "Column6": 194
     // },
     // {
@@ -1559,7 +1559,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0012804103293848,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub2_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub2_atomic_3",
     //     "Column6": 196
     // },
     // {
@@ -1575,7 +1575,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0012756687954697,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub2_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub2_atomic_4",
     //     "Column6": 198
     // },
     // {
@@ -1591,7 +1591,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0012635352406268,
-    //     "Column5": "Credit_Loan_Segment_1_PN_sub2_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_PN_sub2_atomic_5",
     //     "Column6": 200
     // },
     // {
@@ -1607,7 +1607,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0012584036458843,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub3_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub3_atomic_1",
     //     "Column6": 202
     // },
     // {
@@ -1623,7 +1623,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0011633935874503,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub3_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub3_atomic_2",
     //     "Column6": 204
     // },
     // {
@@ -1639,7 +1639,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0010893515353354,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub3_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub3_atomic_3",
     //     "Column6": 206
     // },
     // {
@@ -1655,7 +1655,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0010650322848294,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub3_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub3_atomic_4",
     //     "Column6": 208
     // },
     // {
@@ -1671,7 +1671,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0009757375192926,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub3_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub3_atomic_5",
     //     "Column6": 210
     // },
     // {
@@ -1679,7 +1679,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0007764156677636,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub5_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub5_atomic_1",
     //     "Column6": 211
     // },
     // {
@@ -1703,7 +1703,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0007360745826779,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub5_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub5_atomic_2",
     //     "Column6": 214
     // },
     // {
@@ -1719,7 +1719,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0006974629560239,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub5_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub5_atomic_3",
     //     "Column6": 216
     // },
     // {
@@ -1734,7 +1734,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0006856818569629,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub5_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub5_atomic_4",
     //     "Column6": 218
     // },
     // {
@@ -1742,7 +1742,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0005938413013285,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub5_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub5_atomic_5",
     //     "Column6": 219
     // },
     // {
@@ -1766,7 +1766,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0005797137536124,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub2_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub2_atomic_1",
     //     "Column6": 222
     // },
     // {
@@ -1782,7 +1782,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0003808257100281,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub2_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub2_atomic_2",
     //     "Column6": 224
     // },
     // {
@@ -1798,7 +1798,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0003792633121773,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub2_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub2_atomic_3",
     //     "Column6": 226
     // },
     // {
@@ -1814,7 +1814,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0003741108535811,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub2_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub2_atomic_4",
     //     "Column6": 228
     // },
     // {
@@ -1830,7 +1830,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0003236512126833,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub2_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub2_atomic_5",
     //     "Column6": 230
     // },
     // {
@@ -1846,7 +1846,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0003229419559505,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub4_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub4_atomic_1",
     //     "Column6": 232
     // },
     // {
@@ -1862,7 +1862,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0002895938903765,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub4_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub4_atomic_2",
     //     "Column6": 234
     // },
     // {
@@ -1878,7 +1878,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0002237880496039,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub4_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub4_atomic_3",
     //     "Column6": 236
     // },
     // {
@@ -1894,7 +1894,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 0.0001874153016267,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub4_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub4_atomic_4",
     //     "Column6": 238
     // },
     // {
@@ -1902,7 +1902,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": 9.30114286665839E-05,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub4_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub4_atomic_5",
     //     "Column6": 239
     // },
     // {
@@ -1918,7 +1918,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Phone call",
     //     "Column3": "Credit Card",
     //     "Column4": 3.12449134035723E-05,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub1_atomic_1",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub1_atomic_1",
     //     "Column6": 241
     // },
     // {
@@ -1934,7 +1934,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": -0.0002607071950363,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub1_atomic_2",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub1_atomic_2",
     //     "Column6": 243
     // },
     // {
@@ -1950,7 +1950,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": -0.0003674247606455,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub1_atomic_3",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub1_atomic_3",
     //     "Column6": 245
     // },
     // {
@@ -1966,7 +1966,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": -0.000421203199082,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub1_atomic_4",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub1_atomic_4",
     //     "Column6": 247
     // },
     // {
@@ -1982,7 +1982,7 @@ export const SM_Campaign_Overview_Table = [
     //     "Column2": "Push Notification",
     //     "Column3": "Credit Card",
     //     "Column4": -0.0004216724299242,
-    //     "Column5": "Credit_Loan_Segment_1_Discount_sub1_atomic_5",
+    //     "Column5": "Credit _Card_Segment_1_Discount_sub1_atomic_5",
     //     "Column6": 249
     // },
     // {

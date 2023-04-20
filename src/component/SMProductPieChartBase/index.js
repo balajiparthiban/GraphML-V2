@@ -30,7 +30,7 @@ export const options = {
 
     scales: {
         x: {
-            stacked: true,
+            stacked: false,
             grid: {
                 drawBorder: false,
                 lineWidth: 0 // <-- this removes vertical lines between bars
@@ -44,7 +44,7 @@ export const options = {
         },
 
         y: {
-            stacked: true,
+            stacked: false,
             grid: {
                 drawBorder: false,
                 lineWidth: 0 // <-- this removes vertical lines between bars

@@ -9,7 +9,7 @@ const SMCustomerOverviewTable = () => {
                 <th>Next Best Product </th>
                 <th>Next Best Action </th>
                 <th>Effect</th>
-                <th>Rank</th>
+                <th>Priority</th>
             </thead>
             <tbody>
                 {SM_Customer_Overview_Table && SM_Customer_Overview_Table.map((item, val) => (
@@ -18,7 +18,7 @@ const SMCustomerOverviewTable = () => {
                         <td>{item.Total_Sales}</td>
                         <td>{item.Column3}</td>
                         <td>{item.Column4}</td>
-                        <td>{item.Column5}</td>
+                        <td>{parseFloat(item.Column5*100).toFixed(2)} %</td>
                         <td>{item.Column6}</td>
                     </tr>
                 ))}

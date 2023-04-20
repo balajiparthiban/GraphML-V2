@@ -7,7 +7,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 1
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_1",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub3_atomic_1",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0393992311637383,
@@ -21,7 +21,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 3
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_2",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub3_atomic_2",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0343204456941222,
@@ -35,7 +35,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 5
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_3",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub3_atomic_3",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.034100270515169,
@@ -49,7 +49,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 7
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_4",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub3_atomic_4",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.032185145895156,
@@ -63,7 +63,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 9
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_5",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub3_atomic_5",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.031864245280666,
@@ -77,7 +77,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 11
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_1",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub4_atomic_1",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0214450466339176,
@@ -91,7 +91,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 13
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_2",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub4_atomic_2",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0207425803140654,
@@ -105,7 +105,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 15
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_3",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub4_atomic_3",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0207233916855124,
@@ -119,7 +119,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 17
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_4",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub4_atomic_4",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0205425008423863,
@@ -133,7 +133,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 19
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_5",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub4_atomic_5",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0202762753768374,
@@ -147,7 +147,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 21
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_1",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub5_atomic_1",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.014872941932014,
@@ -161,7 +161,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 23
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_2",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub5_atomic_2",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0147574464118162,
@@ -175,7 +175,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 25
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_3",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub5_atomic_3",
         "Column3": "Credit Card",
         "Column4": "Promotional Email",
         "Column5": 0.0146807216040809,
@@ -189,7 +189,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 27
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_4",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub5_atomic_4",
         "Column3": "Credit Card",
         "Column4": "Loyalty",
         "Column5": 0.0145679649413975,
@@ -203,7 +203,7 @@ export const SM_Customer_Overview_Table = [
         "Column6": 29
     },
     {
-        "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_5",
+        "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub5_atomic_5",
         "Column3": "Credit Card",
         "Column4": "Promotional Email",
         "Column5": 0.0145571863518987,
@@ -217,7 +217,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 31
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub2_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0142886691005615,
@@ -231,7 +231,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 33
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub2_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0142770238569058,
@@ -245,7 +245,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 35
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub2_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0142664182190323,
@@ -259,7 +259,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 37
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub2_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0136928950778866,
@@ -273,7 +273,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 39
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub2_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0131301067628151,
@@ -287,7 +287,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 41
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub1_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0121976150862778,
@@ -301,7 +301,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 43
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub1_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0119511819713499,
@@ -315,7 +315,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 45
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub1_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0116309960452891,
@@ -329,7 +329,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 47
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub1_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0114591963798432,
@@ -343,7 +343,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 49
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Loyalty_sub1_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0113804576627438,
@@ -357,7 +357,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 51
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub3_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub3_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.010086463510758,
@@ -371,7 +371,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 53
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub3_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub3_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0099607719987572,
@@ -385,7 +385,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 55
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub3_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub3_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0099040087921049,
@@ -399,7 +399,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 57
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub3_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub3_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0097922853614153,
@@ -413,7 +413,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 59
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub3_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub3_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.009714724482114,
@@ -427,7 +427,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 61
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub2_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub2_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0093738372174559,
@@ -441,7 +441,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 63
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub2_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub2_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0092884216107099,
@@ -455,7 +455,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 65
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub2_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub2_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0088019495191757,
@@ -469,7 +469,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 67
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub2_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub2_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0087546066556874,
@@ -483,7 +483,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 69
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub2_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub2_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.008555815763817,
@@ -497,7 +497,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 71
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub4_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub4_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0084106881430099,
@@ -511,7 +511,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 73
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub4_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub4_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0082823359000175,
@@ -525,7 +525,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 75
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub4_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub4_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0081744668527132,
@@ -539,7 +539,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 77
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub4_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub4_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0081213926050184,
@@ -553,7 +553,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 79
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub4_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub4_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0079202055105888,
@@ -567,7 +567,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 81
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub5_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub5_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0065920754014555,
@@ -581,7 +581,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 83
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub5_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub5_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0065265680938794,
@@ -595,7 +595,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 85
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub5_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub5_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0063304072427659,
@@ -609,7 +609,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 87
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub5_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub5_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0063067593167196,
@@ -623,7 +623,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 89
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub5_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub5_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0062864215866818,
@@ -637,7 +637,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 91
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub1_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub1_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0062133358843903,
@@ -651,7 +651,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 93
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub1_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub1_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0061960997384891,
@@ -665,7 +665,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 95
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub1_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub1_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0060826116798315,
@@ -679,7 +679,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 97
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub1_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub1_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0060392969069834,
@@ -693,7 +693,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 99
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Phone_sub1_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Phone_sub1_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0060286207065512,
@@ -707,7 +707,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 101
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub1_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub1_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0051463932660718,
@@ -721,7 +721,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 103
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub1_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub1_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0049561369858779,
@@ -735,7 +735,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 105
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub1_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub1_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0046185296368395,
@@ -749,7 +749,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 107
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub1_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub1_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0045629668281902,
@@ -763,7 +763,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 109
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub1_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub1_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0045051371931875,
@@ -777,7 +777,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 111
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub5_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub5_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0044567495003948,
@@ -791,7 +791,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 113
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub5_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub5_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0044027045329138,
@@ -805,7 +805,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 115
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub5_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub5_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0043967387102443,
@@ -819,7 +819,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 117
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub5_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub5_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Loyalty",
     //     "Column5": 0.0043529165821906,
@@ -833,7 +833,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 119
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub5_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub5_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.004336811167206,
@@ -847,7 +847,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 121
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub3_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub3_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0043147695389214,
@@ -861,7 +861,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 123
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub3_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub3_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0042848533196513,
@@ -875,7 +875,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 125
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub3_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub3_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0042687432496499,
@@ -889,7 +889,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 127
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub3_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub3_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0042545227420972,
@@ -903,7 +903,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 129
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub3_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub3_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0042413514728177,
@@ -917,7 +917,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 131
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub4_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub4_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0041082695162016,
@@ -931,7 +931,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 133
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub4_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub4_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.003978501930755,
@@ -945,7 +945,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 135
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub4_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub4_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0039546725832444,
@@ -959,7 +959,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 137
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub4_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub4_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.00391499541418,
@@ -973,7 +973,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 139
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub4_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub4_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0036361701390377,
@@ -987,7 +987,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 141
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub2_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub2_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0029964542284429,
@@ -1001,7 +1001,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 143
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub2_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub2_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0028335021409164,
@@ -1015,7 +1015,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 145
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub2_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub2_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0028276030052765,
@@ -1029,7 +1029,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 147
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub2_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub2_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0027885987683338,
@@ -1043,7 +1043,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 149
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Promo_sub2_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Promo_sub2_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0027607333380747,
@@ -1057,7 +1057,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 151
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub1_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub1_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0023941463384217,
@@ -1071,7 +1071,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 153
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub1_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub1_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0022922834469781,
@@ -1085,7 +1085,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 155
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub1_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub1_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0021923158534538,
@@ -1099,7 +1099,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 157
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub1_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub1_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0021657418052818,
@@ -1113,7 +1113,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 159
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub1_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub1_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0021452688986415,
@@ -1127,7 +1127,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 161
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub3_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub3_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0021051732789246,
@@ -1141,7 +1141,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 163
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub3_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub3_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0020888699570535,
@@ -1155,14 +1155,14 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 165
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub3_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub3_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Promotional Email",
     //     "Column5": 0.0020462164384981,
     //     "Column6": 166
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub3_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub3_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0020321290757141,
@@ -1183,7 +1183,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 169
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub3_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub3_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0020104743619745,
@@ -1197,7 +1197,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 171
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub4_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub4_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0019510281091397,
@@ -1211,7 +1211,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 173
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub4_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub4_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0019081629281566,
@@ -1225,7 +1225,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 175
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub4_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub4_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0018981220061789,
@@ -1239,7 +1239,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 177
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub4_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub4_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0017996021672288,
@@ -1253,7 +1253,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 179
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub4_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub4_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0017555803569213,
@@ -1267,7 +1267,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 181
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub5_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub5_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Discount Email",
     //     "Column5": 0.0017270039223033,
@@ -1281,7 +1281,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 183
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub5_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub5_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0016400409343383,
@@ -1295,7 +1295,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 185
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub5_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub5_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0016125442120227,
@@ -1309,7 +1309,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 187
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub5_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub5_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0015734971360851,
@@ -1323,7 +1323,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 189
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub5_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub5_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0015079561189418,
@@ -1337,7 +1337,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 191
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub2_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub2_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0013960610973604,
@@ -1351,7 +1351,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 193
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub2_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub2_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0013291507995174,
@@ -1365,7 +1365,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 195
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub2_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub2_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0012804103293848,
@@ -1379,7 +1379,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 197
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub2_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub2_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0012756687954697,
@@ -1393,7 +1393,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 199
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_PN_sub2_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_PN_sub2_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0012635352406268,
@@ -1407,7 +1407,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 201
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub3_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub3_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0012584036458843,
@@ -1421,7 +1421,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 203
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub3_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub3_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0011633935874503,
@@ -1435,7 +1435,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 205
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub3_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub3_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0010893515353354,
@@ -1449,7 +1449,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 207
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub3_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub3_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0010650322848294,
@@ -1463,14 +1463,14 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 209
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub3_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub3_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0009757375192926,
     //     "Column6": 210
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub5_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub5_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0007764156677636,
@@ -1491,7 +1491,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 213
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub5_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub5_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0007360745826779,
@@ -1505,7 +1505,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 215
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub5_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub5_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0006974629560239,
@@ -1519,14 +1519,14 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 217
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub5_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub5_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0006856818569629,
     //     "Column6": 218
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub5_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub5_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0005938413013285,
@@ -1547,7 +1547,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 221
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub2_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub2_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0005797137536124,
@@ -1561,7 +1561,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 223
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub2_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub2_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0003808257100281,
@@ -1575,7 +1575,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 225
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub2_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub2_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0003792633121773,
@@ -1589,7 +1589,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 227
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub2_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub2_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0003741108535811,
@@ -1603,7 +1603,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 229
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub2_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub2_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0003236512126833,
@@ -1617,7 +1617,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 231
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub4_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub4_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0003229419559505,
@@ -1631,7 +1631,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 233
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub4_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub4_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0002895938903765,
@@ -1645,7 +1645,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 235
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub4_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub4_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 0.0002237880496039,
@@ -1659,14 +1659,14 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 237
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub4_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub4_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 0.0001874153016267,
     //     "Column6": 238
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub4_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub4_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": 9.30114286665839E-05,
@@ -1680,7 +1680,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 240
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub1_atomic_1",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub1_atomic_1",
     //     "Column3": "Credit Card",
     //     "Column4": "Phone call",
     //     "Column5": 3.12449134035723E-05,
@@ -1694,7 +1694,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 242
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub1_atomic_2",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub1_atomic_2",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": -0.0002607071950363,
@@ -1708,7 +1708,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 244
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub1_atomic_3",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub1_atomic_3",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": -0.0003674247606455,
@@ -1722,7 +1722,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 246
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub1_atomic_4",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub1_atomic_4",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": -0.000421203199082,
@@ -1736,7 +1736,7 @@ export const SM_Customer_Overview_Table = [
     //     "Column6": 248
     // },
     // {
-    //     "Total_Sales": "Credit_Loan_Segment_1_Discount_sub1_atomic_5",
+    //     "Total_Sales": "Credit _Card_Segment_1_Discount_sub1_atomic_5",
     //     "Column3": "Credit Card",
     //     "Column4": "Push Notification",
     //     "Column5": -0.0004216724299242,

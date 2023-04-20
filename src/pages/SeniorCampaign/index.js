@@ -79,11 +79,12 @@ const SeniorCampaign = () => {
 
 
     const [campaignPieChart] = useState({
-        labels: SMCampaignPieChart.map((data) => data.Month),
+        // labels: SMCampaignPieChart.map((data) => data.Month),
+        labels: ["Discount Main", "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
         datasets: [
             {
+                // label: ['#Discount Main', "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
                 data: [12053, 14782, 4643, 25463, 7233],
-                labels: ["Discount Main", "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
                 type: 'pie',
                 backgroundColor: [
                     '#8EC3B0',
@@ -93,7 +94,39 @@ const SeniorCampaign = () => {
                     '#8D9EFF'
                 ],
             },
+
+            // {
+            //     label: 'Discount Main',
+            //     data: [12053],
+            //     backgroundColor: ["#8EC3B0"],
+            //     type: 'pie',
+            // },
+            // {
+            //     label: 'Promotional Mail',
+            //     data: [14782],
+            //     backgroundColor: ["#6C4AB6"],
+            //     type: 'pie',
+            // },
+            // {
+            //     label: 'Phone Call',
+            //     data: [4643],
+            //     backgroundColor: ["#8EC3B0"],
+            //     type: 'pie',
+            // },
+            // {
+            //     label: 'Push Notification',
+            //     data: [25463],
+            //     backgroundColor: ["#6C4AB6"],
+            //     type: 'pie',
+            // }, {
+            //     label: 'Loyalty Mail',
+            //     data: [7233],
+            //     backgroundColor: ["#8EC3B0"],
+            //     type: 'pie',
+            // },
+
         ],
+
     });
 
 

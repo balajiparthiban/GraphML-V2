@@ -15,22 +15,35 @@ import './style.scss'
 Chart.defaults.datasets.bar.maxBarThickness = 85;
 
 export const options = {
-
+    maintainAspectRatio: true,
+    responsive: true,
     plugins: {
         title: {
-            display: true,
-            // text: 'Chart.js Bar Chart - Stacked',
+            display: false,
+            text: 'Chart.js Bar Chart - Stacked',
         },
         legend: {
-            display: false
-        }
+            display: false,
+            rtl: false,
+            text: 'Chart.js Bar Chart - Stacked',
+            position: 'right',
+            labels: {
+                // usePointStyle: true,
+                pointStyle: 'circle',
+                padding: 20,
+            }
+        },
+        datalabels: {
+            display: false,
+            color: "red",
+        },
     },
-    
+
     responsive: true,
 
     scales: {
         x: {
-            stacked: false,
+            stacked: true,
             title: {
                 display: false,
                 text: 'LAST 6 MONTHS'
@@ -40,17 +53,17 @@ export const options = {
                 drawBorder: false,
                 lineWidth: 0 // <-- this removes vertical lines between bars
             }
+
             // labels: ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"],
         },
 
         y: {
-
+            stacked: true,
             grid: {
-                drawBorder: false, // <-- this removes y-axis line
-                lineWidth: function (context) {
-                    return context?.index === 0 ? 0 : 1; // <-- this removes the base line
-                }
+                drawBorder: false,
+                lineWidth: 0 // <-- this removes vertical lines between bars
             },
+
             title: {
                 display: false,
                 text: 'Campaign Sent'
@@ -59,7 +72,8 @@ export const options = {
                 beginAtZero: false,
                 min: 0,
                 max: 300000,
-                stepSize: 150000
+                stepSize: 150000,
+                display: false
             }
         },
 

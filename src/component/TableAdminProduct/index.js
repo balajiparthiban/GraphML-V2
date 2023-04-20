@@ -12,7 +12,7 @@ const TableAdminProduct = () => {
                 <th>Conversation Rate</th>
                 <th>Positively Affecting Actions</th>
                 <th>Negatively Affecting Actions </th>
-                <th>Rank</th>
+                <th>Priority</th>
             </thead>
             <tbody>
                 {senior_management_first_table && senior_management_first_table.map((item, val) => (

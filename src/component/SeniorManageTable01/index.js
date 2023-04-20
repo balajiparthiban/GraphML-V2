@@ -23,7 +23,7 @@ const Table01 = () => {
                 <th>Success Rate</th>
                 <th>Cannabalizing Campaign</th>
                 <th>Customer Segment</th>
-                <th>Rank</th>
+                <th>Priority</th>
             </thead>
             <tbody>
                 {senior_management_first_table && senior_management_first_table.map((item, val) => (

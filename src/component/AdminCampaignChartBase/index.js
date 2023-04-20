@@ -12,12 +12,12 @@ import { Chart } from "chart.js"
 import './style.scss'
 
 
-Chart.defaults.datasets.bar.maxBarThickness = 85;
+Chart.defaults.datasets.bar.maxBarThickness = 55;
 
 export const options = {
     plugins: {
         title: {
-            display: true,
+            display: false,
             // text: 'Chart.js Bar Chart - Stacked',
         },
     },
@@ -25,26 +25,26 @@ export const options = {
 
     scales: {
         x: {
-            stacked: true,
+            stacked: false,
             title: {
-                display: false,
-                text: 'LAST 6 MONTHS'
+                display: true,
+                text: 'MONTHS'
             },
 
             labels: ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"],
         },
 
         y: {
-            stacked: true,
+            stacked: false,
             title: {
-                display: false,
-                text: 'Campaign Sent'
+                display: true,
+                text: 'CAMPAIGN SENT'
             },
             ticks: {
                 beginAtZero: true,
                 min: 0,
                 max: 300000,
-                stepSize: 150000
+                stepSize: 500
             }
         },
 
@@ -55,12 +55,7 @@ export const options = {
         //     //     display: true,
         //     //     text: 'SALES NUMBER'
         //     // },
-        //     ticks: {
-        //         beginAtZero: true,
-        //         // min: 0,/
-        //         max: 9000000,
-        //         stepSize: 100000
-        //     }
+       
 
         // },
     },

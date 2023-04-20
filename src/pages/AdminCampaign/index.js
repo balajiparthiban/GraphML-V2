@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Table03 from '../../component/ExecutiveTable01'
 import Table04 from '../../component/ExecutiveTable02'
 import AdminCampaignChartBase from '../../component/AdminCampaignChartBase'
+import AdminCampaignChartLineBase from '../../component/AdminCampaignChartLineBase'
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
 
@@ -655,8 +657,8 @@ const AdminCampaign = () => {
     }
 
 
-     //Campaign Tab02
-     const [Campaign2items, setCampaign2items] = useState([
+    //Campaign Tab02
+    const [Campaign2items, setCampaign2items] = useState([
         {
             id: 1,
             Product: "Credit Card",
@@ -1272,8 +1274,8 @@ const AdminCampaign = () => {
     }
 
 
-     //Campaign Tab03
-     const [Campaign3items, setCampaign3items] = useState([
+    //Campaign Tab03
+    const [Campaign3items, setCampaign3items] = useState([
         {
             id: 1,
             Product: "Credit Card",
@@ -1891,8 +1893,8 @@ const AdminCampaign = () => {
 
 
 
-     //Campaign Tab04
-     const [Campaign4items, setCampaign4items] = useState([
+    //Campaign Tab04
+    const [Campaign4items, setCampaign4items] = useState([
         {
             id: 1,
             Product: "Credit Card",
@@ -2509,8 +2511,8 @@ const AdminCampaign = () => {
 
 
 
-     //Campaign Tab05
-     const [Campaign5items, setCampaign5items] = useState([
+    //Campaign Tab05
+    const [Campaign5items, setCampaign5items] = useState([
         {
             id: 1,
             Product: "Credit Card",
@@ -3126,44 +3128,94 @@ const AdminCampaign = () => {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Tab01-Bar-Chart
     const [adminCampaignBarChartTab01] = useState({
         labels: AdminCampaignBarChartTab01.map((data) => data.Month),
         datasets: [
 
             {
-                label: 'Discount Main Loan',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_loan)),
-                backgroundColor: ["#B9E0FF"],
+                backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Discount Main Credit Card',
+                label: 'Credit Card',
                 data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_credit_card)),
-                backgroundColor: ["#8D9EFF"],
+                backgroundColor: ["#B9E0FF"],
             },
 
+        ],
+    });
+
+
+    // Tab01-Line-Chart
+    const [adminCampaignLineChartTab01] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
+        labels: ["Loans", "Credit Card"],
+
+        datasets: [
+            {
+                label: 'Loan',
+                data: [400, 372, 925, 1142, 555, 446],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#B9E0FF',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#8D72E1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            },
+
+
+            {
+                label: 'Credit Card',
+                data: [545, 651, 980, 778, 1022, 557],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#96EACC',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderColor: [
+                    '#cf3877',
+                    '#A5D8EC',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            }
         ],
     });
 
@@ -3174,16 +3226,89 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Discount Main Loan',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_loan)),
-                backgroundColor: ["#B9E0FF"],
+                backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Discount Main Credit Card',
+                label: 'Credit Card',
                 data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_credit_card)),
-                backgroundColor: ["#8D9EFF"],
+                backgroundColor: ["#B9E0FF"],
             },
 
+        ],
+    });
+
+
+    // Tab02-Line-Chart
+    const [adminCampaignLineChartTab02] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
+        labels: ["Loans", "Credit Card"],
+
+        datasets: [
+            {
+                label: 'Loan',
+                data: [1,484, 1,705, 1,730, 558, 341, 367],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#B9E0FF',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#8D72E1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            },
+
+
+            {
+                label: 'Credit Card',
+                data: [989, 1,395, 891, 993, 417, 1,101],
+
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#96EACC',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderColor: [
+                    '#cf3877',
+                    '#A5D8EC',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            }
         ],
     });
 
@@ -3194,16 +3319,89 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Phone Call Loan',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_loan)),
-                backgroundColor: ["#B9E0FF"],
+                backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Phone Call Credit Card',
+                label: 'Credit Card',
                 data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_credit_card)),
-                backgroundColor: ["#8D9EFF"],
+                backgroundColor: ["#B9E0FF"],
             },
 
+        ],
+    });
+
+
+
+    // Tab03-Line-Chart
+    const [adminCampaignLineChartTab03] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
+        labels: ["Loans", "Credit Card"],
+
+        datasets: [
+            {
+                label: 'Loan',
+                data: [327, 423, 261, 88, 456, 146],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#B9E0FF',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#8D72E1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            },
+
+
+            {
+                label: 'Credit Card',
+                data: [202, 202, 308, 104, 141, 480],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#96EACC',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderColor: [
+                    '#cf3877',
+                    '#A5D8EC',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            }
         ],
     });
 
@@ -3214,16 +3412,88 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Discount Main Loan',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_loan)),
-                backgroundColor: ["#B9E0FF"],
+                backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Discount Main Credit Card',
+                label: 'Credit Card',
                 data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_credit_card)),
-                backgroundColor: ["#8D9EFF"],
+                backgroundColor: ["#B9E0FF"],
             },
 
+        ],
+    });
+
+
+    // Tab04-Line-Chart
+    const [adminCampaignLineChartTab04] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
+        labels: ["Loans", "Credit Card"],
+
+        datasets: [
+            {
+                label: 'Loan',
+                data: [2,566, 1,877, 1,448, 2,361, 2,449, 1,389],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#B9E0FF',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#8D72E1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            },
+
+
+            {
+                label: 'Credit Card',
+                data: [1,541, 1,441, 1,802, 1,478, 1,296, 2,429],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#96EACC',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderColor: [
+                    '#cf3877',
+                    '#A5D8EC',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            }
         ],
     });
 
@@ -3234,16 +3504,88 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Discount Main Loan',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_loan)),
-                backgroundColor: ["#B9E0FF"],
+                backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Discount Main Credit Card',
+                label: 'Credit Card',
                 data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_credit_card)),
-                backgroundColor: ["#8D9EFF"],
+                backgroundColor: ["#B9E0FF"],
             },
 
+        ],
+    });
+
+
+    // Tab05-Line-Chart
+    const [adminCampaignLineChartTab05] = useState({
+        options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        drawOnChartArea: false
+                    }
+                }]
+            }
+        },
+
+        labels: ["Loans", "Credit Card"],
+
+        datasets: [
+            {
+                label: 'Loan',
+                data: [486, 441, 587, 327, 281, 363],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#B9E0FF',
+                    '#8EC3B0',
+                    '#9ED5C5',
+                    '#BCEAD5'
+                ],
+                borderColor: [
+                    '#8D72E1',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            },
+
+
+            {
+                label: 'Credit Card',
+                data: [357, 352, 348, 477, 628, 599],
+                type: 'line',
+                backgroundColor: ["#ff0000"],
+                order: 1,
+                backgroundColor: [
+                    '#96EACC',
+                    '#c40076',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderColor: [
+                    '#cf3877',
+                    '#A5D8EC',
+                    '#07d36b',
+                    '#bec120',
+                    '#ab310c',
+                    '#cf3877'
+                ],
+                borderWidth: 8,
+            }
         ],
     });
 
@@ -3252,11 +3594,11 @@ const AdminCampaign = () => {
 
         <Tabs>
             <TabList>
-                <Tab>Campaign 1</Tab>
-                <Tab>Campaign 2</Tab>
-                <Tab>Campaign 3</Tab>
-                <Tab>Campaign 4</Tab>
-                <Tab>Campaign 5</Tab>
+                <Tab>Discount Mail</Tab>
+                <Tab>Promotional Mail</Tab>
+                <Tab>Phone Call</Tab>
+                <Tab>Push Notificaiton </Tab>
+                <Tab>Loyalty Mail</Tab>
             </TabList>
 
 
@@ -3264,17 +3606,26 @@ const AdminCampaign = () => {
             <TabPanel>
                 <div className='admin-campaign'>
                     <div className='admin-campaign-head'>
-                        <h3>Admin Campaign</h3>
+                        <h3>Analysis of discount campaign</h3>
 
                         <div className='admin-campaign-head-right'>
-                            <h6>Total Discount Mail Sent: <span>12053</span></h6>
+                            <h6>Total discount mail sent: <span>12053</span></h6>
                         </div>
                     </div>
 
                     <div>
-                        <div className='white-bg'>
-                            <AdminCampaignChartBase chartData={adminCampaignBarChartTab01} />
+
+                        <div className="d-flex">
+                            <div className='white-bg w-49 head'>
+                                <h3>Product-specific monthly campaign delivery chart</h3>
+                                <AdminCampaignChartBase chartData={adminCampaignBarChartTab01} />
+                            </div>
+                            <div className='white-bg w-49 head'>
+                                <h3>Monthly product sales chart</h3>
+                                <AdminCampaignChartLineBase chartData={adminCampaignLineChartTab01} />
+                            </div>
                         </div>
+
                         <Campaign01Table01 Campaign1items={Campaign1items} setCampaign1items={setCampaign1items} Campaign1itemsStatus={Campaign1itemsStatus} />
                         <Campaign01Table02 Campaign1items={Campaign1items} setCampaign1items={setCampaign1items} Campaign1itemsStatus={Campaign1itemsStatus} />
                         <div className="button-wrapper">
@@ -3290,17 +3641,26 @@ const AdminCampaign = () => {
             <TabPanel>
                 <div className='admin-campaign'>
                     <div className='admin-campaign-head'>
-                        <h3>Admin Campaign 2</h3>
+                        <h3>Analysis of promotional campaign</h3>
 
                         <div className='admin-campaign-head-right'>
-                            <h6>Total Promotional Mail Sent: <span>14782</span></h6>
+                            <h6>Total promotional mail sent: <span>14782</span></h6>
                         </div>
                     </div>
 
                     <div>
-                        <div className='white-bg'>
-                            <AdminCampaignChartBase chartData={adminCampaignBarChartTab02} />
+
+                        <div className="d-flex">
+                            <div className='white-bg w-49 head'>
+                                <h3>Product-specific monthly campaign delivery chart</h3>
+                                <AdminCampaignChartBase chartData={adminCampaignBarChartTab02} />
+                            </div>
+                            <div className='white-bg w-49 head'>
+                                <h3>Monthly product sales chart</h3>
+                                <AdminCampaignChartLineBase chartData={adminCampaignLineChartTab02} />
+                            </div>
                         </div>
+
                         <Campaign02Table01 Campaign2items={Campaign2items} setCampaign2items={setCampaign2items} Campaign2itemsStatus={Campaign2itemsStatus} />
                         <Campaign02Table02 Campaign2items={Campaign2items} setCampaign2items={setCampaign2items} Campaign2itemsStatus={Campaign2itemsStatus} />
                         <div className="button-wrapper">
@@ -3316,17 +3676,28 @@ const AdminCampaign = () => {
             <TabPanel>
                 <div className='admin-campaign'>
                     <div className='admin-campaign-head'>
-                        <h3>Admin Campaign 3</h3>
+                        <h3>Analysis of phone call campaign</h3>
 
                         <div className='admin-campaign-head-right'>
-                            <h6>Total Phonecall Sent: <span>4643</span></h6>
+                            <h6>Total phone call sent: <span>4643</span></h6>
                         </div>
                     </div>
 
                     <div>
-                        <div className='white-bg'>
-                            <AdminCampaignChartBase chartData={adminCampaignBarChartTab03} />
+
+                        <div className="d-flex">
+                            <div className='white-bg w-49 head'>
+
+                                <h3>Product-specific monthly campaign delivery chart</h3>
+                                <AdminCampaignChartBase chartData={adminCampaignBarChartTab03} />
+                            </div>
+                            <div className='white-bg w-49 head'>
+                                <h3>Monthly product sales chart</h3>
+                                <AdminCampaignChartLineBase chartData={adminCampaignLineChartTab03} />
+                            </div>
                         </div>
+
+
                         <Campaign03Table01 Campaign3items={Campaign3items} setCampaign3items={setCampaign3items} Campaign3itemsStatus={Campaign3itemsStatus} />
                         <Campaign03Table02 Campaign3items={Campaign3items} setCampaign3items={setCampaign3items} Campaign3itemsStatus={Campaign3itemsStatus} />
                         <div className="button-wrapper">
@@ -3342,17 +3713,26 @@ const AdminCampaign = () => {
             <TabPanel>
                 <div className='admin-campaign'>
                     <div className='admin-campaign-head'>
-                        <h3>Admin Campaign 4</h3>
-
+                        <h3>Analysis of push notification campaign</h3>
                         <div className='admin-campaign-head-right'>
-                            <h6>Total Push notification Sent: <span>25463</span></h6>
+                            <h6>Total push notification sent: <span>25463</span></h6>
                         </div>
                     </div>
 
                     <div>
-                        <div className='white-bg'>
-                            <AdminCampaignChartBase chartData={adminCampaignBarChartTab04} />
+                       
+
+                        <div className="d-flex">
+                            <div className='white-bg w-49 head'>
+                                <h3>Product-specific monthly campaign delivery chart</h3>
+                                <AdminCampaignChartBase chartData={adminCampaignBarChartTab04} />
+                            </div>
+                            <div className='white-bg w-49 head'>
+                                <h3>Monthly product sales chart</h3>
+                                <AdminCampaignChartLineBase chartData={adminCampaignLineChartTab04} />
+                            </div>
                         </div>
+
                         <Campaign04Table01 Campaign4items={Campaign4items} setCampaign4items={setCampaign4items} Campaign4itemsStatus={Campaign4itemsStatus} />
                         <Campaign04Table02 Campaign4items={Campaign4items} setCampaign4items={setCampaign4items} Campaign4itemsStatus={Campaign4itemsStatus} />
                         <div className="button-wrapper">
@@ -3368,17 +3748,27 @@ const AdminCampaign = () => {
             <TabPanel>
                 <div className='admin-campaign'>
                     <div className='admin-campaign-head'>
-                        <h3>Admin Campaign 5</h3>
-
+                        <h3>Analysis of loyalty mail campaign</h3>
                         <div className='admin-campaign-head-right'>
-                            <h6>Total Loyalty Mail Sent: <span>7233</span></h6>
+                            <h6>Total loyalty mail sent: <span>7233</span></h6>
                         </div>
                     </div>
 
                     <div>
-                        <div className='white-bg'>
-                            <AdminCampaignChartBase chartData={adminCampaignBarChartTab05} />
+                       
+
+                        <div className="d-flex">
+                            <div className='white-bg w-49 head'>
+                                <h3>Product-specific monthly campaign delivery chart</h3>
+                                <AdminCampaignChartBase chartData={adminCampaignBarChartTab05} />
+                            </div>
+                            <div className='white-bg w-49 head'>
+                                <h3>Monthly product sales chart</h3>
+                                <AdminCampaignChartLineBase chartData={adminCampaignLineChartTab05} />
+                            </div>
                         </div>
+
+
                         <Campaign05Table01 Campaign5items={Campaign5items} setCampaign5items={setCampaign5items} Campaign5itemsStatus={Campaign5itemsStatus} />
                         <Campaign05Table02 Campaign5items={Campaign5items} setCampaign5items={setCampaign5items} Campaign5itemsStatus={Campaign5itemsStatus} />
                         <div className="button-wrapper">

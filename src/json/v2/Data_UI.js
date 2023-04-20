@@ -91,7 +91,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 2,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub3_atomic_1",
         "Column5": 0.0393992311637383,
         "Column6": 2
     },
@@ -107,7 +107,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 4,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub3_atomic_2",
         "Column5": 0.0343204456941222,
         "Column6": 4
     },
@@ -123,7 +123,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 6,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub3_atomic_3",
         "Column5": 0.034100270515169,
         "Column6": 6
     },
@@ -139,7 +139,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 8,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub3_atomic_4",
         "Column5": 0.032185145895156,
         "Column6": 8
     },
@@ -155,7 +155,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 10,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub3_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub3_atomic_5",
         "Column5": 0.031864245280666,
         "Column6": 10
     },
@@ -171,7 +171,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 12,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub4_atomic_1",
         "Column5": 0.0214450466339176,
         "Column6": 12
     },
@@ -187,7 +187,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 14,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub4_atomic_2",
         "Column5": 0.0207425803140654,
         "Column6": 14
     },
@@ -203,7 +203,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 16,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub4_atomic_3",
         "Column5": 0.0207233916855124,
         "Column6": 16
     },
@@ -219,7 +219,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 18,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub4_atomic_4",
         "Column5": 0.0205425008423863,
         "Column6": 18
     },
@@ -235,7 +235,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 20,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub4_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub4_atomic_5",
         "Column5": 0.0202762753768374,
         "Column6": 20
     },
@@ -251,7 +251,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 22,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub5_atomic_1",
         "Column5": 0.014872941932014,
         "Column6": 22
     },
@@ -267,7 +267,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 24,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub5_atomic_2",
         "Column5": 0.0147574464118162,
         "Column6": 24
     },
@@ -283,7 +283,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 26,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub5_atomic_3",
         "Column5": 0.0146807216040809,
         "Column6": 26
     },
@@ -299,7 +299,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 28,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub5_atomic_4",
         "Column5": 0.0145679649413975,
         "Column6": 28
     },
@@ -315,7 +315,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 30,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub5_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub5_atomic_5",
         "Column5": 0.0145571863518987,
         "Column6": 30
     },
@@ -331,7 +331,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 32,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub2_atomic_1",
         "Column5": 0.0142886691005615,
         "Column6": 32
     },
@@ -347,7 +347,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 34,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub2_atomic_2",
         "Column5": 0.0142770238569058,
         "Column6": 34
     },
@@ -363,7 +363,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 36,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub2_atomic_3",
         "Column5": 0.0142664182190323,
         "Column6": 36
     },
@@ -379,7 +379,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 38,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub2_atomic_4",
         "Column5": 0.0136928950778866,
         "Column6": 38
     },
@@ -395,7 +395,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 40,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub2_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub2_atomic_5",
         "Column5": 0.0131301067628151,
         "Column6": 40
     },
@@ -411,7 +411,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 42,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub1_atomic_1",
         "Column5": 0.0121976150862778,
         "Column6": 42
     },
@@ -427,7 +427,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 44,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub1_atomic_2",
         "Column5": 0.0119511819713499,
         "Column6": 44
     },
@@ -443,7 +443,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 46,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub1_atomic_3",
         "Column5": 0.0116309960452891,
         "Column6": 46
     },
@@ -459,7 +459,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 48,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub1_atomic_4",
         "Column5": 0.0114591963798432,
         "Column6": 48
     },
@@ -475,7 +475,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 50,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Loyalty_sub1_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Loyalty_sub1_atomic_5",
         "Column5": 0.0113804576627438,
         "Column6": 50
     },
@@ -491,7 +491,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 52,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub3_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Phone_sub3_atomic_1",
         "Column5": 0.010086463510758,
         "Column6": 52
     },
@@ -507,7 +507,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 54,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub3_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Phone_sub3_atomic_2",
         "Column5": 0.0099607719987572,
         "Column6": 54
     },
@@ -523,7 +523,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 56,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub3_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Phone_sub3_atomic_3",
         "Column5": 0.0099040087921049,
         "Column6": 56
     },
@@ -539,7 +539,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 58,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub3_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Phone_sub3_atomic_4",
         "Column5": 0.0097922853614153,
         "Column6": 58
     },
@@ -555,7 +555,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 60,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub3_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Phone_sub3_atomic_5",
         "Column5": 0.009714724482114,
         "Column6": 60
     },
@@ -571,7 +571,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 62,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub2_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Phone_sub2_atomic_1",
         "Column5": 0.0093738372174559,
         "Column6": 62
     },
@@ -587,7 +587,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 64,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub2_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Phone_sub2_atomic_2",
         "Column5": 0.0092884216107099,
         "Column6": 64
     },
@@ -603,7 +603,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 66,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub2_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Phone_sub2_atomic_3",
         "Column5": 0.0088019495191757,
         "Column6": 66
     },
@@ -619,7 +619,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 68,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub2_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Phone_sub2_atomic_4",
         "Column5": 0.0087546066556874,
         "Column6": 68
     },
@@ -635,7 +635,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 70,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub2_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Phone_sub2_atomic_5",
         "Column5": 0.008555815763817,
         "Column6": 70
     },
@@ -651,7 +651,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 72,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub4_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Phone_sub4_atomic_1",
         "Column5": 0.0084106881430099,
         "Column6": 72
     },
@@ -667,7 +667,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 74,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub4_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Phone_sub4_atomic_2",
         "Column5": 0.0082823359000175,
         "Column6": 74
     },
@@ -683,7 +683,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 76,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub4_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Phone_sub4_atomic_3",
         "Column5": 0.0081744668527132,
         "Column6": 76
     },
@@ -699,7 +699,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 78,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub4_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Phone_sub4_atomic_4",
         "Column5": 0.0081213926050184,
         "Column6": 78
     },
@@ -715,7 +715,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 80,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub4_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Phone_sub4_atomic_5",
         "Column5": 0.0079202055105888,
         "Column6": 80
     },
@@ -731,7 +731,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 82,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub5_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Phone_sub5_atomic_1",
         "Column5": 0.0065920754014555,
         "Column6": 82
     },
@@ -747,7 +747,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 84,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub5_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Phone_sub5_atomic_2",
         "Column5": 0.0065265680938794,
         "Column6": 84
     },
@@ -763,7 +763,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 86,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub5_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Phone_sub5_atomic_3",
         "Column5": 0.0063304072427659,
         "Column6": 86
     },
@@ -779,7 +779,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 88,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub5_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Phone_sub5_atomic_4",
         "Column5": 0.0063067593167196,
         "Column6": 88
     },
@@ -795,7 +795,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 90,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub5_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Phone_sub5_atomic_5",
         "Column5": 0.0062864215866818,
         "Column6": 90
     },
@@ -811,7 +811,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 92,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub1_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Phone_sub1_atomic_1",
         "Column5": 0.0062133358843903,
         "Column6": 92
     },
@@ -827,7 +827,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 94,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub1_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Phone_sub1_atomic_2",
         "Column5": 0.0061960997384891,
         "Column6": 94
     },
@@ -843,7 +843,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 96,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub1_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Phone_sub1_atomic_3",
         "Column5": 0.0060826116798315,
         "Column6": 96
     },
@@ -859,7 +859,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 98,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub1_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Phone_sub1_atomic_4",
         "Column5": 0.0060392969069834,
         "Column6": 98
     },
@@ -875,7 +875,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 100,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Phone_sub1_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Phone_sub1_atomic_5",
         "Column5": 0.0060286207065512,
         "Column6": 100
     },
@@ -891,7 +891,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 102,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub1_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Promo_sub1_atomic_1",
         "Column5": 0.0051463932660718,
         "Column6": 102
     },
@@ -907,7 +907,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 104,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub1_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Promo_sub1_atomic_2",
         "Column5": 0.0049561369858779,
         "Column6": 104
     },
@@ -923,7 +923,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 106,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub1_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Promo_sub1_atomic_3",
         "Column5": 0.0046185296368395,
         "Column6": 106
     },
@@ -939,7 +939,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 108,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub1_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Promo_sub1_atomic_4",
         "Column5": 0.0045629668281902,
         "Column6": 108
     },
@@ -955,7 +955,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 110,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub1_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Promo_sub1_atomic_5",
         "Column5": 0.0045051371931875,
         "Column6": 110
     },
@@ -971,7 +971,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 112,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub5_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Promo_sub5_atomic_1",
         "Column5": 0.0044567495003948,
         "Column6": 112
     },
@@ -987,7 +987,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 114,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub5_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Promo_sub5_atomic_2",
         "Column5": 0.0044027045329138,
         "Column6": 114
     },
@@ -1003,7 +1003,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 116,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub5_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Promo_sub5_atomic_3",
         "Column5": 0.0043967387102443,
         "Column6": 116
     },
@@ -1019,7 +1019,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 118,
         "Total_sales": "Credit Card",
         "Note: Box data": "Loyalty",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub5_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Promo_sub5_atomic_4",
         "Column5": 0.0043529165821906,
         "Column6": 118
     },
@@ -1035,7 +1035,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 120,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub5_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Promo_sub5_atomic_5",
         "Column5": 0.004336811167206,
         "Column6": 120
     },
@@ -1051,7 +1051,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 122,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub3_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Promo_sub3_atomic_1",
         "Column5": 0.0043147695389214,
         "Column6": 122
     },
@@ -1067,7 +1067,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 124,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub3_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Promo_sub3_atomic_2",
         "Column5": 0.0042848533196513,
         "Column6": 124
     },
@@ -1083,7 +1083,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 126,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub3_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Promo_sub3_atomic_3",
         "Column5": 0.0042687432496499,
         "Column6": 126
     },
@@ -1099,7 +1099,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 128,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub3_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Promo_sub3_atomic_4",
         "Column5": 0.0042545227420972,
         "Column6": 128
     },
@@ -1115,7 +1115,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 130,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub3_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Promo_sub3_atomic_5",
         "Column5": 0.0042413514728177,
         "Column6": 130
     },
@@ -1131,7 +1131,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 132,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub4_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Promo_sub4_atomic_1",
         "Column5": 0.0041082695162016,
         "Column6": 132
     },
@@ -1147,7 +1147,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 134,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub4_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Promo_sub4_atomic_2",
         "Column5": 0.003978501930755,
         "Column6": 134
     },
@@ -1163,7 +1163,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 136,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub4_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Promo_sub4_atomic_3",
         "Column5": 0.0039546725832444,
         "Column6": 136
     },
@@ -1179,7 +1179,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 138,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub4_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Promo_sub4_atomic_4",
         "Column5": 0.00391499541418,
         "Column6": 138
     },
@@ -1195,7 +1195,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 140,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub4_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Promo_sub4_atomic_5",
         "Column5": 0.0036361701390377,
         "Column6": 140
     },
@@ -1211,7 +1211,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 142,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub2_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Promo_sub2_atomic_1",
         "Column5": 0.0029964542284429,
         "Column6": 142
     },
@@ -1227,7 +1227,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 144,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub2_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Promo_sub2_atomic_2",
         "Column5": 0.0028335021409164,
         "Column6": 144
     },
@@ -1243,7 +1243,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 146,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub2_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Promo_sub2_atomic_3",
         "Column5": 0.0028276030052765,
         "Column6": 146
     },
@@ -1259,7 +1259,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 148,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub2_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Promo_sub2_atomic_4",
         "Column5": 0.0027885987683338,
         "Column6": 148
     },
@@ -1275,7 +1275,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 150,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Promo_sub2_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Promo_sub2_atomic_5",
         "Column5": 0.0027607333380747,
         "Column6": 150
     },
@@ -1291,7 +1291,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 152,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub1_atomic_1",
+        "Column4": "Credit _Card_Segment_1_PN_sub1_atomic_1",
         "Column5": 0.0023941463384217,
         "Column6": 152
     },
@@ -1307,7 +1307,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 154,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub1_atomic_2",
+        "Column4": "Credit _Card_Segment_1_PN_sub1_atomic_2",
         "Column5": 0.0022922834469781,
         "Column6": 154
     },
@@ -1323,7 +1323,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 156,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub1_atomic_3",
+        "Column4": "Credit _Card_Segment_1_PN_sub1_atomic_3",
         "Column5": 0.0021923158534538,
         "Column6": 156
     },
@@ -1339,7 +1339,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 158,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub1_atomic_4",
+        "Column4": "Credit _Card_Segment_1_PN_sub1_atomic_4",
         "Column5": 0.0021657418052818,
         "Column6": 158
     },
@@ -1355,7 +1355,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 160,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_PN_sub1_atomic_5",
+        "Column4": "Credit _Card_Segment_1_PN_sub1_atomic_5",
         "Column5": 0.0021452688986415,
         "Column6": 160
     },
@@ -1371,7 +1371,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 162,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub3_atomic_1",
+        "Column4": "Credit _Card_Segment_1_PN_sub3_atomic_1",
         "Column5": 0.0021051732789246,
         "Column6": 162
     },
@@ -1387,7 +1387,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 164,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub3_atomic_2",
+        "Column4": "Credit _Card_Segment_1_PN_sub3_atomic_2",
         "Column5": 0.0020888699570535,
         "Column6": 164
     },
@@ -1403,7 +1403,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 166,
         "Total_sales": "Credit Card",
         "Note: Box data": "Promotional Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub3_atomic_3",
+        "Column4": "Credit _Card_Segment_1_PN_sub3_atomic_3",
         "Column5": 0.0020462164384981,
         "Column6": 166
     },
@@ -1411,7 +1411,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 167,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub3_atomic_4",
+        "Column4": "Credit _Card_Segment_1_PN_sub3_atomic_4",
         "Column5": 0.0020321290757141,
         "Column6": 167
     },
@@ -1435,7 +1435,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 170,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub3_atomic_5",
+        "Column4": "Credit _Card_Segment_1_PN_sub3_atomic_5",
         "Column5": 0.0020104743619745,
         "Column6": 170
     },
@@ -1451,7 +1451,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 172,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub4_atomic_1",
+        "Column4": "Credit _Card_Segment_1_PN_sub4_atomic_1",
         "Column5": 0.0019510281091397,
         "Column6": 172
     },
@@ -1467,7 +1467,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 174,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub4_atomic_2",
+        "Column4": "Credit _Card_Segment_1_PN_sub4_atomic_2",
         "Column5": 0.0019081629281566,
         "Column6": 174
     },
@@ -1483,7 +1483,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 176,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub4_atomic_3",
+        "Column4": "Credit _Card_Segment_1_PN_sub4_atomic_3",
         "Column5": 0.0018981220061789,
         "Column6": 176
     },
@@ -1499,7 +1499,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 178,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub4_atomic_4",
+        "Column4": "Credit _Card_Segment_1_PN_sub4_atomic_4",
         "Column5": 0.0017996021672288,
         "Column6": 178
     },
@@ -1515,7 +1515,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 180,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub4_atomic_5",
+        "Column4": "Credit _Card_Segment_1_PN_sub4_atomic_5",
         "Column5": 0.0017555803569213,
         "Column6": 180
     },
@@ -1531,7 +1531,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 182,
         "Total_sales": "Credit Card",
         "Note: Box data": "Discount Email",
-        "Column4": "Credit_Loan_Segment_1_PN_sub5_atomic_1",
+        "Column4": "Credit _Card_Segment_1_PN_sub5_atomic_1",
         "Column5": 0.0017270039223033,
         "Column6": 182
     },
@@ -1547,7 +1547,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 184,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_PN_sub5_atomic_2",
+        "Column4": "Credit _Card_Segment_1_PN_sub5_atomic_2",
         "Column5": 0.0016400409343383,
         "Column6": 184
     },
@@ -1563,7 +1563,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 186,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_PN_sub5_atomic_3",
+        "Column4": "Credit _Card_Segment_1_PN_sub5_atomic_3",
         "Column5": 0.0016125442120227,
         "Column6": 186
     },
@@ -1579,7 +1579,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 188,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_PN_sub5_atomic_4",
+        "Column4": "Credit _Card_Segment_1_PN_sub5_atomic_4",
         "Column5": 0.0015734971360851,
         "Column6": 188
     },
@@ -1595,7 +1595,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 190,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_PN_sub5_atomic_5",
+        "Column4": "Credit _Card_Segment_1_PN_sub5_atomic_5",
         "Column5": 0.0015079561189418,
         "Column6": 190
     },
@@ -1611,7 +1611,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 192,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub2_atomic_1",
+        "Column4": "Credit _Card_Segment_1_PN_sub2_atomic_1",
         "Column5": 0.0013960610973604,
         "Column6": 192
     },
@@ -1627,7 +1627,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 194,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub2_atomic_2",
+        "Column4": "Credit _Card_Segment_1_PN_sub2_atomic_2",
         "Column5": 0.0013291507995174,
         "Column6": 194
     },
@@ -1643,7 +1643,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 196,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub2_atomic_3",
+        "Column4": "Credit _Card_Segment_1_PN_sub2_atomic_3",
         "Column5": 0.0012804103293848,
         "Column6": 196
     },
@@ -1659,7 +1659,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 198,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub2_atomic_4",
+        "Column4": "Credit _Card_Segment_1_PN_sub2_atomic_4",
         "Column5": 0.0012756687954697,
         "Column6": 198
     },
@@ -1675,7 +1675,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 200,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_PN_sub2_atomic_5",
+        "Column4": "Credit _Card_Segment_1_PN_sub2_atomic_5",
         "Column5": 0.0012635352406268,
         "Column6": 200
     },
@@ -1691,7 +1691,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 202,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub3_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Discount_sub3_atomic_1",
         "Column5": 0.0012584036458843,
         "Column6": 202
     },
@@ -1707,7 +1707,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 204,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub3_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Discount_sub3_atomic_2",
         "Column5": 0.0011633935874503,
         "Column6": 204
     },
@@ -1723,7 +1723,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 206,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub3_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Discount_sub3_atomic_3",
         "Column5": 0.0010893515353354,
         "Column6": 206
     },
@@ -1739,7 +1739,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 208,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub3_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Discount_sub3_atomic_4",
         "Column5": 0.0010650322848294,
         "Column6": 208
     },
@@ -1755,7 +1755,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 210,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub3_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Discount_sub3_atomic_5",
         "Column5": 0.0009757375192926,
         "Column6": 210
     },
@@ -1763,7 +1763,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 211,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub5_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Discount_sub5_atomic_1",
         "Column5": 0.0007764156677636,
         "Column6": 211
     },
@@ -1787,7 +1787,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 214,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub5_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Discount_sub5_atomic_2",
         "Column5": 0.0007360745826779,
         "Column6": 214
     },
@@ -1803,7 +1803,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 216,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub5_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Discount_sub5_atomic_3",
         "Column5": 0.0006974629560239,
         "Column6": 216
     },
@@ -1819,7 +1819,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 218,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub5_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Discount_sub5_atomic_4",
         "Column5": 0.0006856818569629,
         "Column6": 218
     },
@@ -1827,7 +1827,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 219,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub5_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Discount_sub5_atomic_5",
         "Column5": 0.0005938413013285,
         "Column6": 219
     },
@@ -1851,7 +1851,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 222,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub2_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Discount_sub2_atomic_1",
         "Column5": 0.0005797137536124,
         "Column6": 222
     },
@@ -1867,7 +1867,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 224,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub2_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Discount_sub2_atomic_2",
         "Column5": 0.0003808257100281,
         "Column6": 224
     },
@@ -1883,7 +1883,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 226,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub2_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Discount_sub2_atomic_3",
         "Column5": 0.0003792633121773,
         "Column6": 226
     },
@@ -1899,7 +1899,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 228,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub2_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Discount_sub2_atomic_4",
         "Column5": 0.0003741108535811,
         "Column6": 228
     },
@@ -1915,7 +1915,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 230,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub2_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Discount_sub2_atomic_5",
         "Column5": 0.0003236512126833,
         "Column6": 230
     },
@@ -1931,7 +1931,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 232,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub4_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Discount_sub4_atomic_1",
         "Column5": 0.0003229419559505,
         "Column6": 232
     },
@@ -1947,7 +1947,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 234,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub4_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Discount_sub4_atomic_2",
         "Column5": 0.0002895938903765,
         "Column6": 234
     },
@@ -1963,7 +1963,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 236,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub4_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Discount_sub4_atomic_3",
         "Column5": 0.0002237880496039,
         "Column6": 236
     },
@@ -1979,7 +1979,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 238,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub4_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Discount_sub4_atomic_4",
         "Column5": 0.0001874153016267,
         "Column6": 238
     },
@@ -1987,7 +1987,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 239,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub4_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Discount_sub4_atomic_5",
         "Column5": 9.30114286665839E-05,
         "Column6": 239
     },
@@ -2003,7 +2003,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 241,
         "Total_sales": "Credit Card",
         "Note: Box data": "Phone call",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub1_atomic_1",
+        "Column4": "Credit _Card_Segment_1_Discount_sub1_atomic_1",
         "Column5": 3.12449134035723E-05,
         "Column6": 241
     },
@@ -2019,7 +2019,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 243,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub1_atomic_2",
+        "Column4": "Credit _Card_Segment_1_Discount_sub1_atomic_2",
         "Column5": -0.0002607071950363,
         "Column6": 243
     },
@@ -2035,7 +2035,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 245,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub1_atomic_3",
+        "Column4": "Credit _Card_Segment_1_Discount_sub1_atomic_3",
         "Column5": -0.0003674247606455,
         "Column6": 245
     },
@@ -2051,7 +2051,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 247,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub1_atomic_4",
+        "Column4": "Credit _Card_Segment_1_Discount_sub1_atomic_4",
         "Column5": -0.000421203199082,
         "Column6": 247
     },
@@ -2067,7 +2067,7 @@ export const Senior_manager_product_page = [
         "Total_number_of_Products": 249,
         "Total_sales": "Credit Card",
         "Note: Box data": "Push Notification",
-        "Column4": "Credit_Loan_Segment_1_Discount_sub1_atomic_5",
+        "Column4": "Credit _Card_Segment_1_Discount_sub1_atomic_5",
         "Column5": -0.0004216724299242,
         "Column6": 249
     },

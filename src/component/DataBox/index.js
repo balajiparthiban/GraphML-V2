@@ -117,7 +117,7 @@ const DataBox = () => {
                         {/* <span><img src={img3} alt={img3} /></span> */}
                         <div className='line light-g'>
                             {Senior_manager_home_page_box_data.map((item, iDx) => {
-                                return <h2 className='flipX' key={iDx}>{item.Effect_rate} %</h2>
+                                return <h2 className='flipX' key={iDx}>{parseFloat(item.Effect_rate*100).toFixed(2)} %</h2>
                             })}
                         </div>
                     </div>

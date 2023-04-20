@@ -4,7 +4,6 @@ import SMProductPieChartBase from '../../component/SMProductPieChartBase'
 import SMProductBarChartBase from '../../component/SMProductBarChartBase'
 import { SMProductBarChart } from '../../json/v2/SMProductBarChart'
 import { SMProductPieChart } from '../../json/v2/SMProductPieChart'
-
 import { useState } from 'react'
 import './style.scss'
 

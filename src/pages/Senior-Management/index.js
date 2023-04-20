@@ -18,7 +18,7 @@ const SeniorManagement = () => {
                 order: 2,
                 type: 'line',
                 borderColor: [
-                    '#FF00FF',
+                    '#7DC2E1',
                     'rgba(54, 162, 235, 1)',
                     'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
