@@ -5,9 +5,10 @@ const SMCustomerOverviewTable = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Customer Segment</th>
                 <th>Next Best Product </th>
                 <th>Next Best Action </th>
+                <th>Customer Segment</th>
+                <th>Customer Count</th>
                 <th>Effect</th>
                 <th>Priority</th>
             </thead>
@@ -15,11 +16,12 @@ const SMCustomerOverviewTable = () => {
                 {SM_Customer_Overview_Table && SM_Customer_Overview_Table.map((item, val) => (
                     <tr key={val}>
                         <td></td>
-                        <td>{item.Total_Sales}</td>
-                        <td>{item.Column3}</td>
-                        <td>{item.Column4}</td>
-                        <td>{parseFloat(item.Column5*100).toFixed(2)} %</td>
-                        <td>{item.Column6}</td>
+                        <td>{item.Next_Best_Product}</td>
+                        <td>{item.Next_Best_Action}</td>
+                        <td>{item.Customer_segment}</td>
+                        <td>{item.Customer_count}</td>
+                        <td>{parseFloat(item.Effect * 100).toFixed(2)} %</td>
+                        <td>{item.Priority}</td>
                     </tr>
                 ))}
             </tbody>

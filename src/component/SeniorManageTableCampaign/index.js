@@ -5,21 +5,23 @@ const SMCampaignOverviewTable = () => {
         <table className='white-bg'>
             <thead>
                 <th>S.No</th>
-                <th>Next Best Action </th>
                 <th>Next Best Product </th>
-                <th>Effect</th>
+                <th>Next Best Action </th>
                 <th>Customer Segment</th>
+                <th>Customer Count</th>
+                <th>Effect</th>
                 <th>Priority</th>
             </thead>
             <tbody>
                 {SM_Campaign_Overview_Table && SM_Campaign_Overview_Table.map((item, val) => (
                     <tr key={val}>
                         <td></td>
-                        <td>{item.Column2}</td>
-                        <td>{item.Column3}</td>
-                        <td>{parseFloat(item.Column4*100).toFixed(2)}% </td>
-                        <td>{item.Column5}</td>
-                        <td>{item.Column6}</td>
+                        <td>{item.Next_Best_Product}</td>
+                        <td>{item.Next_Best_Action}</td>
+                        <td>{item.Customer_segment}</td>
+                        <td>{item.Customer_count}</td>
+                        <td>{parseFloat(item.Effect*100).toFixed(2)}% </td>
+                        <td>{item.Priority}</td>
                     </tr>
                 ))}
             </tbody>
