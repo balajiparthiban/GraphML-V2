@@ -16,6 +16,7 @@ Chart.defaults.datasets.bar.maxBarThickness = 85;
 
 export const options = {
     plugins: {
+        maintainAspectRatio: false,
         title: {
             display: false,
             // text: 'Chart.js Bar Chart - Stacked',

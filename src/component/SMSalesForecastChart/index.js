@@ -18,11 +18,8 @@ export const options = {
 
     padding: "0px",
     responsive: true,
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
     defaultFontSize: "14px",
-    width: "400",
-    height: "400",
-
 
     plugins: {
         title: {
@@ -30,10 +27,9 @@ export const options = {
             text: 'Chart.js Bar Chart - Stacked',
         },
         legend: {
-            display: true
+            display: false
         },
     },
-
 
    
     responsive: true,

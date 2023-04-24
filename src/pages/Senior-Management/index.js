@@ -29,7 +29,7 @@ const SeniorManagement = () => {
             },
             {
                 label: '',
-                 data: [, , , , , , , , , , , ,4178 ,4327, 3898, 3706, 3378, 3083],
+                 data: [, , , , , , , , , , ,3835 ,4178 ,4327, 3898, 3706, 3378, 3083],
                 // data: ForecastedDataFor6Months.map((data) => (data.Total)),
                 // backgroundColor: ["#BCEAD5"],
                 order: 2,
@@ -59,7 +59,7 @@ const SeniorManagement = () => {
                 <DataBox />
                 <div className='chart-flex'>
                     <div className='chart-wrapper-bg w-96'>
-                        <div className='chart-wrapper w-50'>
+                        <div className='chart-wrapper w-70'>
                             <h3>Sales Forecast Chart</h3>
                             <SMSalesForecastChart chartData={ForecastData} />
                         </div>

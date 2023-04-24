@@ -155,7 +155,7 @@ const SeniorCampaign = () => {
 
                 <div className='chart-flex'>
                     <div className="chart-wrapper-bg w-100">
-                        <div className="chart-wrapper">
+                        <div className="chart-wrapper w-85">
                             <h3>Monthly Campaigns Delivery Analysis </h3>
                             <SMCampaignBarChartBase chartData={campaignBarChart} />
                         </div>

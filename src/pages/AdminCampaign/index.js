@@ -3262,7 +3262,7 @@ const AdminCampaign = () => {
         datasets: [
             {
                 label: 'Loan',
-                data: [1,484, 1,705, 1,730, 558, 341, 367],
+                data: [1484, 1705, 1730, 558, 341, 367],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
                 order: 1,
@@ -3286,7 +3286,7 @@ const AdminCampaign = () => {
 
             {
                 label: 'Credit Card',
-                data: [989, 1,395, 891, 993, 417, 1,101],
+                data: [989, 1395, 891, 993, 417, 1101],
 
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3448,7 +3448,7 @@ const AdminCampaign = () => {
         datasets: [
             {
                 label: 'Loan',
-                data: [2,566, 1,877, 1,448, 2,361, 2,449, 1,389],
+                data: [2566, 1877, 1448, 2361, 2449, 1389],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
                 order: 1,
