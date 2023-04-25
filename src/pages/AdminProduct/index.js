@@ -3096,7 +3096,7 @@ const AdminProduct = () => {
                 label: 'Total Sales',
                 data: [3040, 3111, 2730, 2868, 2752, 2338],
                 type: 'line',
-                backgroundColor: ["#ff0000"],
+                // backgroundColor: ["#ff0000"],
                 order: 1,
                 backgroundColor: [
                     '#8D72E1',
@@ -3147,7 +3147,7 @@ const AdminProduct = () => {
                 label: 'Total Sales',
                 data: [2379, 2327, 2167, 2602, 2339, 1497],
                 type: 'line',
-                backgroundColor: ["#ff0000"],
+                // backgroundColor: ["#ff0000"],
                 order: 1,
                 backgroundColor: [
                     '#B9E0FF',

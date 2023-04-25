@@ -1,6 +1,6 @@
 import './style.scss'
 
-const ProductTable02 = ({ items, setItems, updateStatus }) => {
+const ProductTable02 = ({ items, updateStatus }) => {
     return (
         <div>
 

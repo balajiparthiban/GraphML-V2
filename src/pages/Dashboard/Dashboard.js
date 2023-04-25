@@ -12,6 +12,7 @@ import WhatIfScenario from '../../component/WhatIfScenario'
 
 import firebase from '../../firebase'
 import { Route, useHistory, Redirect } from 'react-router-dom'
+import TableProvider from "../../context/tableContext";
 // import { useState } from 'react'
 
 const Dashboard = () => {
@@ -62,6 +63,7 @@ const Dashboard = () => {
             <Sidebar />
 
             <main>
+                <TableProvider>
                 <Route exact path="/">
                     <SeniorManagement />
                 </Route>
@@ -99,6 +101,7 @@ const Dashboard = () => {
                 <Route path="/admin-product">
                     <AdminProduct />
                 </Route>
+                </TableProvider>
             </main>
 
         </div>

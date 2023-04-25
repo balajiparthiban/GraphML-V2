@@ -1,6 +1,6 @@
 import './style.scss'
 
-const ProductTable01 = ({ items, setItems, updateStatus }) => {
+const ProductTable01 = ({ items, updateStatus }) => {
     return (
         <div>
             <div className='head-top'>
