@@ -64,43 +64,43 @@ const Dashboard = () => {
 
             <main>
                 <TableProvider>
-                <Route exact path="/">
-                    <SeniorManagement />
-                </Route>
+                    <Route exact path="/">
+                        <SeniorManagement />
+                    </Route>
 
-                <Route path="/senior-campaign">
-                    <SeniorCampaign />
-                </Route>
+                    <Route path="/senior-campaign">
+                        <SeniorCampaign />
+                    </Route>
 
-                <Route path="/senior-product">
-                    <SeniorProduct />
-                </Route>
+                    <Route path="/senior-product">
+                        <SeniorProduct />
+                    </Route>
 
-                <Route path="/senior-customer" >
-                    <SeniorCustomer />
-                </Route>
+                    <Route path="/senior-customer" >
+                        <SeniorCustomer />
+                    </Route>
 
-                <Route path="/what-if-scenario">
-                    <WhatIfScenario />
-                </Route>
+                    <Route path="/what-if-scenario">
+                        <WhatIfScenario />
+                    </Route>
 
 
 
-                <Route path="/admin">
-                    <AdminPage />
-                </Route>
+                    <Route path="/admin">
+                        <AdminPage />
+                    </Route>
 
-                <Route path="/admin-campaign">
-                    <AdminCampaign />
-                </Route>
+                    <Route path="/admin-campaign">
+                        <AdminCampaign />
+                    </Route>
 
-                <Route path="/admin-summary">
-                    <AdminSummary />
-                </Route>
+                    <Route path="/admin-summary">
+                        <AdminSummary />
+                    </Route>
 
-                <Route path="/admin-product">
-                    <AdminProduct />
-                </Route>
+                    <Route path="/admin-product">
+                        <AdminProduct />
+                    </Route>
                 </TableProvider>
             </main>
 

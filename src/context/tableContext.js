@@ -3,6 +3,7 @@ import {createContext, useState, useContext} from 'react'
 export const TableContext = createContext();
 
 export default function TableProvider({children}) {
+    
     const [tableState, setTableState] = useState([
         {
             id: 1,
@@ -366,6 +367,7 @@ export default function TableProvider({children}) {
             status: 'Pending'
         },
     ]);
+
     const updateTableState = (rowId, status) => {
         const updatedRecords = tableState.reduce((acc, item) => {
             if (item.id === rowId) {

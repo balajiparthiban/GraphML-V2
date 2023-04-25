@@ -6,7 +6,6 @@ import { SMProductBarChart } from '../../json/v2/SMProductBarChart'
 import { SMProductPieChart } from '../../json/v2/SMProductPieChart'
 import { useState, useContext } from 'react'
 import './style.scss'
-
 import ProductTable01 from '../../component/SeniorProductTable/ProductTable01'
 // import ProductTable02 from '../../component/SeniorProductTable/ProductTable02'
 import {TableContext} from "../../context/tableContext";
