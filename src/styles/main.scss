@@ -91,6 +91,17 @@ body {
     width: 85% !important;
 }
 
+.table-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-send {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
