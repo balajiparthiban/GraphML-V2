@@ -1,5 +1,11 @@
 .admin-page {
-    h3 {
+    >h3 {
         padding: 10px 0 20px;
+    }
+
+    >h5 {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
     }
 }

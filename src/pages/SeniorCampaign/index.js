@@ -1,6 +1,4 @@
 import { useState, useContext } from 'react'
-
-import SMCampaignOverviewTable from '../../component/SeniorManageTableCampaign'
 import DataBox01 from '../../component/DataBox01'
 import SMCampaignBarChartBase from '../../component/SMCampaignBarChartBase'
 import SMCampaignLineChartBase from '../../component/SMCampaignLineChartBase'
@@ -9,9 +7,8 @@ import { SMCampaignBarChart } from "../../json/v2/SM-Campaign-Bar-Chart"
 import { SMCampaignLineChart } from "../../json/v2/SMCampaignLineChart"
 import { SMCampaignPieChart } from "../../json/v2/SMCampaignPieChart"
 
-
 import CampaignTable01 from '../../component/SeniorCampaignTable/CampaignTable01'
-import {CampaignTableContext} from "../../context/campaignTableContext";
+import { CampaignTableContext } from "../../context/campaignTableContext";
 import './style.scss'
 
 const SeniorCampaign = () => {
@@ -86,51 +83,88 @@ const SeniorCampaign = () => {
 
     const [campaignPieChart] = useState({
         // labels: SMCampaignPieChart.map((data) => data.Month),
-        labels: ["Discount Main", "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
+        // labels: ["Discount Main", "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
+        // datasets: [
+
+        //     {
+        //     label: ['#Discount Main', "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
+        //         data: [12053, 14782, 4643, 25463, 7233],
+        //         type: 'pie',
+        //         backgroundColor: [
+        //             '#8EC3B0',
+        //             '#6C4AB6',
+        //             '#BCEAD5',
+        //             '#8D72E1',
+        //             '#8D9EFF'
+        //         ],
+        //     },
+
+
+
+        // {
+        //     label: 'Discount Main',
+        //     data: [12053],
+        //     backgroundColor: ["#7986CB"],
+        //     type: 'pie',
+        // },
+        // {
+        //     label: 'Promotional Mail',
+        //     data: [14782],
+        //     backgroundColor: ["#ff7043"],
+        //     type: 'pie',
+        // },
+        // {
+        //     label: 'Phone Call',
+        //     data: [4643],
+        //     backgroundColor: ["#4DB6AC"],
+        //     type: 'pie',
+        // },
+        // {
+        //     label: 'Push Notification',
+        //     data: [25463],
+        //     backgroundColor: ["#DCE775"],
+        //     type: 'pie',
+        // }, {
+        //     label: 'Loyalty Mail',
+        //     data: [7233],
+        //     backgroundColor: ["#64B5F6"],
+        //     type: 'pie',
+        // }
+
+
         datasets: [
             {
-                // label: ['#Discount Main', "Promotional Mail", "Phone Call", "Push Notification", "Loyalty Mail"],
-                data: [12053, 14782, 4643, 25463, 7233],
-                type: 'pie',
-                backgroundColor: [
-                    '#8EC3B0',
-                    '#6C4AB6',
-                    '#BCEAD5',
-                    '#8D72E1',
-                    '#8D9EFF'
-                ],
+                label: 'Discount Mail',
+                data: SMCampaignPieChart.map((data) => (data.Discount_main)),
+                backgroundColor: ["#7986CB"],
+                type: 'pie'
             },
+            {
+                label: 'Promotional Mail',
+                data: SMCampaignPieChart.map((data) => (data.Promotional_mail)),
+                backgroundColor: ["#4DB6AC"],
+                type: 'pie'
+            },
+            {
+                label: 'Phone Call',
+                data: SMCampaignPieChart.map((data) => (data.Phone_call)),
+                backgroundColor: ["#DCE775"],
 
-            // {
-            //     label: 'Discount Main',
-            //     data: [12053],
-            //     backgroundColor: ["#8EC3B0"],
-            //     type: 'pie',
-            // },
-            // {
-            //     label: 'Promotional Mail',
-            //     data: [14782],
-            //     backgroundColor: ["#6C4AB6"],
-            //     type: 'pie',
-            // },
-            // {
-            //     label: 'Phone Call',
-            //     data: [4643],
-            //     backgroundColor: ["#8EC3B0"],
-            //     type: 'pie',
-            // },
-            // {
-            //     label: 'Push Notification',
-            //     data: [25463],
-            //     backgroundColor: ["#6C4AB6"],
-            //     type: 'pie',
-            // }, {
-            //     label: 'Loyalty Mail',
-            //     data: [7233],
-            //     backgroundColor: ["#8EC3B0"],
-            //     type: 'pie',
-            // },
+                type: 'pie'
+            },
+            {
+                label: 'Push Notification',
+                data: SMCampaignPieChart.map((data) => (data.Push_notification)),
+                backgroundColor: ["#B9E0FF"],
 
+                type: 'pie'
+            },
+            {
+                label: 'Loyalty Mail',
+                data: SMCampaignPieChart.map((data) => (data.Loyalty_mail)),
+                backgroundColor: ["#64B5F6"],
+                type: 'pie'
+            }
         ],
 
     });
@@ -142,8 +176,6 @@ const SeniorCampaign = () => {
 
             <div className='top-section'>
                 <DataBox01 />
-
-
                 <div className='chart-flex'>
                     <div className="chart-wrapper-bg">
                         <div className="chart-wrapper">

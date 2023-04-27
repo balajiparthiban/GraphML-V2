@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext } from 'react'
 import AdminData from '../../component/AdminData'
 import ProductTable02 from '../../component/SeniorProductTable/ProductTable02'
 import CustomerTable02 from '../../component/SeniorCustomerTable/CustomerTable02'
@@ -30,7 +30,7 @@ const AdminPage = () => {
             <ProductTable02 items={tableState} updateStatus={updateTableState} />
             <h5>Customer Table</h5>
             <CustomerTable02 items={customerTableState} updateStatus={updateCustomerTableState} />
-            <h5>Camapign Table</h5>
+            <h5>Campaign Table</h5>
             <CampaignTable02 items={campaignTableState} updateStatus={updateCampaignTableState} />
 
             <div className='button-send'>
