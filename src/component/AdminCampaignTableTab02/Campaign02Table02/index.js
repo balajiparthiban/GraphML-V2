@@ -40,18 +40,16 @@ const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsSt
                                 <td>{item.Total_Customers}</td>
                                 <td>{item.Positive_impacted_feature}</td>
                                 <td>{item.Negative_impacted_feature}</td>
-                                <td>{parseFloat(item.Effect*100).toFixed(2)}% </td>
+                                <td>{parseFloat(item.Effect * 100).toFixed(2)}% </td>
                                 <td>{item.Rank}</td>
 
                                 <td>
                                     <select>
-                                        <option>Email Campaign 1</option>
-                                        <option>Email Campaign 2</option>
+                                        <option>Discount Mail</option>
+                                        <option>Promotional Mail</option>
                                         <option>Phone Call</option>
-                                        <option>Email Campaign 1 & 2</option>
-                                        <option>Email Campaign 1 & Phone Call</option>
-                                        <option>Email Campaign 2 & Phone Call</option>
-                                        <option>All Channels</option>
+                                        <option>Push Notificaiton</option>
+                                        <option>Loyalty Mail</option>
                                     </select>
                                 </td>
 

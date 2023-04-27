@@ -45,13 +45,11 @@ const Credit02 = ({ creditItems, setCreditItems, updateCreditTable }) => {
 
                                 <td>
                                     <select>
-                                        <option>Email Campaign 1</option>
-                                        <option>Email Campaign 2</option>
+                                        <option>Discount Mail</option>
+                                        <option>Promotional Mail</option>
                                         <option>Phone Call</option>
-                                        <option>Email Campaign 1 & 2</option>
-                                        <option>Email Campaign 1 & Phone Call</option>
-                                        <option>Email Campaign 2 & Phone Call</option>
-                                        <option>All Channels</option>
+                                        <option>Push Notificaiton</option>
+                                        <option>Loyalty Mail</option>
                                     </select>
                                 </td>
 

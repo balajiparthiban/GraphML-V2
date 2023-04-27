@@ -5,10 +5,7 @@ const ProductTable02 = ({ items, updateStatus }) => {
         <div>
 
             <div className='head'>
-                <h4>Campaign Settings</h4>
-                {/* <div className='button'>
-                    <button>Move to Segment Table</button>
-                </div> */}
+              
             </div>
 
             <table className='white-bg'>
@@ -18,12 +15,9 @@ const ProductTable02 = ({ items, updateStatus }) => {
                         <th>Next Best Product </th>
                         <th>Next Best Action </th>
                         <th>Customer Segment</th>
-                        <th>Total Customers</th>
-                        <th>Positive Causality</th>
-                        <th>Negative Causality</th>
+                        <th>Customer Count</th>
                         <th>Effect</th>
                         <th>Priority</th>
-                        <th>Choose Campaign</th>
                         <th>Select</th>
                     </tr>
                 </thead>
@@ -34,26 +28,12 @@ const ProductTable02 = ({ items, updateStatus }) => {
                         item && item.status === 'Completed' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
-                                <td>{item.Recommended_campaign}</td>
+                                <td>{item.Next_Best_Product}</td>
+                                <td>{item.Next_Best_Action}</td>
                                 <td>{item.Customer_segment}</td>
-                                <td>{item.Total_Customers}</td>
-                                <td>{item.Positive_impacted_feature}</td>
-                                <td>{item.Negative_impacted_feature}</td>
-                                <td>{parseFloat(item.Effect*100).toFixed(2)}% </td>
-                                <td>{item.Rank}</td>
-
-                                <td>
-                                    <select>
-                                        <option>Email Campaign 1</option>
-                                        <option>Email Campaign 2</option>
-                                        <option>Phone Call</option>
-                                        <option>Email Campaign 1 & 2</option>
-                                        <option>Email Campaign 1 & Phone Call</option>
-                                        <option>Email Campaign 2 & Phone Call</option>
-                                        <option>All Channels</option>
-                                    </select>
-                                </td>
+                                <td>{item.Customer_count}</td>
+                                <td>{parseFloat(item.Effect * 100).toFixed(2)} % </td>
+                                <td>{item.Priority}</td>
 
                                 <td><button className="mark_pending" key={item.id} onClick={() => { updateStatus(item.id, 'Pending') }}>Remove</button></td>
                             </tr>

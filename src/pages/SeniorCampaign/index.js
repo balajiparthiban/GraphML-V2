@@ -1,3 +1,5 @@
+import { useState, useContext } from 'react'
+
 import SMCampaignOverviewTable from '../../component/SeniorManageTableCampaign'
 import DataBox01 from '../../component/DataBox01'
 import SMCampaignBarChartBase from '../../component/SMCampaignBarChartBase'
@@ -6,10 +8,15 @@ import SMCampaignPieChartBase from '../../component/SMCampaignPieChartBase'
 import { SMCampaignBarChart } from "../../json/v2/SM-Campaign-Bar-Chart"
 import { SMCampaignLineChart } from "../../json/v2/SMCampaignLineChart"
 import { SMCampaignPieChart } from "../../json/v2/SMCampaignPieChart"
-import { useState } from 'react'
+
+
+import CampaignTable01 from '../../component/SeniorCampaignTable/CampaignTable01'
+import {CampaignTableContext} from "../../context/campaignTableContext";
 import './style.scss'
 
 const SeniorCampaign = () => {
+
+    const { campaignTableState, updateCampaignTableState } = useContext(CampaignTableContext);
 
     const [campaignLineChart] = useState({
         labels: SMCampaignLineChart.map((data) => data.Month),
@@ -42,7 +49,6 @@ const SeniorCampaign = () => {
         ],
 
     });
-
 
 
     const [campaignBarChart] = useState({
@@ -165,7 +171,7 @@ const SeniorCampaign = () => {
             </div>
 
             <h3>Campaign Overview</h3>
-            <SMCampaignOverviewTable />
+            <CampaignTable01 items={campaignTableState} updateStatus={updateCampaignTableState} />
 
 
         </div>

@@ -1,4 +1,5 @@
-import SMCustomerOverviewTable from '../../component/SeniorManageTableCustomer'
+import { useState, useContext } from 'react'
+
 import DataBox03 from '../../component/DataBox03'
 import SMCustomerDistributionChartBase from '../../component/SMCustomerDistributionChartBase'
 import SeniorCustomerBarChartBase from '../../component/SMCustomerBarChartBase'
@@ -6,12 +7,15 @@ import SeniorCustomerBarChartBase from '../../component/SMCustomerBarChartBase'
 
 import { SMCustomerBarChart } from "../../json/v2/SMCustomerBarChart"
 import { SMDistributionBarChart } from "../../json/v2/SMDistributionBarChart"
-import { useState } from 'react'
+
+import CustomerTable01 from '../../component/SeniorCustomerTable/CustomerTable01'
+import {CustomerTableContext} from "../../context/customerTableContext";
 import './style.scss'
 
 
 const SeniorCustomer = () => {
 
+    const { customerTableState, updateCustomerTableState } = useContext(CustomerTableContext);
 
     const [smDistributionCreditLoanBarChart] = useState({
 
@@ -99,7 +103,8 @@ const SeniorCustomer = () => {
 
             <div className='table-section'>
                 <h3>Customer Overview Table</h3>
-                <SMCustomerOverviewTable />
+
+                <CustomerTable01 items={customerTableState} updateStatus={updateCustomerTableState} />
             </div>
 
         </div>

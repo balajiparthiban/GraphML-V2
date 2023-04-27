@@ -6,6 +6,7 @@ import { useHistory } from "react-router-dom";
 // import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
 import './app.scss'
 
+
 function App() {
 
   const history = useHistory();

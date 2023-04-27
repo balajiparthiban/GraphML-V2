@@ -1,5 +1,5 @@
 import { createContext, useState, useContext, useEffect } from 'react'
-import { createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword, onAuthStateChanged, signOut, sendPasswordResetEmail } from 'firebase/auth'
+import { createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword, onAuthStateChanged, signOut, sendPasswordResetEmail, displayEmail } from 'firebase/auth'
 import { auth } from '../firebase'
 
 
@@ -13,10 +13,25 @@ export const UserContextProvider = ({ children }) => {
     const [loading, setLoading] = useState()
     const [error, setError] = useState("")
 
+
+    const getUserName = (e) => {
+        let displayName = '';
+        if (e.displayName) {
+            displayName = e.displayName;
+        } else {
+            const emailportion = e.email.split('.');
+            const firstName = emailportion[0];
+            const lastName = emailportion[1].split('@')[0];
+            displayName = `${firstName} ${lastName}`;
+        }
+        return { displayName };
+    }
+
+
     useEffect(() => {
         setLoading(true)
         const unSubscribe = onAuthStateChanged(auth, res => {
-            res ? setUser(res) : setUser(null);
+            res ? setUser(getUserName(res)) : setUser(null);
             setError("")
             setLoading(false);
         });
@@ -25,8 +40,6 @@ export const UserContextProvider = ({ children }) => {
 
     }, [])
 
-
-   
 
     const registerUser = (email, name, password) => {
         setLoading(true);
@@ -42,9 +55,7 @@ export const UserContextProvider = ({ children }) => {
     }
 
     const signInUser = (email, password) => {
-        console.log('balaji GraphML')
         setLoading(true);
-
         signInWithEmailAndPassword(auth, email, password)
             .then((res) => console.log(res))
             .catch((err) => setError(err.message))

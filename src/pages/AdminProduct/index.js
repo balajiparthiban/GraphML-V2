@@ -3,10 +3,8 @@ import { useState } from 'react'
 import Loan01 from '../../component/AdminProductLoanTable/Loan01'
 import Loan02 from '../../component/AdminProductLoanTable/Loan02'
 
-
 import Credit01 from '../../component/AdminProductCreditTable/Credit01'
 import Credit02 from '../../component/AdminProductCreditTable/Credit02'
-
 
 import AdminProductBarChartBase from '../../component/AdminProductBarChartBase'
 import AdminProductLineChartBase from '../../component/AdminProductLineChartBase'

@@ -10,9 +10,14 @@ import AdminSummary from '../AdminSummary'
 import AdminProduct from '../AdminProduct'
 import WhatIfScenario from '../../component/WhatIfScenario'
 
+// import firebase from '../../firebase'
 import firebase from '../../firebase'
 import { Route, useHistory, Redirect } from 'react-router-dom'
+
+
 import TableProvider from "../../context/tableContext";
+import CustomerTableProvider from "../../context/customerTableContext";
+import CampaignTableProvider from "../../context/campaignTableContext";
 // import { useState } from 'react'
 
 const Dashboard = () => {
@@ -47,7 +52,6 @@ const Dashboard = () => {
         history.push('/login')
         // console.log('logout')
         // getUserData(user.uid)
-
     }
 
     const userName = firebase.auth().currentUser;
@@ -63,45 +67,50 @@ const Dashboard = () => {
             <Sidebar />
 
             <main>
-                <TableProvider>
-                    <Route exact path="/">
-                        <SeniorManagement />
-                    </Route>
+                <CampaignTableProvider>
+                    <CustomerTableProvider>
+                        <TableProvider>
+                            <Route exact path="/">
+                                <SeniorManagement />
+                            </Route>
 
-                    <Route path="/senior-campaign">
-                        <SeniorCampaign />
-                    </Route>
+                            <Route path="/senior-campaign">
+                                <SeniorCampaign />
+                            </Route>
 
-                    <Route path="/senior-product">
-                        <SeniorProduct />
-                    </Route>
+                            <Route path="/senior-product">
+                                <SeniorProduct />
+                            </Route>
 
-                    <Route path="/senior-customer" >
-                        <SeniorCustomer />
-                    </Route>
+                            <Route path="/senior-customer" >
+                                <SeniorCustomer />
+                            </Route>
 
-                    <Route path="/what-if-scenario">
-                        <WhatIfScenario />
-                    </Route>
+                            <Route path="/what-if-scenario">
+                                <WhatIfScenario />
+                            </Route>
 
 
 
-                    <Route path="/admin">
-                        <AdminPage />
-                    </Route>
+                            <Route path="/admin">
+                                <AdminPage />
+                            </Route>
 
-                    <Route path="/admin-campaign">
-                        <AdminCampaign />
-                    </Route>
+                            <Route path="/admin-campaign">
+                                <AdminCampaign />
+                            </Route>
 
-                    <Route path="/admin-summary">
-                        <AdminSummary />
-                    </Route>
+                            <Route path="/admin-summary">
+                                <AdminSummary />
+                            </Route>
 
-                    <Route path="/admin-product">
-                        <AdminProduct />
-                    </Route>
-                </TableProvider>
+                            <Route path="/admin-product">
+                                <AdminProduct />
+                            </Route>
+
+                        </TableProvider>
+                    </CustomerTableProvider>
+                </CampaignTableProvider>
             </main>
 
         </div>
