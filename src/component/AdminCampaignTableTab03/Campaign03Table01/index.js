@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Campaign03Table01 = ({ Campaign3items, setCampaign3items, Campaign3itemsStatus }) => {
+const Campaign03Table01 = ({ Campaign3items, setCampaign3items, Campaign3itemsstatus }) => {
     return (
         <div>
             <div className='head-top'>
@@ -16,7 +16,7 @@ const Campaign03Table01 = ({ Campaign3items, setCampaign3items, Campaign3itemsSt
                     <tr>
                         <th>S.No</th>
                         <th>Next Best Product </th>
-                <th>Next Best Action </th>
+                        <th>Next Best Action </th>
                         <th>Customer Segment</th>
                         <th>Total Customers</th>
                         <th>Positive Causality</th>
@@ -33,15 +33,15 @@ const Campaign03Table01 = ({ Campaign3items, setCampaign3items, Campaign3itemsSt
                         item && item.status === 'Pending' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
-                                <td>{item.Recommended_campaign}</td>
+                                <td>{item.Next_Best_Product}</td>
+                                <td>{item.Next_Best_Action}</td>
                                 <td>{item.Customer_segment}</td>
                                 <td>{item.Total_Customers}</td>
                                 <td>{item.Positive_impacted_feature}</td>
                                 <td>{item.Negative_impacted_feature}</td>
-                                <td>{parseFloat(item.Effect*100).toFixed(2)}% </td>
-                                <td>{item.Rank}</td>
-                                <td><button className="mark_complete" key={item.id} onClick={() => { Campaign3itemsStatus(item.id, 'Completed'); }}>Move</button></td>
+                                <td>{parseFloat(item.Effect * 100).toFixed(2)}% </td>
+                                <td>{item.Priority}</td>
+                                <td><button className="mark_complete" key={item.id} onClick={() => { Campaign3itemsstatus(item.id, 'Completed'); }}>Move</button></td>
                             </tr>
                         )
                     )}

@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Campaign04Table02 = ({ Campaign4items, setCampaign4items, Campaign4itemsStatus }) => {
+const Campaign04Table02 = ({ Campaign4items, setCampaign4items, Campaign4itemsstatus }) => {
     return (
         <div>
 
@@ -34,14 +34,14 @@ const Campaign04Table02 = ({ Campaign4items, setCampaign4items, Campaign4itemsSt
                         item && item.status === 'Completed' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
-                                <td>{item.Recommended_campaign}</td>
+                                <td>{item.Next_Best_Product}</td>
+                                <td>{item.Next_Best_Action}</td>
                                 <td>{item.Customer_segment}</td>
                                 <td>{item.Total_Customers}</td>
                                 <td>{item.Positive_impacted_feature}</td>
                                 <td>{item.Negative_impacted_feature}</td>
                                 <td>{parseFloat(item.Effect * 100).toFixed(2)}% </td>
-                                <td>{item.Rank}</td>
+                                <td>{item.Priority}</td>
 
                                 <td>
                                     <select>
@@ -53,7 +53,7 @@ const Campaign04Table02 = ({ Campaign4items, setCampaign4items, Campaign4itemsSt
                                     </select>
                                 </td>
 
-                                <td><button className="mark_pending" key={item.id} onClick={() => { Campaign4itemsStatus(item.id, 'Pending') }}>Remove</button></td>
+                                <td><button className="mark_pending" key={item.id} onClick={() => { Campaign4itemsstatus(item.id, 'Pending') }}>Remove</button></td>
                             </tr>
                         )
                     )}

@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Campaign04Table01 = ({ Campaign4items, setCampaign4items, Campaign4itemsStatus }) => {
+const Campaign04Table01 = ({ Campaign4items, setCampaign4items, Campaign4itemsstatus }) => {
     return (
         <div>
             <div className='head-top'>
@@ -14,7 +14,7 @@ const Campaign04Table01 = ({ Campaign4items, setCampaign4items, Campaign4itemsSt
 
                 <thead>
                     <tr>
-                        <th>S.No</th>
+                    <th>S.No</th>
                         <th>Next Best Product </th>
                         <th>Next Best Action </th>
                         <th>Customer Segment</th>
@@ -33,15 +33,15 @@ const Campaign04Table01 = ({ Campaign4items, setCampaign4items, Campaign4itemsSt
                         item && item.status === 'Pending' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
-                                <td>{item.Recommended_campaign}</td>
+                                <td>{item.Next_Best_Product}</td>
+                                <td>{item.Next_Best_Action}</td>
                                 <td>{item.Customer_segment}</td>
                                 <td>{item.Total_Customers}</td>
                                 <td>{item.Positive_impacted_feature}</td>
                                 <td>{item.Negative_impacted_feature}</td>
-                                <td>{parseFloat(item.Effect*100).toFixed(2)}% </td>
-                                <td>{item.Rank}</td>
-                                <td><button className="mark_complete" key={item.id} onClick={() => { Campaign4itemsStatus(item.id, 'Completed'); }}>Move</button></td>
+                                <td>{parseFloat(item.Effect * 100).toFixed(2)}% </td>
+                                <td>{item.Priority}</td>
+                                <td><button className="mark_complete" key={item.id} onClick={() => { Campaign4itemsstatus(item.id, 'Completed'); }}>Move</button></td>
                             </tr>
                         )
                     )}

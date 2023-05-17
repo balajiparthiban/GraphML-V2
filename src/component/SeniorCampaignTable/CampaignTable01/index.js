@@ -14,8 +14,8 @@ const CampaignTable01 = ({ items, updateStatus }) => {
                 <thead>
                     <tr>
                         <th>S.No</th>
-                        <th>Next Best Product </th>
                         <th>Next Best Action </th>
+                        <th>Next Best Product </th>
                         <th>Customer Segment</th>
                         <th>Customer Count</th>
                         <th>Effect</th>
@@ -30,8 +30,8 @@ const CampaignTable01 = ({ items, updateStatus }) => {
                         item && item.status === 'Pending' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Next_Best_Product}</td>
                                 <td>{item.Next_Best_Action}</td>
+                                <td>{item.Next_Best_Product}</td>
                                 <td>{item.Customer_segment}</td>
                                 <td>{item.Customer_count}</td>
                                 <td>{parseFloat(item.Effect * 100).toFixed(2)} % </td>

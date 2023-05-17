@@ -10,7 +10,7 @@ const Header = ({ handleLogout, name }) => {
         <header>
             <div className='header-left'>
                 <div><img src={Logo} alt={Logo} /></div>
-                <span>one customer view</span>
+                <span>One Customer View</span>
             </div>
             <div className='header-right'>
                 <FontAwesomeIcon icon={faSignOut} onClick={handleLogout} title="Logout" />

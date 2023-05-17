@@ -42,7 +42,7 @@ export const options = {
         y: {
             title: {
                 display: true,
-                text: 'LOANS TAKEN'
+                text: 'COBRANDS TAKEN'
             },
             ticks: {
                 beginAtZero: true,

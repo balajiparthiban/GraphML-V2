@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Campaign01Table02 = ({ Campaign1items, setCampaign1items, Campaign1itemsStatus }) => {
+const Campaign01Table02 = ({ Campaign1items, setCampaign1items, Campaign1itemsstatus }) => {
     return (
         <div>
 
@@ -53,7 +53,7 @@ const Campaign01Table02 = ({ Campaign1items, setCampaign1items, Campaign1itemsSt
                                     </select>
                                 </td>
 
-                                <td><button className="mark_pending" key={item.id} onClick={() => { Campaign1itemsStatus(item.id, 'Pending') }}>Remove</button></td>
+                                <td><button className="mark_pending" key={item.id} onClick={() => { Campaign1itemsstatus(item.id, 'Pending') }}>Remove</button></td>
                             </tr>
                         )
                     )}

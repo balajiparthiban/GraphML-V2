@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsStatus }) => {
+const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsstatus }) => {
     return (
         <div>
 
@@ -15,7 +15,7 @@ const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsSt
                 <thead>
                     <tr>
                         <th>S.No</th>
-                        <th>Next Best Product </th>
+                        <th>Next Best Product</th>
                         <th>Next Best Action </th>
                         <th>Customer Segment</th>
                         <th>Total Customers</th>
@@ -29,19 +29,18 @@ const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsSt
                 </thead>
 
                 <tbody>
-
                     {Campaign2items && Campaign2items.map((item) =>
                         item && item.status === 'Completed' && (
                             <tr className="item" key={item.id}>
                                 <td></td>
-                                <td>{item.Product}</td>
-                                <td>{item.Recommended_campaign}</td>
+                                <td>{item.Next_Best_Product}</td>
+                                <td>{item.Next_Best_Action}</td>
                                 <td>{item.Customer_segment}</td>
                                 <td>{item.Total_Customers}</td>
                                 <td>{item.Positive_impacted_feature}</td>
                                 <td>{item.Negative_impacted_feature}</td>
                                 <td>{parseFloat(item.Effect * 100).toFixed(2)}% </td>
-                                <td>{item.Rank}</td>
+                                <td>{item.Priority}</td>
 
                                 <td>
                                     <select>
@@ -53,11 +52,10 @@ const Campaign02Table02 = ({ Campaign2items, setCampaign2items, Campaign2itemsSt
                                     </select>
                                 </td>
 
-                                <td><button className="mark_pending" key={item.id} onClick={() => { Campaign2itemsStatus(item.id, 'Pending') }}>Remove</button></td>
+                                <td><button className="mark_pending" key={item.id} onClick={() => { Campaign2itemsstatus(item.id, 'Pending') }}>Remove</button></td>
                             </tr>
                         )
                     )}
-
                 </tbody>
 
             </table>

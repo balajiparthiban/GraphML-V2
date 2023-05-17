@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Campaign01Table01 = ({ Campaign1items, setCampaign1items, Campaign1itemsStatus }) => {
+const Campaign01Table01 = ({ Campaign1items, setCampaign1items, Campaign1itemsstatus }) => {
     return (
         <div>
             <div className='head-top'>
@@ -41,7 +41,7 @@ const Campaign01Table01 = ({ Campaign1items, setCampaign1items, Campaign1itemsSt
                                 <td>{item.Negative_impacted_feature}</td>
                                 <td>{parseFloat(item.Effect*100).toFixed(2)} % </td>
                                 <td>{item.Rank}</td>
-                                <td><button className="mark_complete" key={item.id} onClick={() => { Campaign1itemsStatus(item.id, 'Completed'); }}>Move</button></td>
+                                <td><button className="mark_complete" key={item.id} onClick={() => { Campaign1itemsstatus(item.id, 'Completed'); }}>Move</button></td>
                             </tr>
                         )
                     )}

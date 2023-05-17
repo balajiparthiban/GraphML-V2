@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Loan02 = ({ items, setItems, updateStatus }) => {
+const Cobrand02 = ({ items, setItems, updateStatus }) => {
     return (
         <div>
 
@@ -66,4 +66,4 @@ const Loan02 = ({ items, setItems, updateStatus }) => {
     )
 }
 
-export default Loan02
+export default Cobrand02

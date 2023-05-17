@@ -42,7 +42,7 @@ export const options = {
         y: {
             title: {
                 display: true,
-                text: 'CREDIT CARD PURCHASED'
+                text: 'BOOKINGS MADE'
             },
             ticks: {
                 beginAtZero: true,
