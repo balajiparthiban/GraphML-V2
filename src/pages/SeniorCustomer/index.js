@@ -17,7 +17,7 @@ const SeniorCustomer = () => {
 
     const { customerTableState, updateCustomerTableState } = useContext(CustomerTableContext);
 
-    const [smDistributionCreditCobrandBarChart] = useState({
+    const [smDistributionCreditLoanBarChart] = useState({
 
         // labels: SMDistributionBarChart.map((data) => data.Month),
         datasets: [
@@ -62,13 +62,13 @@ const SeniorCustomer = () => {
         labels: SMCustomerBarChart.map((data) => data.Month),
         datasets: [
             {
-                label: 'Bookings',
-                data: SMCustomerBarChart.map((data) => (data.bookings)),
+                label: 'Credit Card',
+                data: SMCustomerBarChart.map((data) => (data.Credit_Card)),
                 backgroundColor: ["#BCEAD5"],
                 order: 2
             },
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: SMCustomerBarChart.map((data) => (data.loan)),
                 backgroundColor: ["#6C4AB6"],
                 order: 2
@@ -96,7 +96,7 @@ const SeniorCustomer = () => {
                 <div className="chart-wrapper-bg">
                     <div className="chart-wrapper">
                         <h3>Segment-Wise Campaign Distribution</h3>
-                        <SMCustomerDistributionChartBase chartData={smDistributionCreditCobrandBarChart} />
+                        <SMCustomerDistributionChartBase chartData={smDistributionCreditLoanBarChart} />
                     </div>
                 </div>
             </div>

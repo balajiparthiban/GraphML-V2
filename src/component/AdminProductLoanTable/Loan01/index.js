@@ -1,6 +1,6 @@
 import './style.scss'
 
-const Cobrand01 = ({ items, setItems, updateStatus }) => {
+const Loan01 = ({ items, setItems, updateStatus }) => {
     return (
         <div>
             <div className='head-top'>
@@ -53,4 +53,4 @@ const Cobrand01 = ({ items, setItems, updateStatus }) => {
     )
 }
 
-export default Cobrand01
+export default Loan01

@@ -17,13 +17,13 @@ const SeniorProduct = () => {
         labels: SMProductBarChart.map((data) => data.Month),
         datasets: [
             {
-                label: 'Cobrand',
-                data: SMProductBarChart.map((data) => (data.Cobrands)),
+                label: 'Loan',
+                data: SMProductBarChart.map((data) => (data.Loans)),
                 backgroundColor: ["#8EC3B0"],
             },
             {
-                label: 'Bookings',
-                data: SMProductBarChart.map((data) => (data.bookingss)),
+                label: 'Credit Card',
+                data: SMProductBarChart.map((data) => (data.Credit_Card)),
                 backgroundColor: ["#6C4AB6"],
             },
         ],
@@ -47,13 +47,13 @@ const SeniorProduct = () => {
         //         }]
         //     }
         // },
-        // labels: ["Cobrand", "Bookingss"],
+        // labels: ["Loan", "Credit Cards"],
 
-        // labels: [ "Bookings", "Cobrand" ],
+        // labels: [ "Credit Card", "Loan" ],
         // datasets: [
         //     {
         //         data: [13311, 16839],
-        //         label: ["Cobrand", "Bookingss"],
+        //         label: ["Loan", "Credit Cards"],
         //         type: 'pie',
         //         order: 1,
         //         backgroundColor: [
@@ -76,14 +76,14 @@ const SeniorProduct = () => {
 
         datasets: [
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: SMProductPieChart.map((data) => (data.loans)),
                 backgroundColor: ["#8EC3B0"],
                 type: 'pie',
             },
             {
-                label: 'Bookings',
-                data: SMProductPieChart.map((data) => (data.bookingss)),
+                label: 'Credit Card',
+                data: SMProductPieChart.map((data) => (data.Credit_Card)),
                 backgroundColor: ["#6C4AB6"],
                 type: 'pie',
             },

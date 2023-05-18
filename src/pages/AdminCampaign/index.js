@@ -41,7 +41,7 @@ const AdminCampaign = () => {
     const [Campaign1items, setCampaign1items] = useState([
         {
             id: 1,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_2",
             Total_Customers: 18,
@@ -53,7 +53,7 @@ const AdminCampaign = () => {
         },
         {
             id: 2,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_1",
             Total_Customers: 18,
@@ -65,7 +65,7 @@ const AdminCampaign = () => {
         },
         {
             id: 3,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_3",
             Total_Customers: 18,
@@ -77,7 +77,7 @@ const AdminCampaign = () => {
         },
         {
             id: 4,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_4",
             Total_Customers: 18,
@@ -89,7 +89,7 @@ const AdminCampaign = () => {
         },
         {
             id: 5,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_5",
             Total_Customers: 17,
@@ -101,7 +101,7 @@ const AdminCampaign = () => {
         },
         {
             id: 6,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_3",
             Total_Customers: 23,
@@ -113,7 +113,7 @@ const AdminCampaign = () => {
         },
         {
             id: 7,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_1",
             Total_Customers: 23,
@@ -125,7 +125,7 @@ const AdminCampaign = () => {
         },
         {
             id: 8,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_2",
             Total_Customers: 23,
@@ -137,7 +137,7 @@ const AdminCampaign = () => {
         },
         {
             id: 9,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_4",
             Total_Customers: 23,
@@ -149,7 +149,7 @@ const AdminCampaign = () => {
         },
         {
             id: 10,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_5",
             Total_Customers: 17,
@@ -161,7 +161,7 @@ const AdminCampaign = () => {
         },
         {
             id: 11,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_1",
             Total_Customers: 18,
@@ -173,7 +173,7 @@ const AdminCampaign = () => {
         },
         {
             id: 12,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_3",
             Total_Customers: 17,
@@ -185,7 +185,7 @@ const AdminCampaign = () => {
         },
         {
             id: 13,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_4",
             Total_Customers: 18,
@@ -197,7 +197,7 @@ const AdminCampaign = () => {
         },
         {
             id: 14,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub1_atomic_5",
             Total_Customers: 22,
@@ -209,7 +209,7 @@ const AdminCampaign = () => {
         },
         {
             id: 15,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_2",
             Total_Customers: 18,
@@ -221,7 +221,7 @@ const AdminCampaign = () => {
         },
         {
             id: 16,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_2",
             Total_Customers: 23,
@@ -233,7 +233,7 @@ const AdminCampaign = () => {
         },
         {
             id: 17,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_1",
             Total_Customers: 23,
@@ -245,7 +245,7 @@ const AdminCampaign = () => {
         },
         {
             id: 18,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_1",
             Total_Customers: 18,
@@ -257,7 +257,7 @@ const AdminCampaign = () => {
         },
         {
             id: 19,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_3",
             Total_Customers: 18,
@@ -269,7 +269,7 @@ const AdminCampaign = () => {
         },
         {
             id: 20,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_3",
             Total_Customers: 22,
@@ -281,7 +281,7 @@ const AdminCampaign = () => {
         },
         {
             id: 21,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_4",
             Total_Customers: 23,
@@ -293,7 +293,7 @@ const AdminCampaign = () => {
         },
         {
             id: 22,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_5",
             Total_Customers: 17,
@@ -305,7 +305,7 @@ const AdminCampaign = () => {
         },
         {
             id: 23,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub2_atomic_5",
             Total_Customers: 22,
@@ -317,7 +317,7 @@ const AdminCampaign = () => {
         },
         {
             id: 24,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_4",
             Total_Customers: 18,
@@ -329,7 +329,7 @@ const AdminCampaign = () => {
         },
         {
             id: 25,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_2",
             Total_Customers: 18,
@@ -341,7 +341,7 @@ const AdminCampaign = () => {
         },
         {
             id: 26,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_1",
             Total_Customers: 23,
@@ -353,7 +353,7 @@ const AdminCampaign = () => {
         },
         {
             id: 27,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_3",
             Total_Customers: 23,
@@ -365,7 +365,7 @@ const AdminCampaign = () => {
         },
         {
             id: 28,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_2",
             Total_Customers: 23,
@@ -377,7 +377,7 @@ const AdminCampaign = () => {
         },
         {
             id: 29,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_5",
             Total_Customers: 22,
@@ -389,7 +389,7 @@ const AdminCampaign = () => {
         },
         {
             id: 30,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_4",
             Total_Customers: 18,
@@ -401,7 +401,7 @@ const AdminCampaign = () => {
         },
         {
             id: 31,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub3_atomic_4",
             Total_Customers: 23,
@@ -413,7 +413,7 @@ const AdminCampaign = () => {
         },
         {
             id: 32,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_3",
             Total_Customers: 17,
@@ -425,7 +425,7 @@ const AdminCampaign = () => {
         },
         {
             id: 33,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_5",
             Total_Customers: 17,
@@ -437,7 +437,7 @@ const AdminCampaign = () => {
         },
         {
             id: 34,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_1",
             Total_Customers: 18,
@@ -449,7 +449,7 @@ const AdminCampaign = () => {
         },
         {
             id: 35,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_2",
             Total_Customers: 18,
@@ -461,7 +461,7 @@ const AdminCampaign = () => {
         },
         {
             id: 36,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_5",
             Total_Customers: 22,
@@ -473,7 +473,7 @@ const AdminCampaign = () => {
         },
         {
             id: 37,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_4",
             Total_Customers: 23,
@@ -485,7 +485,7 @@ const AdminCampaign = () => {
         },
         {
             id: 38,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_1",
             Total_Customers: 23,
@@ -497,7 +497,7 @@ const AdminCampaign = () => {
         },
         {
             id: 39,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_3",
             Total_Customers: 22,
@@ -509,7 +509,7 @@ const AdminCampaign = () => {
         },
         {
             id: 40,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub4_atomic_2",
             Total_Customers: 23,
@@ -521,7 +521,7 @@ const AdminCampaign = () => {
         },
         {
             id: 41,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_1",
             Total_Customers: 18,
@@ -533,7 +533,7 @@ const AdminCampaign = () => {
         },
         {
             id: 42,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_4",
             Total_Customers: 18,
@@ -545,7 +545,7 @@ const AdminCampaign = () => {
         },
         {
             id: 43,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_4",
             Total_Customers: 23,
@@ -557,7 +557,7 @@ const AdminCampaign = () => {
         },
         {
             id: 44,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_3",
             Total_Customers: 17,
@@ -569,7 +569,7 @@ const AdminCampaign = () => {
         },
         {
             id: 45,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_5",
             Total_Customers: 17,
@@ -581,7 +581,7 @@ const AdminCampaign = () => {
         },
         {
             id: 46,
-            Product: "Bookings",
+            Product: "Credit Card",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_2",
             Total_Customers: 18,
@@ -593,7 +593,7 @@ const AdminCampaign = () => {
         },
         {
             id: 47,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_5",
             Total_Customers: 22,
@@ -605,7 +605,7 @@ const AdminCampaign = () => {
         },
         {
             id: 48,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_2",
             Total_Customers: 23,
@@ -617,7 +617,7 @@ const AdminCampaign = () => {
         },
         {
             id: 49,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_1",
             Total_Customers: 23,
@@ -629,7 +629,7 @@ const AdminCampaign = () => {
         },
         {
             id: 50,
-            Product: "Cobrand",
+            Product: "Loan",
             Recommended_campaign: "Discount Email",
             Customer_segment: "Segment_1_Discount_sub5_atomic_3",
             Total_Customers: 22,
@@ -658,7 +658,7 @@ const AdminCampaign = () => {
     const [Campaign2items, setCampaign2items] = useState([
         {
             id: 1,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_4",
             Total_Customers: 15,
@@ -670,7 +670,7 @@ const AdminCampaign = () => {
         },
         {
             id: 2,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_2",
             Total_Customers: 15,
@@ -682,7 +682,7 @@ const AdminCampaign = () => {
         },
         {
             id: 3,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_5",
             Total_Customers: 15,
@@ -694,7 +694,7 @@ const AdminCampaign = () => {
         },
         {
             id: 4,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_3",
             Total_Customers: 15,
@@ -706,7 +706,7 @@ const AdminCampaign = () => {
         },
         {
             id: 5,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_1",
             Total_Customers: 16,
@@ -718,7 +718,7 @@ const AdminCampaign = () => {
         },
         {
             id: 6,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_3",
             Total_Customers: 19,
@@ -730,7 +730,7 @@ const AdminCampaign = () => {
         },
         {
             id: 7,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_4",
             Total_Customers: 19,
@@ -742,7 +742,7 @@ const AdminCampaign = () => {
         },
         {
             id: 8,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_5",
             Total_Customers: 18,
@@ -754,7 +754,7 @@ const AdminCampaign = () => {
         },
         {
             id: 9,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_1",
             Total_Customers: 20,
@@ -766,7 +766,7 @@ const AdminCampaign = () => {
         },
         {
             id: 10,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub1_atomic_2",
             Total_Customers: 19,
@@ -778,7 +778,7 @@ const AdminCampaign = () => {
         },
         {
             id: 11,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_4",
             Total_Customers: 15,
@@ -790,7 +790,7 @@ const AdminCampaign = () => {
         },
         {
             id: 12,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_5",
             Total_Customers: 14,
@@ -802,7 +802,7 @@ const AdminCampaign = () => {
         },
         {
             id: 13,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_3",
             Total_Customers: 15,
@@ -814,7 +814,7 @@ const AdminCampaign = () => {
         },
         {
             id: 14,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_1",
             Total_Customers: 16,
@@ -826,7 +826,7 @@ const AdminCampaign = () => {
         },
         {
             id: 15,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_2",
             Total_Customers: 15,
@@ -838,7 +838,7 @@ const AdminCampaign = () => {
         },
         {
             id: 16,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_3",
             Total_Customers: 19,
@@ -850,7 +850,7 @@ const AdminCampaign = () => {
         },
         {
             id: 17,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_4",
             Total_Customers: 19,
@@ -862,7 +862,7 @@ const AdminCampaign = () => {
         },
         {
             id: 18,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_1",
             Total_Customers: 20,
@@ -874,7 +874,7 @@ const AdminCampaign = () => {
         },
         {
             id: 19,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_2",
             Total_Customers: 19,
@@ -886,7 +886,7 @@ const AdminCampaign = () => {
         },
         {
             id: 20,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub2_atomic_5",
             Total_Customers: 18,
@@ -898,7 +898,7 @@ const AdminCampaign = () => {
         },
         {
             id: 21,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_1",
             Total_Customers: 16,
@@ -910,7 +910,7 @@ const AdminCampaign = () => {
         },
         {
             id: 22,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_4",
             Total_Customers: 15,
@@ -922,7 +922,7 @@ const AdminCampaign = () => {
         },
         {
             id: 23,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_3",
             Total_Customers: 15,
@@ -934,7 +934,7 @@ const AdminCampaign = () => {
         },
         {
             id: 24,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_5",
             Total_Customers: 14,
@@ -946,7 +946,7 @@ const AdminCampaign = () => {
         },
         {
             id: 25,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_2",
             Total_Customers: 15,
@@ -958,7 +958,7 @@ const AdminCampaign = () => {
         },
         {
             id: 26,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_1",
             Total_Customers: 20,
@@ -970,7 +970,7 @@ const AdminCampaign = () => {
         },
         {
             id: 27,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_4",
             Total_Customers: 19,
@@ -982,7 +982,7 @@ const AdminCampaign = () => {
         },
         {
             id: 28,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_3",
             Total_Customers: 19,
@@ -994,7 +994,7 @@ const AdminCampaign = () => {
         },
         {
             id: 29,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_5",
             Total_Customers: 18,
@@ -1006,7 +1006,7 @@ const AdminCampaign = () => {
         },
         {
             id: 30,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub3_atomic_2",
             Total_Customers: 19,
@@ -1018,7 +1018,7 @@ const AdminCampaign = () => {
         },
         {
             id: 31,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_5",
             Total_Customers: 14,
@@ -1030,7 +1030,7 @@ const AdminCampaign = () => {
         },
         {
             id: 32,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_4",
             Total_Customers: 15,
@@ -1042,7 +1042,7 @@ const AdminCampaign = () => {
         },
         {
             id: 33,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_3",
             Total_Customers: 15,
@@ -1054,7 +1054,7 @@ const AdminCampaign = () => {
         },
         {
             id: 34,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_1",
             Total_Customers: 16,
@@ -1066,7 +1066,7 @@ const AdminCampaign = () => {
         },
         {
             id: 35,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_2",
             Total_Customers: 15,
@@ -1078,7 +1078,7 @@ const AdminCampaign = () => {
         },
         {
             id: 36,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_1",
             Total_Customers: 20,
@@ -1090,7 +1090,7 @@ const AdminCampaign = () => {
         },
         {
             id: 37,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_2",
             Total_Customers: 19,
@@ -1102,7 +1102,7 @@ const AdminCampaign = () => {
         },
         {
             id: 38,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_3",
             Total_Customers: 19,
@@ -1114,7 +1114,7 @@ const AdminCampaign = () => {
         },
         {
             id: 39,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_5",
             Total_Customers: 18,
@@ -1126,7 +1126,7 @@ const AdminCampaign = () => {
         },
         {
             id: 40,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub4_atomic_4",
             Total_Customers: 19,
@@ -1138,7 +1138,7 @@ const AdminCampaign = () => {
         },
         {
             id: 41,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_5",
             Total_Customers: 14,
@@ -1150,7 +1150,7 @@ const AdminCampaign = () => {
         },
         {
             id: 42,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_3",
             Total_Customers: 15,
@@ -1162,7 +1162,7 @@ const AdminCampaign = () => {
         },
         {
             id: 43,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_4",
             Total_Customers: 15,
@@ -1174,7 +1174,7 @@ const AdminCampaign = () => {
         },
         {
             id: 44,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_2",
             Total_Customers: 15,
@@ -1186,7 +1186,7 @@ const AdminCampaign = () => {
         },
         {
             id: 45,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_1",
             Total_Customers: 15,
@@ -1198,7 +1198,7 @@ const AdminCampaign = () => {
         },
         {
             id: 46,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_4",
             Total_Customers: 19,
@@ -1210,7 +1210,7 @@ const AdminCampaign = () => {
         },
         {
             id: 47,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_2",
             Total_Customers: 19,
@@ -1222,7 +1222,7 @@ const AdminCampaign = () => {
         },
         {
             id: 48,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_1",
             Total_Customers: 19,
@@ -1234,7 +1234,7 @@ const AdminCampaign = () => {
         },
         {
             id: 49,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_5",
             Total_Customers: 18,
@@ -1246,7 +1246,7 @@ const AdminCampaign = () => {
         },
         {
             id: 50,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Promotional Email",
             Customer_segment: "Segment_1_Promo_sub5_atomic_3",
             Total_Customers: 19,
@@ -1275,7 +1275,7 @@ const AdminCampaign = () => {
     const [Campaign3items, setCampaign3items] = useState([
         {
             id: 1,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_1",
             Total_Customers: 7,
@@ -1287,7 +1287,7 @@ const AdminCampaign = () => {
         },
         {
             id: 2,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_2",
             Total_Customers: 5,
@@ -1299,7 +1299,7 @@ const AdminCampaign = () => {
         },
         {
             id: 3,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_3",
             Total_Customers: 4,
@@ -1311,7 +1311,7 @@ const AdminCampaign = () => {
         },
         {
             id: 4,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_5",
             Total_Customers: 4,
@@ -1323,7 +1323,7 @@ const AdminCampaign = () => {
         },
         {
             id: 5,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_2",
             Total_Customers: 6,
@@ -1335,7 +1335,7 @@ const AdminCampaign = () => {
         },
         {
             id: 6,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_3",
             Total_Customers: 7,
@@ -1347,7 +1347,7 @@ const AdminCampaign = () => {
         },
         {
             id: 7,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_1",
             Total_Customers: 5,
@@ -1359,7 +1359,7 @@ const AdminCampaign = () => {
         },
         {
             id: 8,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_4",
             Total_Customers: 6,
@@ -1371,7 +1371,7 @@ const AdminCampaign = () => {
         },
         {
             id: 9,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_4",
             Total_Customers: 5,
@@ -1383,7 +1383,7 @@ const AdminCampaign = () => {
         },
         {
             id: 10,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub1_atomic_5",
             Total_Customers: 6,
@@ -1395,7 +1395,7 @@ const AdminCampaign = () => {
         },
         {
             id: 11,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_4",
             Total_Customers: 6,
@@ -1407,7 +1407,7 @@ const AdminCampaign = () => {
         },
         {
             id: 12,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_3",
             Total_Customers: 6,
@@ -1419,7 +1419,7 @@ const AdminCampaign = () => {
         },
         {
             id: 13,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_1",
             Total_Customers: 7,
@@ -1431,7 +1431,7 @@ const AdminCampaign = () => {
         },
         {
             id: 14,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_2",
             Total_Customers: 6,
@@ -1443,7 +1443,7 @@ const AdminCampaign = () => {
         },
         {
             id: 15,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_5",
             Total_Customers: 6,
@@ -1455,7 +1455,7 @@ const AdminCampaign = () => {
         },
         {
             id: 16,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_4",
             Total_Customers: 5,
@@ -1467,7 +1467,7 @@ const AdminCampaign = () => {
         },
         {
             id: 17,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_1",
             Total_Customers: 5,
@@ -1479,7 +1479,7 @@ const AdminCampaign = () => {
         },
         {
             id: 18,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_5",
             Total_Customers: 4,
@@ -1491,7 +1491,7 @@ const AdminCampaign = () => {
         },
         {
             id: 19,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_5",
             Total_Customers: 6,
@@ -1503,7 +1503,7 @@ const AdminCampaign = () => {
         },
         {
             id: 20,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_2",
             Total_Customers: 5,
@@ -1515,7 +1515,7 @@ const AdminCampaign = () => {
         },
         {
             id: 21,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub2_atomic_3",
             Total_Customers: 4,
@@ -1527,7 +1527,7 @@ const AdminCampaign = () => {
         },
         {
             id: 22,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_1",
             Total_Customers: 7,
@@ -1539,7 +1539,7 @@ const AdminCampaign = () => {
         },
         {
             id: 23,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_2",
             Total_Customers: 6,
@@ -1551,7 +1551,7 @@ const AdminCampaign = () => {
         },
         {
             id: 24,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_4",
             Total_Customers: 6,
@@ -1563,7 +1563,7 @@ const AdminCampaign = () => {
         },
         {
             id: 25,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_3",
             Total_Customers: 6,
@@ -1575,7 +1575,7 @@ const AdminCampaign = () => {
         },
         {
             id: 26,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_5",
             Total_Customers: 4,
@@ -1587,7 +1587,7 @@ const AdminCampaign = () => {
         },
         {
             id: 27,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_2",
             Total_Customers: 5,
@@ -1599,7 +1599,7 @@ const AdminCampaign = () => {
         },
         {
             id: 28,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_3",
             Total_Customers: 4,
@@ -1611,7 +1611,7 @@ const AdminCampaign = () => {
         },
         {
             id: 29,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_1",
             Total_Customers: 5,
@@ -1623,7 +1623,7 @@ const AdminCampaign = () => {
         },
         {
             id: 30,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub3_atomic_4",
             Total_Customers: 5,
@@ -1635,7 +1635,7 @@ const AdminCampaign = () => {
         },
         {
             id: 31,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_2",
             Total_Customers: 6,
@@ -1647,7 +1647,7 @@ const AdminCampaign = () => {
         },
         {
             id: 32,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_3",
             Total_Customers: 6,
@@ -1659,7 +1659,7 @@ const AdminCampaign = () => {
         },
         {
             id: 33,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_1",
             Total_Customers: 7,
@@ -1671,7 +1671,7 @@ const AdminCampaign = () => {
         },
         {
             id: 34,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_5",
             Total_Customers: 6,
@@ -1683,7 +1683,7 @@ const AdminCampaign = () => {
         },
         {
             id: 35,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_4",
             Total_Customers: 6,
@@ -1695,7 +1695,7 @@ const AdminCampaign = () => {
         },
         {
             id: 36,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_2",
             Total_Customers: 5,
@@ -1707,7 +1707,7 @@ const AdminCampaign = () => {
         },
         {
             id: 37,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_1",
             Total_Customers: 5,
@@ -1719,7 +1719,7 @@ const AdminCampaign = () => {
         },
         {
             id: 38,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_4",
             Total_Customers: 5,
@@ -1731,7 +1731,7 @@ const AdminCampaign = () => {
         },
         {
             id: 39,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_3",
             Total_Customers: 4,
@@ -1743,7 +1743,7 @@ const AdminCampaign = () => {
         },
         {
             id: 40,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub4_atomic_5",
             Total_Customers: 4,
@@ -1755,7 +1755,7 @@ const AdminCampaign = () => {
         },
         {
             id: 41,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_4",
             Total_Customers: 6,
@@ -1767,7 +1767,7 @@ const AdminCampaign = () => {
         },
         {
             id: 42,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_3",
             Total_Customers: 6,
@@ -1779,7 +1779,7 @@ const AdminCampaign = () => {
         },
         {
             id: 43,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_5",
             Total_Customers: 6,
@@ -1791,7 +1791,7 @@ const AdminCampaign = () => {
         },
         {
             id: 44,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_1",
             Total_Customers: 5,
@@ -1803,7 +1803,7 @@ const AdminCampaign = () => {
         },
         {
             id: 45,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_2",
             Total_Customers: 4,
@@ -1815,7 +1815,7 @@ const AdminCampaign = () => {
         },
         {
             id: 46,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_2",
             Total_Customers: 6,
@@ -1827,7 +1827,7 @@ const AdminCampaign = () => {
         },
         {
             id: 47,
-            Next_Best_Product: "Bookings",
+            Next_Best_Product: "Credit Card",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_1",
             Total_Customers: 7,
@@ -1839,7 +1839,7 @@ const AdminCampaign = () => {
         },
         {
             id: 48,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_5",
             Total_Customers: 4,
@@ -1851,7 +1851,7 @@ const AdminCampaign = () => {
         },
         {
             id: 49,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_3",
             Total_Customers: 5,
@@ -1863,7 +1863,7 @@ const AdminCampaign = () => {
         },
         {
             id: 50,
-            Next_Best_Product: "Cobrand",
+            Next_Best_Product: "Loan",
             Next_Best_Action: "Phone call",
             Customer_segment: "Segment_1_Phone_sub5_atomic_4",
             Total_Customers: 4,
@@ -1892,7 +1892,7 @@ const AdminCampaign = () => {
     const [Campaign4items, setCampaign4items] = useState([
         {
          id: 1,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_2",
          Total_Customers: 2,
@@ -1904,7 +1904,7 @@ const AdminCampaign = () => {
         },
         {
          id: 2,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_4",
          Total_Customers: 3,
@@ -1916,7 +1916,7 @@ const AdminCampaign = () => {
         },
         {
          id: 3,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_4",
          Total_Customers: 2,
@@ -1928,7 +1928,7 @@ const AdminCampaign = () => {
         },
         {
          id: 4,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_1",
          Total_Customers: 3,
@@ -1940,7 +1940,7 @@ const AdminCampaign = () => {
         },
         {
          id: 5,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_5",
          Total_Customers: 1,
@@ -1952,7 +1952,7 @@ const AdminCampaign = () => {
         },
         {
          id: 6,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_1",
          Total_Customers: 3,
@@ -1964,7 +1964,7 @@ const AdminCampaign = () => {
         },
         {
          id: 7,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_3",
          Total_Customers: 2,
@@ -1976,7 +1976,7 @@ const AdminCampaign = () => {
         },
         {
          id: 8,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_3",
          Total_Customers: 3,
@@ -1988,7 +1988,7 @@ const AdminCampaign = () => {
         },
         {
          id: 9,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_2",
          Total_Customers: 3,
@@ -2000,7 +2000,7 @@ const AdminCampaign = () => {
         },
         {
          id: 10,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub1_atomic_5",
          Total_Customers: 2,
@@ -2012,7 +2012,7 @@ const AdminCampaign = () => {
         },
         {
          id: 11,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_5",
          Total_Customers: 1,
@@ -2024,7 +2024,7 @@ const AdminCampaign = () => {
         },
         {
          id: 12,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_2",
          Total_Customers: 2,
@@ -2036,7 +2036,7 @@ const AdminCampaign = () => {
         },
         {
          id: 13,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_4",
          Total_Customers: 2,
@@ -2048,7 +2048,7 @@ const AdminCampaign = () => {
         },
         {
          id: 14,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_1",
          Total_Customers: 2,
@@ -2060,7 +2060,7 @@ const AdminCampaign = () => {
         },
         {
          id: 15,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_3",
          Total_Customers: 2,
@@ -2072,7 +2072,7 @@ const AdminCampaign = () => {
         },
         {
          id: 16,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_3",
          Total_Customers: 2,
@@ -2084,7 +2084,7 @@ const AdminCampaign = () => {
         },
         {
          id: 17,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_4",
          Total_Customers: 3,
@@ -2096,7 +2096,7 @@ const AdminCampaign = () => {
         },
         {
          id: 18,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_2",
          Total_Customers: 3,
@@ -2108,7 +2108,7 @@ const AdminCampaign = () => {
         },
         {
          id: 19,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_5",
          Total_Customers: 2,
@@ -2120,7 +2120,7 @@ const AdminCampaign = () => {
         },
         {
          id: 20,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub2_atomic_1",
          Total_Customers: 3,
@@ -2132,7 +2132,7 @@ const AdminCampaign = () => {
         },
         {
          id: 21,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_2",
          Total_Customers: 2,
@@ -2144,7 +2144,7 @@ const AdminCampaign = () => {
         },
         {
          id: 22,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_3",
          Total_Customers: 2,
@@ -2156,7 +2156,7 @@ const AdminCampaign = () => {
         },
         {
          id: 23,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_2",
          Total_Customers: 3,
@@ -2168,7 +2168,7 @@ const AdminCampaign = () => {
         },
         {
          id: 24,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_4",
          Total_Customers: 2,
@@ -2180,7 +2180,7 @@ const AdminCampaign = () => {
         },
         {
          id: 25,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_5",
          Total_Customers: 1,
@@ -2192,7 +2192,7 @@ const AdminCampaign = () => {
         },
         {
          id: 26,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_1",
          Total_Customers: 3,
@@ -2204,7 +2204,7 @@ const AdminCampaign = () => {
         },
         {
          id: 27,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_1",
          Total_Customers: 3,
@@ -2216,7 +2216,7 @@ const AdminCampaign = () => {
         },
         {
          id: 28,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_3",
          Total_Customers: 2,
@@ -2228,7 +2228,7 @@ const AdminCampaign = () => {
         },
         {
          id: 29,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_5",
          Total_Customers: 2,
@@ -2240,7 +2240,7 @@ const AdminCampaign = () => {
         },
         {
          id: 30,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub3_atomic_4",
          Total_Customers: 3,
@@ -2252,7 +2252,7 @@ const AdminCampaign = () => {
         },
         {
          id: 31,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_4",
          Total_Customers: 3,
@@ -2264,7 +2264,7 @@ const AdminCampaign = () => {
         },
         {
          id: 32,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_1",
          Total_Customers: 3,
@@ -2276,7 +2276,7 @@ const AdminCampaign = () => {
         },
         {
          id: 33,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_5",
          Total_Customers: 2,
@@ -2288,7 +2288,7 @@ const AdminCampaign = () => {
         },
         {
          id: 34,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_2",
          Total_Customers: 2,
@@ -2300,7 +2300,7 @@ const AdminCampaign = () => {
         },
         {
          id: 35,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_2",
          Total_Customers: 3,
@@ -2312,7 +2312,7 @@ const AdminCampaign = () => {
         },
         {
          id: 36,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_5",
          Total_Customers: 1,
@@ -2324,7 +2324,7 @@ const AdminCampaign = () => {
         },
         {
          id: 37,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_3",
          Total_Customers: 2,
@@ -2336,7 +2336,7 @@ const AdminCampaign = () => {
         },
         {
          id: 38,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_1",
          Total_Customers: 2,
@@ -2348,7 +2348,7 @@ const AdminCampaign = () => {
         },
         {
          id: 39,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_3",
          Total_Customers: 2,
@@ -2360,7 +2360,7 @@ const AdminCampaign = () => {
         },
         {
          id: 40,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub4_atomic_4",
          Total_Customers: 2,
@@ -2372,7 +2372,7 @@ const AdminCampaign = () => {
         },
         {
          id: 41,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_1",
          Total_Customers: 2,
@@ -2384,7 +2384,7 @@ const AdminCampaign = () => {
         },
         {
          id: 42,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_5",
          Total_Customers: 2,
@@ -2396,7 +2396,7 @@ const AdminCampaign = () => {
         },
         {
          id: 43,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_5",
          Total_Customers: 1,
@@ -2408,7 +2408,7 @@ const AdminCampaign = () => {
         },
         {
          id: 44,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_2",
          Total_Customers: 2,
@@ -2420,7 +2420,7 @@ const AdminCampaign = () => {
         },
         {
          id: 45,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_4",
          Total_Customers: 2,
@@ -2432,7 +2432,7 @@ const AdminCampaign = () => {
         },
         {
          id: 46,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_4",
          Total_Customers: 3,
@@ -2444,7 +2444,7 @@ const AdminCampaign = () => {
         },
         {
          id: 47,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_2",
          Total_Customers: 3,
@@ -2456,7 +2456,7 @@ const AdminCampaign = () => {
         },
         {
          id: 48,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_1",
          Total_Customers: 3,
@@ -2468,7 +2468,7 @@ const AdminCampaign = () => {
         },
         {
          id: 49,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_3",
          Total_Customers: 2,
@@ -2480,7 +2480,7 @@ const AdminCampaign = () => {
         },
         {
          id: 50,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Push Notification",
          Customer_segment: "Segment_1_PN_sub5_atomic_3",
          Total_Customers: 2,
@@ -2510,7 +2510,7 @@ const AdminCampaign = () => {
     const [Campaign5items, setCampaign5items] = useState([
         {
          id: 1,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_1",
          Total_Customers: 32,
@@ -2522,7 +2522,7 @@ const AdminCampaign = () => {
         },
         {
          id: 2,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_3",
          Total_Customers: 32,
@@ -2534,7 +2534,7 @@ const AdminCampaign = () => {
         },
         {
          id: 3,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_5",
          Total_Customers: 31,
@@ -2546,7 +2546,7 @@ const AdminCampaign = () => {
         },
         {
          id: 4,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_2",
          Total_Customers: 32,
@@ -2558,7 +2558,7 @@ const AdminCampaign = () => {
         },
         {
          id: 5,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_4",
          Total_Customers: 32,
@@ -2570,7 +2570,7 @@ const AdminCampaign = () => {
         },
         {
          id: 6,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_5",
          Total_Customers: 25,
@@ -2582,7 +2582,7 @@ const AdminCampaign = () => {
         },
         {
          id: 7,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_1",
          Total_Customers: 26,
@@ -2594,7 +2594,7 @@ const AdminCampaign = () => {
         },
         {
          id: 8,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_2",
          Total_Customers: 25,
@@ -2606,7 +2606,7 @@ const AdminCampaign = () => {
         },
         {
          id: 9,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_4",
          Total_Customers: 25,
@@ -2618,7 +2618,7 @@ const AdminCampaign = () => {
         },
         {
          id: 10,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub1_atomic_3",
          Total_Customers: 25,
@@ -2630,7 +2630,7 @@ const AdminCampaign = () => {
         },
         {
          id: 11,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_5",
          Total_Customers: 31,
@@ -2642,7 +2642,7 @@ const AdminCampaign = () => {
         },
         {
          id: 12,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_4",
          Total_Customers: 32,
@@ -2654,7 +2654,7 @@ const AdminCampaign = () => {
         },
         {
          id: 13,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_3",
          Total_Customers: 31,
@@ -2666,7 +2666,7 @@ const AdminCampaign = () => {
         },
         {
          id: 14,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_1",
          Total_Customers: 32,
@@ -2678,7 +2678,7 @@ const AdminCampaign = () => {
         },
         {
          id: 15,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_2",
          Total_Customers: 32,
@@ -2690,7 +2690,7 @@ const AdminCampaign = () => {
         },
         {
          id: 16,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_5",
          Total_Customers: 25,
@@ -2702,7 +2702,7 @@ const AdminCampaign = () => {
         },
         {
          id: 17,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_2",
          Total_Customers: 25,
@@ -2714,7 +2714,7 @@ const AdminCampaign = () => {
         },
         {
          id: 18,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_3",
          Total_Customers: 25,
@@ -2726,7 +2726,7 @@ const AdminCampaign = () => {
         },
         {
          id: 19,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_1",
          Total_Customers: 26,
@@ -2738,7 +2738,7 @@ const AdminCampaign = () => {
         },
         {
          id: 20,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub2_atomic_4",
          Total_Customers: 25,
@@ -2750,7 +2750,7 @@ const AdminCampaign = () => {
         },
         {
          id: 21,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_4",
          Total_Customers: 32,
@@ -2762,7 +2762,7 @@ const AdminCampaign = () => {
         },
         {
          id: 22,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_3",
          Total_Customers: 31,
@@ -2774,7 +2774,7 @@ const AdminCampaign = () => {
         },
         {
          id: 23,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_1",
          Total_Customers: 32,
@@ -2786,7 +2786,7 @@ const AdminCampaign = () => {
         },
         {
          id: 24,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_2",
          Total_Customers: 32,
@@ -2798,7 +2798,7 @@ const AdminCampaign = () => {
         },
         {
          id: 25,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_5",
          Total_Customers: 31,
@@ -2810,7 +2810,7 @@ const AdminCampaign = () => {
         },
         {
          id: 26,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_3",
          Total_Customers: 25,
@@ -2822,7 +2822,7 @@ const AdminCampaign = () => {
         },
         {
          id: 27,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_5",
          Total_Customers: 24,
@@ -2834,7 +2834,7 @@ const AdminCampaign = () => {
         },
         {
          id: 28,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_2",
          Total_Customers: 25,
@@ -2846,7 +2846,7 @@ const AdminCampaign = () => {
         },
         {
          id: 29,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_4",
          Total_Customers: 25,
@@ -2858,7 +2858,7 @@ const AdminCampaign = () => {
         },
         {
          id: 30,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub3_atomic_1",
          Total_Customers: 26,
@@ -2870,7 +2870,7 @@ const AdminCampaign = () => {
         },
         {
          id: 31,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_2",
          Total_Customers: 32,
@@ -2882,7 +2882,7 @@ const AdminCampaign = () => {
         },
         {
          id: 32,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_5",
          Total_Customers: 31,
@@ -2894,7 +2894,7 @@ const AdminCampaign = () => {
         },
         {
          id: 33,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_3",
          Total_Customers: 31,
@@ -2906,7 +2906,7 @@ const AdminCampaign = () => {
         },
         {
          id: 34,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_1",
          Total_Customers: 32,
@@ -2918,7 +2918,7 @@ const AdminCampaign = () => {
         },
         {
          id: 35,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_4",
          Total_Customers: 32,
@@ -2930,7 +2930,7 @@ const AdminCampaign = () => {
         },
         {
          id: 36,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_1",
          Total_Customers: 26,
@@ -2942,7 +2942,7 @@ const AdminCampaign = () => {
         },
         {
          id: 37,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_4",
          Total_Customers: 25,
@@ -2954,7 +2954,7 @@ const AdminCampaign = () => {
         },
         {
          id: 38,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_5",
          Total_Customers: 25,
@@ -2966,7 +2966,7 @@ const AdminCampaign = () => {
         },
         {
          id: 39,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_2",
          Total_Customers: 25,
@@ -2978,7 +2978,7 @@ const AdminCampaign = () => {
         },
         {
          id: 40,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub4_atomic_3",
          Total_Customers: 25,
@@ -2990,7 +2990,7 @@ const AdminCampaign = () => {
         },
         {
          id: 41,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_4",
          Total_Customers: 32,
@@ -3002,7 +3002,7 @@ const AdminCampaign = () => {
         },
         {
          id: 42,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_5",
          Total_Customers: 31,
@@ -3014,7 +3014,7 @@ const AdminCampaign = () => {
         },
         {
          id: 43,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_1",
          Total_Customers: 32,
@@ -3026,7 +3026,7 @@ const AdminCampaign = () => {
         },
         {
          id: 44,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_2",
          Total_Customers: 25,
@@ -3038,7 +3038,7 @@ const AdminCampaign = () => {
         },
         {
          id: 45,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_3",
          Total_Customers: 25,
@@ -3050,7 +3050,7 @@ const AdminCampaign = () => {
         },
         {
          id: 46,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_3",
          Total_Customers: 31,
@@ -3062,7 +3062,7 @@ const AdminCampaign = () => {
         },
         {
          id: 47,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_1",
          Total_Customers: 26,
@@ -3074,7 +3074,7 @@ const AdminCampaign = () => {
         },
         {
          id: 48,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_5",
          Total_Customers: 24,
@@ -3086,7 +3086,7 @@ const AdminCampaign = () => {
         },
         {
          id: 49,
-         Next_Best_Product: "Bookings",
+         Next_Best_Product: "Credit Card",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_2",
          Total_Customers: 32,
@@ -3098,7 +3098,7 @@ const AdminCampaign = () => {
         },
         {
          id: 50,
-         Next_Best_Product: "Cobrand",
+         Next_Best_Product: "Loan",
          Next_Best_Action: "Loyalty",
          Customer_segment: "Segment_1_Loyalty_sub5_atomic_4",
          Total_Customers: 25,
@@ -3130,13 +3130,13 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_loan)),
                 backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Bookings',
-                data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_bookings)),
+                label: 'Credit Card',
+                data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_Credit_Card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3161,11 +3161,11 @@ const AdminCampaign = () => {
             }
         },
 
-        labels: ["Cobrands", "Bookings"],
+        labels: ["Loans", "Credit Card"],
 
         datasets: [
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: [400, 372, 925, 1142, 555, 446],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3189,7 +3189,7 @@ const AdminCampaign = () => {
 
 
             {
-                label: 'Bookings',
+                label: 'Credit Card',
                 data: [545, 651, 980, 778, 1022, 557],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3222,13 +3222,13 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_loan)),
                 backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Bookings',
-                data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_bookings)),
+                label: 'Credit Card',
+                data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_Credit_Card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3253,11 +3253,11 @@ const AdminCampaign = () => {
             }
         },
 
-        labels: ["Cobrands", "Bookings"],
+        labels: ["Loans", "Credit Card"],
 
         datasets: [
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: [1484, 1705, 1730, 558, 341, 367],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3281,7 +3281,7 @@ const AdminCampaign = () => {
 
 
             {
-                label: 'Bookings',
+                label: 'Credit Card',
                 data: [989, 1395, 891, 993, 417, 1101],
 
                 type: 'line',
@@ -3315,13 +3315,13 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_loan)),
                 backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Bookings',
-                data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_bookings)),
+                label: 'Credit Card',
+                data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_Credit_Card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3347,11 +3347,11 @@ const AdminCampaign = () => {
             }
         },
 
-        labels: ["Cobrands", "Bookings"],
+        labels: ["Loans", "Credit Card"],
 
         datasets: [
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: [327, 423, 261, 88, 456, 146],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3375,7 +3375,7 @@ const AdminCampaign = () => {
 
 
             {
-                label: 'Bookings',
+                label: 'Credit Card',
                 data: [202, 202, 308, 104, 141, 480],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3408,13 +3408,13 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_loan)),
                 backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Bookings',
-                data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_bookings)),
+                label: 'Credit Card',
+                data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_Credit_Card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3439,11 +3439,11 @@ const AdminCampaign = () => {
             }
         },
 
-        labels: ["Cobrands", "Bookings"],
+        labels: ["Loans", "Credit Card"],
 
         datasets: [
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: [2566, 1877, 1448, 2361, 2449, 1389],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3467,7 +3467,7 @@ const AdminCampaign = () => {
 
 
             {
-                label: 'Bookings',
+                label: 'Credit Card',
                 data: [1, 541, 1, 441, 1, 802, 1, 478, 1, 296, 2, 429],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3500,13 +3500,13 @@ const AdminCampaign = () => {
         datasets: [
 
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_loan)),
                 backgroundColor: ["#8D72E1"],
             },
             {
-                label: 'Bookings',
-                data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_bookings)),
+                label: 'Credit Card',
+                data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_Credit_Card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3531,11 +3531,11 @@ const AdminCampaign = () => {
             }
         },
 
-        labels: ["Cobrands", "Bookings"],
+        labels: ["Loans", "Credit Card"],
 
         datasets: [
             {
-                label: 'Cobrand',
+                label: 'Loan',
                 data: [486, 441, 587, 327, 281, 363],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
@@ -3559,7 +3559,7 @@ const AdminCampaign = () => {
 
 
             {
-                label: 'Bookings',
+                label: 'Credit Card',
                 data: [357, 352, 348, 477, 628, 599],
                 type: 'line',
                 backgroundColor: ["#ff0000"],
