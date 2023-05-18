@@ -3295,7 +3295,7 @@ const AdminProduct = () => {
                             <h3>Credit Card</h3>
 
                             <div className='admin-campaign-head-right'>
-                                <h6>Total Credit Card Made: <span>3214</span></h6>
+                                <h6>Total Credit Card Purchased: <span>3214</span></h6>
                             </div>
 
                         </div>
@@ -3306,7 +3306,7 @@ const AdminProduct = () => {
                             <div className="chart-flex">
                                 <div className='width-49'>
                                     <div className='white-bg head'>
-                                        <h3>Month wise count of credit card</h3>
+                                        <h3>Month wise count of credit card purchased</h3>
                                         <AdminProductLineChartBaseCreditCard chartData={AdminProductLineChartTabo2} />
                                     </div>
                                 </div>
