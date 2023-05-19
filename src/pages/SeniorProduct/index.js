@@ -23,7 +23,7 @@ const SeniorProduct = () => {
             },
             {
                 label: 'Credit Card',
-                data: SMProductBarChart.map((data) => (data.Credit_Card)),
+                data: SMProductBarChart.map((data) => (data.Credit_Cards)),
                 backgroundColor: ["#6C4AB6"],
             },
         ],
@@ -83,7 +83,7 @@ const SeniorProduct = () => {
             },
             {
                 label: 'Credit Card',
-                data: SMProductPieChart.map((data) => (data.Credit_Card)),
+                data: SMProductPieChart.map((data) => (data.credit_cards)),
                 backgroundColor: ["#6C4AB6"],
                 type: 'pie',
             },

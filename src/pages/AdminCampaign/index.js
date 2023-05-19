@@ -3136,7 +3136,7 @@ const AdminCampaign = () => {
             },
             {
                 label: 'Credit Card',
-                data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_Credit_Card)),
+                data: AdminCampaignBarChartTab01.map((data) => (data.Discount_main_credit_card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3228,7 +3228,7 @@ const AdminCampaign = () => {
             },
             {
                 label: 'Credit Card',
-                data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_Credit_Card)),
+                data: AdminCampaignBarChartTab02.map((data) => (data.Promotional_mail_credit_card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3321,7 +3321,7 @@ const AdminCampaign = () => {
             },
             {
                 label: 'Credit Card',
-                data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_Credit_Card)),
+                data: AdminCampaignBarChartTab03.map((data) => (data.Phone_call_credit_card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3414,7 +3414,7 @@ const AdminCampaign = () => {
             },
             {
                 label: 'Credit Card',
-                data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_Credit_Card)),
+                data: AdminCampaignBarChartTab04.map((data) => (data.Push_notification_credit_card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
@@ -3506,7 +3506,7 @@ const AdminCampaign = () => {
             },
             {
                 label: 'Credit Card',
-                data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_Credit_Card)),
+                data: AdminCampaignBarChartTab05.map((data) => (data.Loyalty_mail_credit_card)),
                 backgroundColor: ["#B9E0FF"],
             },
 
